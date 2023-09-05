@@ -1,0 +1,27 @@
+[submodule "serial"]
+	path = serial
+	url = https://github.com/ZhaoXiangBox/serial.git
+[submodule "src/moveit2"]
+	path = src/moveit2
+    url = https://github.com/ros-planning/moveit2
+[submodule "src/moveit2_tutorials"]
+    path = src/moveit2_tutorials
+    url = https://ghproxy.com/https://github.com/ros-planning/moveit2_tutorials
+[submodule "src/moveit_resources"]
+    path = src/moveit_resources
+    url = https://github.com/ros-planning/moveit_resources
+[submodule "src/moveit_task_constructor"]
+    path= src/moveit_task_constructor
+    url = https://github.com/ros-planning/moveit_task_constructor.git
+[submodule "src/moveit_visual_tools"]
+    path = src/moveit_visual_tools
+    url = https://github.com/ros-planning/moveit_visual_tools
+[submodule "src/rosparam_shortcuts"]
+    path = src/rosparam_shortcuts
+    url = https://github.com/PickNikRobotics/rosparam_shortcuts
+[submodule "src/srdfdom"]
+    path = src/srdfdom
+    url = https://github.com/ros-planning/srdfdom.git
+[submodule "src/launch_param_builder"]
+    path = src/launch_param_builder
+    url = https://github.com/PickNikRobotics/launch_param_builder
