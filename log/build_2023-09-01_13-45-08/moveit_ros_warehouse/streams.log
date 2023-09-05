@@ -1,0 +1,75 @@
+[0.020s] Invoking command in '/home/zx/ws_moveit2/build/moveit_ros_warehouse': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zx/ws_moveit2/build/moveit_ros_warehouse -- -j12 -l12
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target moveit_warehouse[0m
+[0.085s] [  5%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/planning_scene_storage.cpp.o[0m
+[12.487s] [ 10%] [32m[1mLinking CXX shared library libmoveit_warehouse.so[0m
+[12.948s] [ 40%] Built target moveit_warehouse
+[12.968s] [ 45%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_broadcast.dir/src/broadcast.cpp.o[0m
+[24.776s] [ 50%] [32m[1mLinking CXX executable moveit_warehouse_broadcast[0m
+[25.029s] [ 50%] Built target moveit_warehouse_broadcast
+[25.050s] [ 55%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_services.dir/src/warehouse_services.cpp.o[0m
+[33.100s] [ 60%] [32m[1mLinking CXX executable moveit_warehouse_services[0m
+[33.411s] [ 60%] Built target moveit_warehouse_services
+[33.429s] [ 65%] [32mBuilding CXX object CMakeFiles/moveit_init_demo_warehouse.dir/src/initialize_demo_db.cpp.o[0m
+[42.763s] [ 70%] [32m[1mLinking CXX executable moveit_init_demo_warehouse[0m
+[43.190s] [ 70%] Built target moveit_init_demo_warehouse
+[43.208s] [ 75%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_save_as_text.dir/src/save_as_text.cpp.o[0m
+[51.908s] [ 80%] [32m[1mLinking CXX executable moveit_warehouse_save_as_text[0m
+[52.195s] [ 80%] Built target moveit_warehouse_save_as_text
+[52.218s] [ 85%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_import_from_text.dir/src/import_from_text.cpp.o[0m
+[61.622s] [ 90%] [32m[1mLinking CXX executable moveit_warehouse_import_from_text[0m
+[61.910s] [ 90%] Built target moveit_warehouse_import_from_text
+[61.927s] [ 95%] [32mBuilding CXX object CMakeFiles/moveit_save_to_warehouse.dir/src/save_to_warehouse.cpp.o[0m
+[82.418s] [100%] [32m[1mLinking CXX executable moveit_save_to_warehouse[0m
+[82.876s] [100%] Built target moveit_save_to_warehouse
+[82.893s] Invoked command in '/home/zx/ws_moveit2/build/moveit_ros_warehouse' returned '0': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zx/ws_moveit2/build/moveit_ros_warehouse -- -j12 -l12
+[82.936s] Invoking command in '/home/zx/ws_moveit2/build/moveit_ros_warehouse': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zx/ws_moveit2/build/moveit_ros_warehouse
+[82.944s] -- Install configuration: "Release"
+[82.944s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_save_to_warehouse
+[82.946s] -- Set runtime path of "/home/zx/ws_moveit2/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_save_to_warehouse" to ""
+[82.946s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_broadcast
+[82.947s] -- Set runtime path of "/home/zx/ws_moveit2/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_broadcast" to ""
+[82.947s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_import_from_text
+[82.948s] -- Set runtime path of "/home/zx/ws_moveit2/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_import_from_text" to ""
+[82.948s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_save_as_text
+[82.948s] -- Set runtime path of "/home/zx/ws_moveit2/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_save_as_text" to ""
+[82.948s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_init_demo_warehouse
+[82.949s] -- Set runtime path of "/home/zx/ws_moveit2/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_init_demo_warehouse" to ""
+[82.949s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_services
+[82.949s] -- Set runtime path of "/home/zx/ws_moveit2/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_services" to ""
+[82.950s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/include
+[82.950s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/include/moveit
+[82.950s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/include/moveit/warehouse
+[82.950s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/include/moveit/warehouse/trajectory_constraints_storage.h
+[82.950s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/include/moveit/warehouse/planning_scene_storage.h
+[82.950s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/include/moveit/warehouse/warehouse_connector.h
+[82.950s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/include/moveit/warehouse/planning_scene_world_storage.h
+[82.950s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/include/moveit/warehouse/state_storage.h
+[82.950s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/include/moveit/warehouse/moveit_message_storage.h
+[82.950s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/include/moveit/warehouse/constraints_storage.h
+[82.950s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/include/moveit_warehouse_export.h
+[82.950s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so.2.5.4
+[82.952s] -- Set runtime path of "/home/zx/ws_moveit2/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so.2.5.4" to ""
+[82.952s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so
+[82.952s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/library_path.sh
+[82.952s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/library_path.dsv
+[82.952s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/share/ament_index/resource_index/package_run_dependencies/moveit_ros_warehouse
+[82.952s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/share/ament_index/resource_index/parent_prefix_path/moveit_ros_warehouse
+[82.953s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/ament_prefix_path.sh
+[82.953s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/ament_prefix_path.dsv
+[82.953s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/path.sh
+[82.953s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/path.dsv
+[82.953s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.bash
+[82.953s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.sh
+[82.953s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.zsh
+[82.954s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.dsv
+[82.954s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/package.dsv
+[82.954s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/share/ament_index/resource_index/packages/moveit_ros_warehouse
+[82.954s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/export_moveit_ros_warehouseExport.cmake
+[82.954s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/export_moveit_ros_warehouseExport-release.cmake
+[82.955s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ConfigExtras.cmake
+[82.955s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ament_cmake_export_targets-extras.cmake
+[82.955s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ament_cmake_export_dependencies-extras.cmake
+[82.955s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig.cmake
+[82.955s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig-version.cmake
+[82.955s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/package.xml
+[82.961s] Invoked command in '/home/zx/ws_moveit2/build/moveit_ros_warehouse' returned '0': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zx/ws_moveit2/build/moveit_ros_warehouse

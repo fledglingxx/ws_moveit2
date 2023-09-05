@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target moveit_robot_interaction[0m
+[  7%] [32mBuilding CXX object CMakeFiles/moveit_robot_interaction.dir/src/interaction_handler.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/moveit_robot_interaction.dir/src/robot_interaction.cpp.o[0m
+[ 23%] [32m[1mLinking CXX shared library libmoveit_robot_interaction.so[0m
+[ 53%] Built target moveit_robot_interaction
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[ 69%] Built target gtest
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[ 84%] Built target gtest_main
+[ 92%] [32mBuilding CXX object CMakeFiles/locked_robot_state_test.dir/test/locked_robot_state_test.cpp.o[0m
+[100%] [32m[1mLinking CXX executable locked_robot_state_test[0m
+[100%] Built target locked_robot_state_test

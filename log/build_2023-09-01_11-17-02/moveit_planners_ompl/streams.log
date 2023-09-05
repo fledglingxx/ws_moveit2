@@ -1,0 +1,23 @@
+[0.022s] Invoking command in '/home/zx/ws_moveit2/build/moveit_planners_ompl': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_pr2_description:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_resources_fanuc_description:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_pr2_description:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_resources_fanuc_description:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zx/ws_moveit2/build/moveit_planners_ompl -- -j12 -l12
+[0.120s] [  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.123s] [  4%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.124s] [  7%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/ompl_interface.cpp.o[0m
+[0.126s] [  9%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/model_based_planning_context.cpp.o[0m
+[0.126s] [ 12%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/planning_context_manager.cpp.o[0m
+[0.135s] [ 17%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/parameterization/joint_space/joint_model_state_space.cpp.o[0m
+[0.135s] [ 17%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/parameterization/joint_space/constrained_planning_state_space.cpp.o[0m
+[0.136s] [ 19%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/parameterization/model_based_state_space_factory.cpp.o[0m
+[0.138s] [ 21%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/parameterization/joint_space/constrained_planning_state_space_factory.cpp.o[0m
+[0.138s] [ 24%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/parameterization/model_based_state_space.cpp.o[0m
+[0.151s] [ 26%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/parameterization/joint_space/joint_model_state_space_factory.cpp.o[0m
+[0.155s] [ 29%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/parameterization/work_space/pose_model_state_space.cpp.o[0m
+[1.627s] [ 31%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.662s] [ 31%] Built target gtest_main
+[1.670s] [ 34%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/parameterization/work_space/pose_model_state_space_factory.cpp.o[0m
+[8.035s] [ 36%] [32m[1mLinking CXX static library libgtest.a[0m
+[8.069s] [ 36%] Built target gtest
+[8.077s] [ 39%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/detail/ompl_constraints.cpp.o[0m
+[68.137s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[K已杀死 signal terminated program cc1plus
+[68.142s] compilation terminated.
+[68.164s] gmake[2]: *** [ompl_interface/CMakeFiles/moveit_ompl_interface.dir/build.make:104：ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/model_based_planning_context.cpp.o] 错误 1
+[68.167s] gmake[2]: *** 正在等待未完成的任务....

@@ -1,0 +1,136 @@
+[0.035s] Invoking command in '/home/zx/ws_moveit2/build/moveit_setup_controllers': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_setup_framework:/home/zx/ws_moveit2/install/moveit_ros_visualization:/home/zx/ws_moveit2/install/moveit_ros_planning_interface:/home/zx/ws_moveit2/install/moveit_ros_move_group:/home/zx/ws_moveit2/install/moveit_ros_warehouse:/home/zx/ws_moveit2/install/moveit_ros_robot_interaction:/home/zx/ws_moveit2/install/moveit_kinematics:/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/zx/ws_moveit2/install/moveit_configs_utils:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_resources_fanuc_description:/home/zx/ws_moveit2/install/moveit_common:/home/zx/ws_moveit2/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_setup_framework:/home/zx/ws_moveit2/install/moveit_ros_visualization:/home/zx/ws_moveit2/install/moveit_ros_planning_interface:/home/zx/ws_moveit2/install/moveit_ros_move_group:/home/zx/ws_moveit2/install/moveit_ros_warehouse:/home/zx/ws_moveit2/install/moveit_ros_robot_interaction:/home/zx/ws_moveit2/install/moveit_kinematics:/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_resources_fanuc_description:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_setup_framework/lib:/home/zx/ws_moveit2/install/moveit_ros_visualization/lib:/home/zx/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/zx/ws_moveit2/install/moveit_ros_move_group/lib:/home/zx/ws_moveit2/install/moveit_ros_warehouse/lib:/home/zx/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/zx/ws_moveit2/install/moveit_kinematics/lib:/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/zx/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/zx/ws_moveit2/src/moveit2/moveit_setup_assistant/moveit_setup_controllers -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/zx/ws_moveit2/install/moveit_setup_controllers
+[0.086s] -- The C compiler identification is GNU 11.4.0
+[0.140s] -- The CXX compiler identification is GNU 11.4.0
+[0.147s] -- Detecting C compiler ABI info
+[0.213s] -- Detecting C compiler ABI info - done
+[0.222s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.223s] -- Detecting C compile features
+[0.223s] -- Detecting C compile features - done
+[0.226s] -- Detecting CXX compiler ABI info
+[0.306s] -- Detecting CXX compiler ABI info - done
+[0.316s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.317s] -- Detecting CXX compile features
+[0.317s] -- Detecting CXX compile features - done
+[0.321s] -- Found moveit_common: 2.5.4 (/home/zx/ws_moveit2/install/moveit_common/share/moveit_common/cmake)
+[0.325s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.522s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.728s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[0.737s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.737s] -- BACKWARD_HAS_UNWIND=1
+[0.738s] -- BACKWARD_HAS_BACKTRACE=0
+[0.738s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.738s] -- BACKWARD_HAS_DW=1
+[0.738s] -- BACKWARD_HAS_BFD=0
+[0.738s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.743s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.762s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[0.764s] -- Found moveit_setup_framework: 2.5.4 (/home/zx/ws_moveit2/install/moveit_setup_framework/share/moveit_setup_framework/cmake)
+[0.846s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.858s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.876s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.904s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.944s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.071s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.077s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.225s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.251s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.313s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.334s] -- Looking for pthread.h
+[1.431s] -- Looking for pthread.h - found
+[1.431s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.543s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.544s] -- Found Threads: TRUE  
+[1.873s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.897s] -- Found parameter_traits: 0.3.6 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.939s] -- Found rclcpp_lifecycle: 16.0.5 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.003s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.183s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.565s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.565s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.107s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[4.784s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread date_time system filesystem 
+[4.888s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[5.129s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[5.442s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[6.783s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[6.784s] -- Found OGRE
+[6.784s] --   static     : OFF
+[6.784s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[6.784s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[6.784s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[6.784s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[6.784s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[6.784s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[6.784s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[6.784s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[6.784s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[6.784s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[6.784s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[6.785s] -- Could not find freeimage library
+[6.801s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[6.806s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[6.890s] -- Found X11: /usr/include   
+[6.890s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[6.983s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[6.983s] -- Looking for gethostbyname
+[7.074s] -- Looking for gethostbyname - found
+[7.074s] -- Looking for connect
+[7.160s] -- Looking for connect - found
+[7.160s] -- Looking for remove
+[7.245s] -- Looking for remove - found
+[7.245s] -- Looking for shmat
+[7.330s] -- Looking for shmat - found
+[7.330s] -- Looking for IceConnectionNumber in ICE
+[7.414s] -- Looking for IceConnectionNumber in ICE - found
+[7.416s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[7.416s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[8.003s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.037s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[8.046s] -- Added test 'lint_cmake' to check CMake code style
+[8.046s] -- Added test 'xmllint' to check XML markup files
+[8.049s] -- Configuring done
+[8.155s] -- Generating done
+[8.158s] -- Build files have been written to: /home/zx/ws_moveit2/build/moveit_setup_controllers
+[8.177s] Invoked command in '/home/zx/ws_moveit2/build/moveit_setup_controllers' returned '0': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_setup_framework:/home/zx/ws_moveit2/install/moveit_ros_visualization:/home/zx/ws_moveit2/install/moveit_ros_planning_interface:/home/zx/ws_moveit2/install/moveit_ros_move_group:/home/zx/ws_moveit2/install/moveit_ros_warehouse:/home/zx/ws_moveit2/install/moveit_ros_robot_interaction:/home/zx/ws_moveit2/install/moveit_kinematics:/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/zx/ws_moveit2/install/moveit_configs_utils:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_resources_fanuc_description:/home/zx/ws_moveit2/install/moveit_common:/home/zx/ws_moveit2/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_setup_framework:/home/zx/ws_moveit2/install/moveit_ros_visualization:/home/zx/ws_moveit2/install/moveit_ros_planning_interface:/home/zx/ws_moveit2/install/moveit_ros_move_group:/home/zx/ws_moveit2/install/moveit_ros_warehouse:/home/zx/ws_moveit2/install/moveit_ros_robot_interaction:/home/zx/ws_moveit2/install/moveit_kinematics:/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_resources_fanuc_description:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_setup_framework/lib:/home/zx/ws_moveit2/install/moveit_ros_visualization/lib:/home/zx/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/zx/ws_moveit2/install/moveit_ros_move_group/lib:/home/zx/ws_moveit2/install/moveit_ros_warehouse/lib:/home/zx/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/zx/ws_moveit2/install/moveit_kinematics/lib:/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/zx/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/zx/ws_moveit2/src/moveit2/moveit_setup_assistant/moveit_setup_controllers -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/zx/ws_moveit2/install/moveit_setup_controllers
+[8.177s] Invoking command in '/home/zx/ws_moveit2/build/moveit_setup_controllers': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_setup_framework:/home/zx/ws_moveit2/install/moveit_ros_visualization:/home/zx/ws_moveit2/install/moveit_ros_planning_interface:/home/zx/ws_moveit2/install/moveit_ros_move_group:/home/zx/ws_moveit2/install/moveit_ros_warehouse:/home/zx/ws_moveit2/install/moveit_ros_robot_interaction:/home/zx/ws_moveit2/install/moveit_kinematics:/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/zx/ws_moveit2/install/moveit_configs_utils:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_resources_fanuc_description:/home/zx/ws_moveit2/install/moveit_common:/home/zx/ws_moveit2/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_setup_framework:/home/zx/ws_moveit2/install/moveit_ros_visualization:/home/zx/ws_moveit2/install/moveit_ros_planning_interface:/home/zx/ws_moveit2/install/moveit_ros_move_group:/home/zx/ws_moveit2/install/moveit_ros_warehouse:/home/zx/ws_moveit2/install/moveit_ros_robot_interaction:/home/zx/ws_moveit2/install/moveit_kinematics:/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_resources_fanuc_description:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_setup_framework/lib:/home/zx/ws_moveit2/install/moveit_ros_visualization/lib:/home/zx/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/zx/ws_moveit2/install/moveit_ros_move_group/lib:/home/zx/ws_moveit2/install/moveit_ros_warehouse/lib:/home/zx/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/zx/ws_moveit2/install/moveit_kinematics/lib:/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/zx/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zx/ws_moveit2/build/moveit_setup_controllers -- -j12 -l12
+[8.226s] [  3%] [34m[1mAutomatic MOC for target moveit_setup_controllers[0m
+[8.257s] [  3%] Built target moveit_setup_controllers_autogen
+[8.275s] [  6%] [34m[1mAutomatic MOC for target gtest[0m
+[8.300s] [  6%] Built target gtest_autogen
+[8.310s] [  9%] [34m[1mGenerating include/moveit_setup_controllers/moc_urdf_modifications_widget.cpp[0m
+[8.321s] [ 12%] [34m[1mGenerating include/moveit_setup_controllers/moc_controllers_widget.cpp[0m
+[8.332s] [ 15%] [34m[1mGenerating include/moveit_setup_controllers/moc_controller_edit_widget.cpp[0m
+[8.354s] [ 18%] [32mBuilding CXX object CMakeFiles/moveit_setup_controllers.dir/moveit_setup_controllers_autogen/mocs_compilation.cpp.o[0m
+[8.373s] [ 21%] [32mBuilding CXX object CMakeFiles/moveit_setup_controllers.dir/src/ros2_controllers_config.cpp.o[0m
+[10.389s] [ 24%] [32mBuilding CXX object CMakeFiles/moveit_setup_controllers.dir/src/moveit_controllers_widget.cpp.o[0m
+[10.389s] [ 27%] [32mBuilding CXX object CMakeFiles/moveit_setup_controllers.dir/src/ros2_controllers_widget.cpp.o[0m
+[11.411s] [ 30%] [32mBuilding CXX object CMakeFiles/moveit_setup_controllers.dir/src/moveit_controllers_config.cpp.o[0m
+[12.426s] [ 33%] [32mBuilding CXX object CMakeFiles/moveit_setup_controllers.dir/src/modified_urdf_config.cpp.o[0m
+[12.429s] [ 36%] [32mBuilding CXX object CMakeFiles/moveit_setup_controllers.dir/src/controllers_config.cpp.o[0m
+[13.442s] [ 39%] [32mBuilding CXX object CMakeFiles/moveit_setup_controllers.dir/src/controllers_widget.cpp.o[0m
+[14.454s] [ 42%] [32mBuilding CXX object CMakeFiles/moveit_setup_controllers.dir/src/controllers.cpp.o[0m
+[15.467s] [ 45%] [32mBuilding CXX object CMakeFiles/moveit_setup_controllers.dir/src/controller_edit_widget.cpp.o[0m
+[16.480s] [ 48%] [32mBuilding CXX object CMakeFiles/moveit_setup_controllers.dir/src/control_xacro_config.cpp.o[0m
+[19.395s] [ 51%] [32mBuilding CXX object CMakeFiles/moveit_setup_controllers.dir/src/urdf_modifications.cpp.o[0m
+[26.116s] [ 54%] [32mBuilding CXX object CMakeFiles/moveit_setup_controllers.dir/src/urdf_modifications_widget.cpp.o[0m
+[90.945s] [ 57%] [32mBuilding CXX object CMakeFiles/moveit_setup_controllers.dir/include/moveit_setup_controllers/moc_urdf_modifications_widget.cpp.o[0m
+[103.914s] [ 60%] [32mBuilding CXX object CMakeFiles/moveit_setup_controllers.dir/include/moveit_setup_controllers/moc_controllers_widget.cpp.o[0m
+[113.016s] [ 63%] [32mBuilding CXX object CMakeFiles/moveit_setup_controllers.dir/include/moveit_setup_controllers/moc_controller_edit_widget.cpp.o[0m
+[120.549s] [ 66%] [32m[1mLinking CXX shared library libmoveit_setup_controllers.so[0m
+[120.956s] [ 66%] Built target moveit_setup_controllers
+[120.978s] [ 69%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.o[0m
+[120.995s] [ 72%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[126.250s] [ 75%] [32m[1mLinking CXX static library libgtest.a[0m
+[126.285s] [ 75%] Built target gtest
+[126.302s] [ 78%] [34m[1mAutomatic MOC for target gtest_main[0m
+[126.326s] [ 78%] Built target gtest_main_autogen
+[126.345s] [ 81%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/gtest_main_autogen/mocs_compilation.cpp.o[0m
+[126.361s] [ 84%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[126.937s] [ 87%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[126.964s] [ 87%] Built target gtest_main
+[126.981s] [ 90%] [34m[1mAutomatic MOC for target test_controllers[0m
+[127.006s] [ 90%] Built target test_controllers_autogen
+[127.025s] [ 93%] [32mBuilding CXX object CMakeFiles/test_controllers.dir/test_controllers_autogen/mocs_compilation.cpp.o[0m
+[127.041s] [ 96%] [32mBuilding CXX object CMakeFiles/test_controllers.dir/test/test_controllers.cpp.o[0m
+[137.225s] [100%] [32m[1mLinking CXX executable test_controllers[0m
+[137.787s] [100%] Built target test_controllers

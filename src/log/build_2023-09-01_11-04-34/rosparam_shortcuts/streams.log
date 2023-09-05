@@ -1,0 +1,57 @@
+[0.207s] Invoking command in '/home/zx/ws_moveit2/src/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zx/ws_moveit2/src/rosparam_shortcuts -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/zx/ws_moveit2/src/install/rosparam_shortcuts
+[0.261s] -- The C compiler identification is GNU 11.4.0
+[0.323s] -- The CXX compiler identification is GNU 11.4.0
+[0.332s] -- Detecting C compiler ABI info
+[0.405s] -- Detecting C compiler ABI info - done
+[0.413s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.414s] -- Detecting C compile features
+[0.414s] -- Detecting C compile features - done
+[0.417s] -- Detecting CXX compiler ABI info
+[0.507s] -- Detecting CXX compiler ABI info - done
+[0.518s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.518s] -- Detecting CXX compile features
+[0.519s] -- Detecting CXX compile features - done
+[0.522s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.730s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.848s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.862s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.864s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.914s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.919s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.929s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.945s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.970s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.089s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[1.151s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.154s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.237s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.267s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.309s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.318s] -- Looking for pthread.h
+[1.398s] -- Looking for pthread.h - found
+[1.398s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.492s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.493s] -- Found Threads: TRUE  
+[1.687s] -- Found tf2_eigen: 0.25.3 (/opt/ros/humble/share/tf2_eigen/cmake)
+[2.191s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.193s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.207s] [31mCMake Error at CMakeLists.txt:97 (find_package):
+[2.207s]   By not providing "Findros_testing.cmake" in CMAKE_MODULE_PATH this project
+[2.207s]   has asked CMake to find a package configuration file provided by
+[2.207s]   "ros_testing", but CMake did not find one.
+[2.207s] 
+[2.207s]   Could not find a package configuration file provided by "ros_testing" with
+[2.207s]   any of the following names:
+[2.207s] 
+[2.207s]     ros_testingConfig.cmake
+[2.207s]     ros_testing-config.cmake
+[2.207s] 
+[2.207s]   Add the installation prefix of "ros_testing" to CMAKE_PREFIX_PATH or set
+[2.208s]   "ros_testing_DIR" to a directory containing one of the above files.  If
+[2.208s]   "ros_testing" provides a separate development package or SDK, be sure it
+[2.208s]   has been installed.
+[2.208s] 
+[2.208s] [0m
+[2.208s] -- Configuring incomplete, errors occurred!
+[2.208s] See also "/home/zx/ws_moveit2/src/build/rosparam_shortcuts/CMakeFiles/CMakeOutput.log".
+[2.219s] Invoked command in '/home/zx/ws_moveit2/src/build/rosparam_shortcuts' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zx/ws_moveit2/src/rosparam_shortcuts -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/zx/ws_moveit2/src/install/rosparam_shortcuts

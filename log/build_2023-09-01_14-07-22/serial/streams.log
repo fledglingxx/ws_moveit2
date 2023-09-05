@@ -1,0 +1,51 @@
+[0.200s] Invoking command in '/home/zx/ws_moveit2/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zx/ws_moveit2/serial -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/zx/ws_moveit2/install/serial
+[0.504s] -- The C compiler identification is GNU 11.4.0
+[0.505s] -- The CXX compiler identification is GNU 11.4.0
+[0.506s] -- Detecting C compiler ABI info
+[0.506s] -- Detecting C compiler ABI info - done
+[0.506s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.506s] -- Detecting C compile features
+[0.506s] -- Detecting C compile features - done
+[0.506s] -- Detecting CXX compiler ABI info
+[0.506s] -- Detecting CXX compiler ABI info - done
+[0.509s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.510s] -- Detecting CXX compile features
+[0.510s] -- Detecting CXX compile features - done
+[0.510s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.714s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.941s] -- Configuring done
+[0.947s] -- Generating done
+[0.947s] -- Build files have been written to: /home/zx/ws_moveit2/build/serial
+[0.956s] Invoked command in '/home/zx/ws_moveit2/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zx/ws_moveit2/serial -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/zx/ws_moveit2/install/serial
+[0.958s] Invoking command in '/home/zx/ws_moveit2/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zx/ws_moveit2/build/serial -- -j12 -l12
+[1.003s] [ 25%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[1.003s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[1.003s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[2.150s] [100%] [32m[1mLinking CXX shared library libserial.so[0m
+[2.254s] [100%] Built target serial
+[2.266s] Invoked command in '/home/zx/ws_moveit2/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zx/ws_moveit2/build/serial -- -j12 -l12
+[2.301s] Invoking command in '/home/zx/ws_moveit2/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zx/ws_moveit2/build/serial
+[2.310s] -- Install configuration: "Release"
+[2.310s] -- Installing: /home/zx/ws_moveit2/install/serial/share/serial/environment/library_path.sh
+[2.310s] -- Installing: /home/zx/ws_moveit2/install/serial/share/serial/environment/library_path.dsv
+[2.310s] -- Installing: /home/zx/ws_moveit2/install/serial/lib/libserial.so
+[2.311s] -- Installing: /home/zx/ws_moveit2/install/serial/include/serial/serial.h
+[2.311s] -- Installing: /home/zx/ws_moveit2/install/serial/include/serial/v8stdint.h
+[2.311s] -- Installing: /home/zx/ws_moveit2/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[2.311s] -- Installing: /home/zx/ws_moveit2/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[2.312s] -- Installing: /home/zx/ws_moveit2/install/serial/share/serial/environment/ament_prefix_path.sh
+[2.312s] -- Installing: /home/zx/ws_moveit2/install/serial/share/serial/environment/ament_prefix_path.dsv
+[2.312s] -- Installing: /home/zx/ws_moveit2/install/serial/share/serial/environment/path.sh
+[2.312s] -- Installing: /home/zx/ws_moveit2/install/serial/share/serial/environment/path.dsv
+[2.312s] -- Installing: /home/zx/ws_moveit2/install/serial/share/serial/local_setup.bash
+[2.312s] -- Installing: /home/zx/ws_moveit2/install/serial/share/serial/local_setup.sh
+[2.312s] -- Installing: /home/zx/ws_moveit2/install/serial/share/serial/local_setup.zsh
+[2.313s] -- Installing: /home/zx/ws_moveit2/install/serial/share/serial/local_setup.dsv
+[2.313s] -- Installing: /home/zx/ws_moveit2/install/serial/share/serial/package.dsv
+[2.313s] -- Installing: /home/zx/ws_moveit2/install/serial/share/ament_index/resource_index/packages/serial
+[2.313s] -- Installing: /home/zx/ws_moveit2/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.313s] -- Installing: /home/zx/ws_moveit2/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[2.313s] -- Installing: /home/zx/ws_moveit2/install/serial/share/serial/cmake/serialConfig.cmake
+[2.314s] -- Installing: /home/zx/ws_moveit2/install/serial/share/serial/cmake/serialConfig-version.cmake
+[2.314s] -- Installing: /home/zx/ws_moveit2/install/serial/share/serial/package.xml
+[2.322s] Invoked command in '/home/zx/ws_moveit2/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zx/ws_moveit2/build/serial

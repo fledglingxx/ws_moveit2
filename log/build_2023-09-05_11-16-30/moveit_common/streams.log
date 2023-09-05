@@ -1,0 +1,23 @@
+[0.075s] Invoking command in '/home/zx/ws_moveit2/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zx/ws_moveit2/install/tihu_2:/home/zx/ws_moveit2/install/moveit_configs_utils:/home/zx/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/zx/ws_moveit2/build/moveit_common -- -j12 -l12
+[0.619s] Invoked command in '/home/zx/ws_moveit2/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zx/ws_moveit2/install/tihu_2:/home/zx/ws_moveit2/install/moveit_configs_utils:/home/zx/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/zx/ws_moveit2/build/moveit_common -- -j12 -l12
+[0.688s] Invoking command in '/home/zx/ws_moveit2/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zx/ws_moveit2/install/tihu_2:/home/zx/ws_moveit2/install/moveit_configs_utils:/home/zx/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/zx/ws_moveit2/build/moveit_common
+[0.745s] -- Install configuration: "Release"
+[0.746s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_common/share/ament_index/resource_index/package_run_dependencies/moveit_common
+[0.746s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_common/share/ament_index/resource_index/parent_prefix_path/moveit_common
+[0.747s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_common/share/moveit_common/environment/ament_prefix_path.sh
+[0.747s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_common/share/moveit_common/environment/ament_prefix_path.dsv
+[0.747s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_common/share/moveit_common/environment/path.sh
+[0.748s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_common/share/moveit_common/environment/path.dsv
+[0.748s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_common/share/moveit_common/local_setup.bash
+[0.748s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_common/share/moveit_common/local_setup.sh
+[0.749s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_common/share/moveit_common/local_setup.zsh
+[0.749s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_common/share/moveit_common/local_setup.dsv
+[0.753s] -- Installing: /home/zx/ws_moveit2/install/moveit_common/share/moveit_common/package.dsv
+[0.753s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_common/share/ament_index/resource_index/packages/moveit_common
+[0.754s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_common/share/moveit_common/cmake/moveit_common-extras.cmake
+[0.757s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig.cmake
+[0.758s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig-version.cmake
+[0.758s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_common/share/moveit_common/package.xml
+[0.759s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_common/share/moveit_common/cmake
+[0.760s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_common/share/moveit_common/cmake/moveit_package.cmake
+[0.848s] Invoked command in '/home/zx/ws_moveit2/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zx/ws_moveit2/install/tihu_2:/home/zx/ws_moveit2/install/moveit_configs_utils:/home/zx/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/zx/ws_moveit2/build/moveit_common

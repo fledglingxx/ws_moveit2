@@ -1,0 +1,27 @@
+[0.022s] Invoking command in '/home/zx/ws_moveit2/build/moveit_kinematics': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/zx/ws_moveit2/install/moveit_configs_utils:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_resources_fanuc_description:/home/zx/ws_moveit2/install/moveit_common:/home/zx/ws_moveit2/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_resources_fanuc_description:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/zx/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zx/ws_moveit2/build/moveit_kinematics -- -j12 -l12
+[0.068s] [  5%] [32mBuilding CXX object cached_ik_kinematics_plugin/CMakeFiles/moveit_cached_ik_kinematics_base.dir/src/ik_cache.cpp.o[0m
+[7.829s] [ 10%] [32m[1mLinking CXX shared library libmoveit_cached_ik_kinematics_base.so[0m
+[8.138s] [ 10%] Built target moveit_cached_ik_kinematics_base
+[8.164s] [ 15%] [32mBuilding CXX object test/CMakeFiles/benchmark_ik.dir/benchmark_ik.cpp.o[0m
+[16.042s] [ 21%] [32m[1mLinking CXX executable benchmark_ik[0m
+[16.307s] [ 21%] Built target benchmark_ik
+[16.317s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[16.328s] [ 31%] Built target gtest
+[16.337s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[16.347s] [ 42%] Built target gtest_main
+[16.364s] [ 47%] [32mBuilding CXX object lma_kinematics_plugin/CMakeFiles/moveit_lma_kinematics_plugin.dir/src/lma_kinematics_plugin.cpp.o[0m
+[22.904s] [ 52%] [32m[1mLinking CXX shared library libmoveit_lma_kinematics_plugin.so[0m
+[23.062s] [ 52%] Built target moveit_lma_kinematics_plugin
+[23.072s] [35m[1mConsolidate compiler generated dependencies of target moveit_kdl_kinematics_plugin[0m
+[23.085s] [ 57%] [32mBuilding CXX object kdl_kinematics_plugin/CMakeFiles/moveit_kdl_kinematics_plugin.dir/src/kdl_kinematics_plugin.cpp.o[0m
+[30.774s] [ 63%] [32m[1mLinking CXX shared library libmoveit_kdl_kinematics_plugin.so[0m
+[30.925s] [ 68%] Built target moveit_kdl_kinematics_plugin
+[30.942s] [ 73%] [32mBuilding CXX object srv_kinematics_plugin/CMakeFiles/moveit_srv_kinematics_plugin.dir/src/srv_kinematics_plugin.cpp.o[0m
+[37.490s] [ 78%] [32m[1mLinking CXX shared library libmoveit_srv_kinematics_plugin.so[0m
+[37.649s] [ 78%] Built target moveit_srv_kinematics_plugin
+[37.665s] [ 84%] [32mBuilding CXX object test/CMakeFiles/test_kinematics_plugin.dir/test_kinematics_plugin.cpp.o[0m
+[54.574s] [ 89%] [32m[1mLinking CXX executable test_kinematics_plugin[0m
+[54.829s] [ 89%] Built target test_kinematics_plugin
+[54.846s] [ 94%] [32mBuilding CXX object cached_ik_kinematics_plugin/CMakeFiles/moveit_cached_ik_kinematics_plugin.dir/src/cached_ik_kinematics_plugin.cpp.o[0m
+[61.310s] [100%] [32m[1mLinking CXX shared library libmoveit_cached_ik_kinematics_plugin.so[0m
+[61.467s] [100%] Built target moveit_cached_ik_kinematics_plugin

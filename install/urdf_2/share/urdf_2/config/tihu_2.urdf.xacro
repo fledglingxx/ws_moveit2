@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="tihu_2">
+    <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
+
+    <!-- Import tihu_2 urdf file -->
+    <xacro:include filename="$(find tihu_2)/urdf/tihuurdf2kg.urdf" />
+
+    <!-- Import control_xacro -->
+    <xacro:include filename="tihu_2.ros2_control.xacro" />
+
+
+    <xacro:tihu_2_ros2_control name="FakeSystem" initial_positions_file="$(arg initial_positions_file)"/>
+
+</robot>

@@ -1,0 +1,44 @@
+running egg_info
+creating ../../build/tihu_2/tihu_2.egg-info
+writing ../../build/tihu_2/tihu_2.egg-info/PKG-INFO
+writing dependency_links to ../../build/tihu_2/tihu_2.egg-info/dependency_links.txt
+writing entry points to ../../build/tihu_2/tihu_2.egg-info/entry_points.txt
+writing requirements to ../../build/tihu_2/tihu_2.egg-info/requires.txt
+writing top-level names to ../../build/tihu_2/tihu_2.egg-info/top_level.txt
+writing manifest file '../../build/tihu_2/tihu_2.egg-info/SOURCES.txt'
+reading manifest file '../../build/tihu_2/tihu_2.egg-info/SOURCES.txt'
+writing manifest file '../../build/tihu_2/tihu_2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/zx/ws_moveit2/build/tihu_2/build
+creating /home/zx/ws_moveit2/build/tihu_2/build/lib
+creating /home/zx/ws_moveit2/build/tihu_2/build/lib/tihu_2
+copying tihu_2/__init__.py -> /home/zx/ws_moveit2/build/tihu_2/build/lib/tihu_2
+running install
+running install_lib
+creating /home/zx/ws_moveit2/install/tihu_2/lib/python3.10/site-packages/tihu_2
+copying /home/zx/ws_moveit2/build/tihu_2/build/lib/tihu_2/__init__.py -> /home/zx/ws_moveit2/install/tihu_2/lib/python3.10/site-packages/tihu_2
+byte-compiling /home/zx/ws_moveit2/install/tihu_2/lib/python3.10/site-packages/tihu_2/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/zx/ws_moveit2/install/tihu_2/share/ament_index
+creating /home/zx/ws_moveit2/install/tihu_2/share/ament_index/resource_index
+creating /home/zx/ws_moveit2/install/tihu_2/share/ament_index/resource_index/packages
+copying resource/tihu_2 -> /home/zx/ws_moveit2/install/tihu_2/share/ament_index/resource_index/packages
+copying package.xml -> /home/zx/ws_moveit2/install/tihu_2/share/tihu_2
+creating /home/zx/ws_moveit2/install/tihu_2/share/tihu_2/meshes
+copying meshes/A.STL -> /home/zx/ws_moveit2/install/tihu_2/share/tihu_2/meshes
+copying meshes/B.STL -> /home/zx/ws_moveit2/install/tihu_2/share/tihu_2/meshes
+copying meshes/C.STL -> /home/zx/ws_moveit2/install/tihu_2/share/tihu_2/meshes
+copying meshes/D.STL -> /home/zx/ws_moveit2/install/tihu_2/share/tihu_2/meshes
+copying meshes/E.STL -> /home/zx/ws_moveit2/install/tihu_2/share/tihu_2/meshes
+copying meshes/F.STL -> /home/zx/ws_moveit2/install/tihu_2/share/tihu_2/meshes
+copying meshes/base_link.STL -> /home/zx/ws_moveit2/install/tihu_2/share/tihu_2/meshes
+creating /home/zx/ws_moveit2/install/tihu_2/share/tihu_2/launch
+copying launch/display_rviz2.launch.py -> /home/zx/ws_moveit2/install/tihu_2/share/tihu_2/launch
+creating /home/zx/ws_moveit2/install/tihu_2/share/tihu_2/urdf
+copying urdf/tihuurdf2kg.urdf -> /home/zx/ws_moveit2/install/tihu_2/share/tihu_2/urdf
+copying urdf/tihuurdf2kg.csv -> /home/zx/ws_moveit2/install/tihu_2/share/tihu_2/urdf
+running install_egg_info
+Copying ../../build/tihu_2/tihu_2.egg-info to /home/zx/ws_moveit2/install/tihu_2/lib/python3.10/site-packages/tihu_2-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/zx/ws_moveit2/build/tihu_2/install.log'

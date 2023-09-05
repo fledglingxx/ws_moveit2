@@ -1,0 +1,235 @@
+[0.032s] Invoking command in '/home/zx/ws_moveit2/build/moveit_task_constructor_visualization': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_task_constructor_core:/home/zx/ws_moveit2/install/moveit_ros_visualization:/home/zx/ws_moveit2/install/moveit_ros_planning_interface:/home/zx/ws_moveit2/install/moveit_ros_move_group:/home/zx/ws_moveit2/install/moveit_ros_warehouse:/home/zx/ws_moveit2/install/moveit_ros_robot_interaction:/home/zx/ws_moveit2/install/moveit_kinematics:/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/rviz_marker_tools:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_task_constructor_msgs:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_task_constructor_core:/home/zx/ws_moveit2/install/moveit_ros_visualization:/home/zx/ws_moveit2/install/moveit_ros_planning_interface:/home/zx/ws_moveit2/install/moveit_ros_move_group:/home/zx/ws_moveit2/install/moveit_ros_warehouse:/home/zx/ws_moveit2/install/moveit_ros_robot_interaction:/home/zx/ws_moveit2/install/moveit_kinematics:/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/rviz_marker_tools:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_task_constructor_msgs:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_task_constructor_core/lib:/home/zx/ws_moveit2/install/moveit_ros_visualization/lib:/home/zx/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/zx/ws_moveit2/install/moveit_ros_move_group/lib:/home/zx/ws_moveit2/install/moveit_ros_warehouse/lib:/home/zx/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/zx/ws_moveit2/install/moveit_kinematics/lib:/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/rviz_marker_tools/lib:/home/zx/ws_moveit2/install/srdfdom/lib:/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zx/ws_moveit2/src/moveit_task_constructor/visualization -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/zx/ws_moveit2/install/moveit_task_constructor_visualization
+[0.081s] -- The C compiler identification is GNU 11.4.0
+[0.136s] -- The CXX compiler identification is GNU 11.4.0
+[0.142s] -- Detecting C compiler ABI info
+[0.210s] -- Detecting C compiler ABI info - done
+[0.220s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.220s] -- Detecting C compile features
+[0.220s] -- Detecting C compile features - done
+[0.224s] -- Detecting CXX compiler ABI info
+[0.307s] -- Detecting CXX compiler ABI info - done
+[0.313s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.313s] -- Detecting CXX compile features
+[0.313s] -- Detecting CXX compile features - done
+[0.316s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.483s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.595s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[0.597s] -- Found moveit_common: 2.5.4 (/home/zx/ws_moveit2/install/moveit_common/share/moveit_common/cmake)
+[0.675s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[0.680s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.680s] -- BACKWARD_HAS_UNWIND=1
+[0.680s] -- BACKWARD_HAS_BACKTRACE=0
+[0.680s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.681s] -- BACKWARD_HAS_DW=1
+[0.681s] -- BACKWARD_HAS_BFD=0
+[0.681s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.682s] -- Found moveit_core: 2.5.4 (/home/zx/ws_moveit2/install/moveit_core/share/moveit_core/cmake)
+[0.937s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.957s] -- Found parameter_traits: 0.3.6 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.008s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.015s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.025s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.039s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.071s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.146s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.150s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.250s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.272s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.318s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.330s] -- Found Threads: TRUE  
+[1.494s] -- Found rclcpp_lifecycle: 16.0.5 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.540s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.696s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.124s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.124s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.547s] -- Found moveit_ros_visualization: 2.5.4 (/home/zx/ws_moveit2/install/moveit_ros_visualization/share/moveit_ros_visualization/cmake)
+[3.553s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread date_time system filesystem 
+[3.591s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[4.249s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[4.481s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[4.804s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[6.255s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[6.257s] -- Found OGRE
+[6.257s] --   static     : OFF
+[6.257s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[6.257s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[6.257s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[6.257s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[6.257s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[6.257s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[6.257s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[6.257s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[6.257s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[6.257s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[6.257s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[6.262s] -- Could not find freeimage library
+[6.288s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[6.297s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[6.427s] -- Found X11: /usr/include   
+[6.427s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[6.544s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[6.544s] -- Looking for gethostbyname
+[6.638s] -- Looking for gethostbyname - found
+[6.638s] -- Looking for connect
+[6.736s] -- Looking for connect - found
+[6.736s] -- Looking for remove
+[6.834s] -- Looking for remove - found
+[6.834s] -- Looking for shmat
+[6.944s] -- Looking for shmat - found
+[6.944s] -- Looking for IceConnectionNumber in ICE
+[7.042s] -- Looking for IceConnectionNumber in ICE - found
+[7.045s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[7.045s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[7.890s] -- Found moveit_task_constructor_core: 0.1.3 (/home/zx/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake)
+[8.669s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[8.670s] -- Checking for module 'yaml-0.1'
+[8.690s] --   Found yaml-0.1, version 0.2.2
+[8.747s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[8.752s] -- Found ament_cmake_gmock: 1.3.5 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[8.757s] -- Found launch_testing_ament_cmake: 1.0.4 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[8.761s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[8.784s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[8.792s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[8.792s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.792s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[8.792s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[8.816s] -- Found PythonExtra: .so  
+[8.822s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[8.833s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[8.849s] -- Configuring done
+[9.235s] -- Generating done
+[9.242s] -- Build files have been written to: /home/zx/ws_moveit2/build/moveit_task_constructor_visualization
+[9.276s] Invoked command in '/home/zx/ws_moveit2/build/moveit_task_constructor_visualization' returned '0': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_task_constructor_core:/home/zx/ws_moveit2/install/moveit_ros_visualization:/home/zx/ws_moveit2/install/moveit_ros_planning_interface:/home/zx/ws_moveit2/install/moveit_ros_move_group:/home/zx/ws_moveit2/install/moveit_ros_warehouse:/home/zx/ws_moveit2/install/moveit_ros_robot_interaction:/home/zx/ws_moveit2/install/moveit_kinematics:/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/rviz_marker_tools:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_task_constructor_msgs:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_task_constructor_core:/home/zx/ws_moveit2/install/moveit_ros_visualization:/home/zx/ws_moveit2/install/moveit_ros_planning_interface:/home/zx/ws_moveit2/install/moveit_ros_move_group:/home/zx/ws_moveit2/install/moveit_ros_warehouse:/home/zx/ws_moveit2/install/moveit_ros_robot_interaction:/home/zx/ws_moveit2/install/moveit_kinematics:/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/rviz_marker_tools:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_task_constructor_msgs:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_task_constructor_core/lib:/home/zx/ws_moveit2/install/moveit_ros_visualization/lib:/home/zx/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/zx/ws_moveit2/install/moveit_ros_move_group/lib:/home/zx/ws_moveit2/install/moveit_ros_warehouse/lib:/home/zx/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/zx/ws_moveit2/install/moveit_kinematics/lib:/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/rviz_marker_tools/lib:/home/zx/ws_moveit2/install/srdfdom/lib:/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zx/ws_moveit2/src/moveit_task_constructor/visualization -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/zx/ws_moveit2/install/moveit_task_constructor_visualization
+[9.278s] Invoking command in '/home/zx/ws_moveit2/build/moveit_task_constructor_visualization': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_task_constructor_core:/home/zx/ws_moveit2/install/moveit_ros_visualization:/home/zx/ws_moveit2/install/moveit_ros_planning_interface:/home/zx/ws_moveit2/install/moveit_ros_move_group:/home/zx/ws_moveit2/install/moveit_ros_warehouse:/home/zx/ws_moveit2/install/moveit_ros_robot_interaction:/home/zx/ws_moveit2/install/moveit_kinematics:/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/rviz_marker_tools:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_task_constructor_msgs:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_task_constructor_core:/home/zx/ws_moveit2/install/moveit_ros_visualization:/home/zx/ws_moveit2/install/moveit_ros_planning_interface:/home/zx/ws_moveit2/install/moveit_ros_move_group:/home/zx/ws_moveit2/install/moveit_ros_warehouse:/home/zx/ws_moveit2/install/moveit_ros_robot_interaction:/home/zx/ws_moveit2/install/moveit_kinematics:/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/rviz_marker_tools:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_task_constructor_msgs:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_task_constructor_core/lib:/home/zx/ws_moveit2/install/moveit_ros_visualization/lib:/home/zx/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/zx/ws_moveit2/install/moveit_ros_move_group/lib:/home/zx/ws_moveit2/install/moveit_ros_warehouse/lib:/home/zx/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/zx/ws_moveit2/install/moveit_kinematics/lib:/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/rviz_marker_tools/lib:/home/zx/ws_moveit2/install/srdfdom/lib:/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zx/ws_moveit2/build/moveit_task_constructor_visualization -- -j12 -l12
+[9.343s] [  1%] [34m[1mAutomatic MOC for target moveit_task_visualization_tools[0m
+[9.639s] [  1%] Built target moveit_task_visualization_tools_autogen
+[9.659s] [  3%] [34m[1mAutomatic MOC for target gmock[0m
+[9.686s] [  3%] Built target gmock_autogen
+[9.715s] [  4%] [32mBuilding CXX object visualization_tools/CMakeFiles/moveit_task_visualization_tools.dir/moveit_task_visualization_tools_autogen/mocs_compilation.cpp.o[0m
+[14.467s] [  6%] [32mBuilding CXX object visualization_tools/CMakeFiles/moveit_task_visualization_tools.dir/src/task_solution_visualization.cpp.o[0m
+[29.890s] [  7%] [32mBuilding CXX object visualization_tools/CMakeFiles/moveit_task_visualization_tools.dir/src/task_solution_panel.cpp.o[0m
+[33.264s] [  9%] [32mBuilding CXX object visualization_tools/CMakeFiles/moveit_task_visualization_tools.dir/src/marker_visualization.cpp.o[0m
+[33.268s] [ 10%] [32mBuilding CXX object visualization_tools/CMakeFiles/moveit_task_visualization_tools.dir/src/display_solution.cpp.o[0m
+[52.675s] [ 12%] [32m[1mLinking CXX shared library libmoveit_task_visualization_tools.so[0m
+[56.701s] [ 12%] Built target moveit_task_visualization_tools
+[56.720s] [ 13%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/gmock_autogen/mocs_compilation.cpp.o[0m
+[56.740s] [ 15%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[59.009s] [ 16%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[66.255s] [ 18%] [32m[1mLinking CXX static library libgmock.a[0m
+[66.291s] [ 18%] Built target gmock
+[66.308s] [ 20%] [34m[1mAutomatic MOC for target gmock_main[0m
+[66.335s] [ 20%] Built target gmock_main_autogen
+[66.352s] [ 21%] [34m[1mAutomatic MOC for target gtest[0m
+[66.378s] [ 21%] Built target gtest_autogen
+[66.396s] [ 23%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/gmock_main_autogen/mocs_compilation.cpp.o[0m
+[66.415s] [ 24%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[67.227s] [ 26%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[67.255s] [ 26%] Built target gmock_main
+[67.274s] [ 27%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.o[0m
+[67.292s] [ 29%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[72.851s] [ 30%] [32m[1mLinking CXX static library libgtest.a[0m
+[72.885s] [ 30%] Built target gtest
+[72.904s] [ 32%] [34m[1mAutomatic MOC for target gtest_main[0m
+[72.929s] [ 32%] Built target gtest_main_autogen
+[72.947s] [ 33%] [34m[1mAutomatic MOC for target motion_planning_tasks_properties[0m
+[72.974s] [ 33%] Built target motion_planning_tasks_properties_autogen
+[72.994s] [ 35%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/gtest_main_autogen/mocs_compilation.cpp.o[0m
+[73.014s] [ 36%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[73.698s] [ 38%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[73.730s] [ 38%] Built target gtest_main
+[73.750s] [ 40%] [32mBuilding CXX object motion_planning_tasks/properties/CMakeFiles/motion_planning_tasks_properties.dir/motion_planning_tasks_properties_autogen/mocs_compilation.cpp.o[0m
+[73.770s] [ 41%] [32mBuilding CXX object motion_planning_tasks/properties/CMakeFiles/motion_planning_tasks_properties.dir/property_from_yaml.cpp.o[0m
+[75.363s] [ 43%] [32mBuilding CXX object motion_planning_tasks/properties/CMakeFiles/motion_planning_tasks_properties.dir/property_factory.cpp.o[0m
+[77.982s] [ 44%] [32m[1mLinking CXX shared library libmotion_planning_tasks_properties.so[0m
+[78.606s] [ 44%] Built target motion_planning_tasks_properties
+[78.626s] [ 46%] [34m[1mAutomatic MOC for target motion_planning_tasks_utils[0m
+[78.795s] [ 46%] Built target motion_planning_tasks_utils_autogen
+[78.816s] [ 47%] [32mBuilding CXX object motion_planning_tasks/utils/CMakeFiles/motion_planning_tasks_utils.dir/motion_planning_tasks_utils_autogen/mocs_compilation.cpp.o[0m
+[78.835s] [ 49%] [32mBuilding CXX object motion_planning_tasks/utils/CMakeFiles/motion_planning_tasks_utils.dir/icon.cpp.o[0m
+[80.034s] [ 50%] [32mBuilding CXX object motion_planning_tasks/utils/CMakeFiles/motion_planning_tasks_utils.dir/tree_merge_proxy_model.cpp.o[0m
+[82.043s] [ 52%] [32mBuilding CXX object motion_planning_tasks/utils/CMakeFiles/motion_planning_tasks_utils.dir/flat_merge_proxy_model.cpp.o[0m
+[83.615s] [ 53%] [32m[1mLinking CXX shared library libmotion_planning_tasks_utils.so[0m
+[83.869s] [ 53%] Built target motion_planning_tasks_utils
+[83.887s] [ 55%] [34m[1mAutomatic MOC for target motion_planning_tasks_rviz_plugin[0m
+[85.037s] [ 55%] Built target motion_planning_tasks_rviz_plugin_autogen
+[85.056s] [ 56%] [34m[1mAutomatic MOC for target moveit_task_constructor_visualization-test-merge-models[0m
+[85.082s] [ 56%] Built target moveit_task_constructor_visualization-test-merge-models_autogen
+[85.092s] [ 58%] [34m[1mGenerating ui_task_view.h[0m
+[85.107s] [ 60%] [34m[1mGenerating ui_task_panel.h[0m
+[85.121s] [ 61%] [34m[1mGenerating ui_global_settings.h[0m
+[85.137s] [ 63%] [34m[1mAutomatic RCC for resources.qrc[0m
+[85.174s] [ 64%] [32mBuilding CXX object motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/motion_planning_tasks_rviz_plugin_autogen/mocs_compilation.cpp.o[0m
+[93.580s] [ 66%] [32mBuilding CXX object motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/task_panel.cpp.o[0m
+[102.387s] [ 67%] [32mBuilding CXX object motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/motion_planning_tasks_rviz_plugin_autogen/EWIEGA46WW/qrc_resources.cpp.o[0m
+[102.415s] [ 69%] [32mBuilding CXX object motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/task_list_model.cpp.o[0m
+[110.193s] [ 70%] [32mBuilding CXX object motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/task_display.cpp.o[0m
+[132.594s] [ 75%] [32mBuilding CXX object motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/remote_task_model.cpp.o[0m
+[132.594s] [ 75%] [32mBuilding CXX object motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/meta_task_list_model.cpp.o[0m
+[132.594s] [ 75%] [32mBuilding CXX object motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/plugin_init.cpp.o[0m
+[138.955s] [ 78%] [32mBuilding CXX object motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/job_queue.cpp.o[0m
+[138.955s] [ 78%] [32mBuilding CXX object motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/icons.cpp.o[0m
+[138.958s] [ 80%] [32mBuilding CXX object motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/local_task_model.cpp.o[0m
+[139.171s] [ 81%] [32mBuilding CXX object motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/factory_model.cpp.o[0m
+[144.921s] [ 83%] [32m[1mLinking CXX shared library libmotion_planning_tasks_rviz_plugin.so[0m
+[147.468s] [ 83%] Built target motion_planning_tasks_rviz_plugin
+[147.485s] [ 86%] [34m[1mAutomatic MOC for target moveit_task_constructor_visualization-test-solution-models[0m
+[147.485s] [ 86%] [32mBuilding CXX object motion_planning_tasks/test/CMakeFiles/moveit_task_constructor_visualization-test-merge-models.dir/moveit_task_constructor_visualization-test-merge-models_autogen/mocs_compilation.cpp.o[0m
+[147.486s] [ 87%] [34m[1mAutomatic MOC for target moveit_task_constructor_visualization-test-task_model[0m
+[147.486s] [ 89%] [32mBuilding CXX object motion_planning_tasks/test/CMakeFiles/moveit_task_constructor_visualization-test-merge-models.dir/test_merge_models.cpp.o[0m
+[147.510s] [ 89%] Built target moveit_task_constructor_visualization-test-task_model_autogen
+[147.510s] [ 89%] Built target moveit_task_constructor_visualization-test-solution-models_autogen
+[147.529s] [ 95%] [32mBuilding CXX object motion_planning_tasks/test/CMakeFiles/moveit_task_constructor_visualization-test-solution-models.dir/moveit_task_constructor_visualization-test-solution-models_autogen/mocs_compilation.cpp.o[0m
+[147.529s] [ 95%] [32mBuilding CXX object motion_planning_tasks/test/CMakeFiles/moveit_task_constructor_visualization-test-task_model.dir/test_task_model.cpp.o[0m
+[147.529s] [ 95%] [32mBuilding CXX object motion_planning_tasks/test/CMakeFiles/moveit_task_constructor_visualization-test-solution-models.dir/test_solution_models.cpp.o[0m
+[147.529s] [ 95%] [32mBuilding CXX object motion_planning_tasks/test/CMakeFiles/moveit_task_constructor_visualization-test-task_model.dir/moveit_task_constructor_visualization-test-task_model_autogen/mocs_compilation.cpp.o[0m
+[150.139s] [ 96%] [32m[1mLinking CXX executable moveit_task_constructor_visualization-test-merge-models[0m
+[150.414s] [ 96%] Built target moveit_task_constructor_visualization-test-merge-models
+[152.656s] [ 98%] [32m[1mLinking CXX executable moveit_task_constructor_visualization-test-solution-models[0m
+[153.187s] [ 98%] Built target moveit_task_constructor_visualization-test-solution-models
+[153.476s] [100%] [32m[1mLinking CXX executable moveit_task_constructor_visualization-test-task_model[0m
+[154.030s] [100%] Built target moveit_task_constructor_visualization-test-task_model
+[154.041s] Invoked command in '/home/zx/ws_moveit2/build/moveit_task_constructor_visualization' returned '0': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_task_constructor_core:/home/zx/ws_moveit2/install/moveit_ros_visualization:/home/zx/ws_moveit2/install/moveit_ros_planning_interface:/home/zx/ws_moveit2/install/moveit_ros_move_group:/home/zx/ws_moveit2/install/moveit_ros_warehouse:/home/zx/ws_moveit2/install/moveit_ros_robot_interaction:/home/zx/ws_moveit2/install/moveit_kinematics:/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/rviz_marker_tools:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_task_constructor_msgs:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_task_constructor_core:/home/zx/ws_moveit2/install/moveit_ros_visualization:/home/zx/ws_moveit2/install/moveit_ros_planning_interface:/home/zx/ws_moveit2/install/moveit_ros_move_group:/home/zx/ws_moveit2/install/moveit_ros_warehouse:/home/zx/ws_moveit2/install/moveit_ros_robot_interaction:/home/zx/ws_moveit2/install/moveit_kinematics:/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/rviz_marker_tools:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_task_constructor_msgs:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_task_constructor_core/lib:/home/zx/ws_moveit2/install/moveit_ros_visualization/lib:/home/zx/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/zx/ws_moveit2/install/moveit_ros_move_group/lib:/home/zx/ws_moveit2/install/moveit_ros_warehouse/lib:/home/zx/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/zx/ws_moveit2/install/moveit_kinematics/lib:/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/rviz_marker_tools/lib:/home/zx/ws_moveit2/install/srdfdom/lib:/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zx/ws_moveit2/build/moveit_task_constructor_visualization -- -j12 -l12
+[154.064s] Invoking command in '/home/zx/ws_moveit2/build/moveit_task_constructor_visualization': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_task_constructor_core:/home/zx/ws_moveit2/install/moveit_ros_visualization:/home/zx/ws_moveit2/install/moveit_ros_planning_interface:/home/zx/ws_moveit2/install/moveit_ros_move_group:/home/zx/ws_moveit2/install/moveit_ros_warehouse:/home/zx/ws_moveit2/install/moveit_ros_robot_interaction:/home/zx/ws_moveit2/install/moveit_kinematics:/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/rviz_marker_tools:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_task_constructor_msgs:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_task_constructor_core:/home/zx/ws_moveit2/install/moveit_ros_visualization:/home/zx/ws_moveit2/install/moveit_ros_planning_interface:/home/zx/ws_moveit2/install/moveit_ros_move_group:/home/zx/ws_moveit2/install/moveit_ros_warehouse:/home/zx/ws_moveit2/install/moveit_ros_robot_interaction:/home/zx/ws_moveit2/install/moveit_kinematics:/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/rviz_marker_tools:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_task_constructor_msgs:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_task_constructor_core/lib:/home/zx/ws_moveit2/install/moveit_ros_visualization/lib:/home/zx/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/zx/ws_moveit2/install/moveit_ros_move_group/lib:/home/zx/ws_moveit2/install/moveit_ros_warehouse/lib:/home/zx/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/zx/ws_moveit2/install/moveit_kinematics/lib:/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/rviz_marker_tools/lib:/home/zx/ws_moveit2/install/srdfdom/lib:/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zx/ws_moveit2/build/moveit_task_constructor_visualization
+[154.070s] -- Install configuration: "Release"
+[154.070s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/share/icons
+[154.070s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/share/icons/classes
+[154.070s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/share/icons/classes/Motion Planning Tasks.svg
+[154.070s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/motion_planning_tasks_rviz_plugin_description.xml
+[154.070s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/environment/library_path.sh
+[154.070s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/environment/library_path.dsv
+[154.071s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/share/ament_index/resource_index/package_run_dependencies/moveit_task_constructor_visualization
+[154.071s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/share/ament_index/resource_index/parent_prefix_path/moveit_task_constructor_visualization
+[154.071s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/environment/ament_prefix_path.sh
+[154.071s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/environment/ament_prefix_path.dsv
+[154.071s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/environment/path.sh
+[154.071s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/environment/path.dsv
+[154.071s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/local_setup.bash
+[154.071s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/local_setup.sh
+[154.071s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/local_setup.zsh
+[154.071s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/local_setup.dsv
+[154.071s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/package.dsv
+[154.071s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/share/ament_index/resource_index/packages/moveit_task_constructor_visualization
+[154.071s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/share/ament_index/resource_index/rviz_common__pluginlib__plugin/moveit_task_constructor_visualization
+[154.071s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/cmake/ament_cmake_export_include_directories-extras.cmake
+[154.071s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/cmake/ament_cmake_export_libraries-extras.cmake
+[154.071s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/cmake/ament_cmake_export_dependencies-extras.cmake
+[154.072s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/cmake/moveit_task_constructor_visualizationConfig.cmake
+[154.072s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/cmake/moveit_task_constructor_visualizationConfig-version.cmake
+[154.072s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/package.xml
+[154.072s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/include
+[154.072s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/include/moveit
+[154.072s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/include/moveit/visualization_tools
+[154.072s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/include/moveit/visualization_tools/marker_visualization.h
+[154.072s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/include/moveit/visualization_tools/task_solution_panel.h
+[154.072s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/include/moveit/visualization_tools/display_solution.h
+[154.072s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/include/moveit/visualization_tools/task_solution_visualization.h
+[154.072s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/lib/libmoveit_task_visualization_tools.so.0.1.3
+[154.073s] -- Set runtime path of "/home/zx/ws_moveit2/install/moveit_task_constructor_visualization/lib/libmoveit_task_visualization_tools.so.0.1.3" to ""
+[154.073s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/lib/libmoveit_task_visualization_tools.so
+[154.073s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/lib/libmotion_planning_tasks_utils.so
+[154.074s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/lib/libmotion_planning_tasks_properties.so
+[154.074s] -- Set runtime path of "/home/zx/ws_moveit2/install/moveit_task_constructor_visualization/lib/libmotion_planning_tasks_properties.so" to ""
+[154.074s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/lib/libmotion_planning_tasks_rviz_plugin.so.0.1.3
+[154.077s] -- Set runtime path of "/home/zx/ws_moveit2/install/moveit_task_constructor_visualization/lib/libmotion_planning_tasks_rviz_plugin.so.0.1.3" to ""
+[154.077s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_visualization/lib/libmotion_planning_tasks_rviz_plugin.so
+[154.080s] Invoked command in '/home/zx/ws_moveit2/build/moveit_task_constructor_visualization' returned '0': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_task_constructor_core:/home/zx/ws_moveit2/install/moveit_ros_visualization:/home/zx/ws_moveit2/install/moveit_ros_planning_interface:/home/zx/ws_moveit2/install/moveit_ros_move_group:/home/zx/ws_moveit2/install/moveit_ros_warehouse:/home/zx/ws_moveit2/install/moveit_ros_robot_interaction:/home/zx/ws_moveit2/install/moveit_kinematics:/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/rviz_marker_tools:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_task_constructor_msgs:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_task_constructor_core:/home/zx/ws_moveit2/install/moveit_ros_visualization:/home/zx/ws_moveit2/install/moveit_ros_planning_interface:/home/zx/ws_moveit2/install/moveit_ros_move_group:/home/zx/ws_moveit2/install/moveit_ros_warehouse:/home/zx/ws_moveit2/install/moveit_ros_robot_interaction:/home/zx/ws_moveit2/install/moveit_kinematics:/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/rviz_marker_tools:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_task_constructor_msgs:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_task_constructor_core/lib:/home/zx/ws_moveit2/install/moveit_ros_visualization/lib:/home/zx/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/zx/ws_moveit2/install/moveit_ros_move_group/lib:/home/zx/ws_moveit2/install/moveit_ros_warehouse/lib:/home/zx/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/zx/ws_moveit2/install/moveit_kinematics/lib:/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/rviz_marker_tools/lib:/home/zx/ws_moveit2/install/srdfdom/lib:/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zx/ws_moveit2/build/moveit_task_constructor_visualization

@@ -1,0 +1,4 @@
+[0.069s] Invoking command in '/home/zx/ws_moveit2/src/build/rviz_marker_tools': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/src/install/moveit_common:/opt/ros/humble /usr/bin/cmake --build /home/zx/ws_moveit2/src/build/rviz_marker_tools -- -j12 -l12
+[0.111s] [ 50%] [32mBuilding CXX object CMakeFiles/rviz_marker_tools.dir/src/marker_creation.cpp.o[0m
+[6.757s] [100%] [32m[1mLinking CXX shared library librviz_marker_tools.so[0m
+[6.858s] [100%] Built target rviz_marker_tools

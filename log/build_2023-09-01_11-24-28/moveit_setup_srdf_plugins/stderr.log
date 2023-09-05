@@ -1,0 +1,7 @@
+/home/zx/ws_moveit2/src/moveit2/moveit_setup_assistant/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/rotated_header_view.hpp:0: Note: No relevant classes found. No output generated.
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[K已杀死 signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_setup_srdf_plugins.dir/build.make:204：CMakeFiles/moveit_setup_srdf_plugins.dir/src/end_effectors_widget.cpp.o] 错误 1
+gmake[2]: *** 正在等待未完成的任务....
+gmake[1]: *** [CMakeFiles/Makefile2:157：CMakeFiles/moveit_setup_srdf_plugins.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

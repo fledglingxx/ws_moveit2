@@ -1,0 +1,16 @@
+/home/zx/ws_moveit2/install/serial_demo/share/ament_index/resource_index/package_run_dependencies/serial_demo
+/home/zx/ws_moveit2/install/serial_demo/share/ament_index/resource_index/parent_prefix_path/serial_demo
+/home/zx/ws_moveit2/install/serial_demo/share/serial_demo/environment/ament_prefix_path.sh
+/home/zx/ws_moveit2/install/serial_demo/share/serial_demo/environment/ament_prefix_path.dsv
+/home/zx/ws_moveit2/install/serial_demo/share/serial_demo/environment/path.sh
+/home/zx/ws_moveit2/install/serial_demo/share/serial_demo/environment/path.dsv
+/home/zx/ws_moveit2/install/serial_demo/share/serial_demo/local_setup.bash
+/home/zx/ws_moveit2/install/serial_demo/share/serial_demo/local_setup.sh
+/home/zx/ws_moveit2/install/serial_demo/share/serial_demo/local_setup.zsh
+/home/zx/ws_moveit2/install/serial_demo/share/serial_demo/local_setup.dsv
+/home/zx/ws_moveit2/install/serial_demo/share/serial_demo/package.dsv
+/home/zx/ws_moveit2/install/serial_demo/share/ament_index/resource_index/packages/serial_demo
+/home/zx/ws_moveit2/install/serial_demo/share/serial_demo/cmake/serial_demoConfig.cmake
+/home/zx/ws_moveit2/install/serial_demo/share/serial_demo/cmake/serial_demoConfig-version.cmake
+/home/zx/ws_moveit2/install/serial_demo/share/serial_demo/package.xml
+/home/zx/ws_moveit2/install/serial_demo/lib/serial_demo/serial_demo

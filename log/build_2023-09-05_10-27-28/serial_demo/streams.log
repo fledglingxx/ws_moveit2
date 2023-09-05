@@ -1,0 +1,149 @@
+[0.009s] Invoking command in '/home/zx/ws_moveit2/build/serial_demo': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zx/ws_moveit2/src/serial_demo -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/zx/ws_moveit2/install/serial_demo
+[0.018s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.138s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.170s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.173s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.180s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.195s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.213s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.279s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.280s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.416s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.603s] -- Found serial: 1.2.1 (/home/zx/ws_moveit2/install/serial/share/serial/cmake)
+[0.604s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.751s] -- Found moveit_msgs: 2.2.1 (/opt/ros/humble/share/moveit_msgs/cmake)
+[1.539s] -- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+[1.542s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[1.542s] -- BACKWARD_HAS_UNWIND=1
+[1.542s] -- BACKWARD_HAS_BACKTRACE=0
+[1.542s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[1.543s] -- BACKWARD_HAS_DW=1
+[1.543s] -- BACKWARD_HAS_BFD=0
+[1.543s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[1.543s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.599s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.599s] -- Configured cppcheck include dirs: 
+[1.599s] -- Configured cppcheck exclude dirs and/or files: 
+[1.599s] -- Added test 'lint_cmake' to check CMake code style
+[1.600s] -- Added test 'uncrustify' to check C / C++ code style
+[1.600s] -- Configured uncrustify additional arguments: 
+[1.600s] -- Added test 'xmllint' to check XML markup files
+[1.603s] -- Configuring done
+[1.622s] -- Generating done
+[1.624s] -- Build files have been written to: /home/zx/ws_moveit2/build/serial_demo
+[1.634s] Invoked command in '/home/zx/ws_moveit2/build/serial_demo' returned '0': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zx/ws_moveit2/src/serial_demo -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/zx/ws_moveit2/install/serial_demo
+[1.635s] Invoking command in '/home/zx/ws_moveit2/build/serial_demo': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zx/ws_moveit2/build/serial_demo -- -j12 -l12
+[1.666s] [35m[1mConsolidate compiler generated dependencies of target serial_demo[0m
+[1.680s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_demo.dir/src/serial_demo.cpp.o[0m
+[4.051s] [01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:[m[K In function ‘[01m[Kvoid bufferTransfor(const string&)[m[K’:
+[4.051s] [01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:100:26:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KpCanId[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.051s]   100 |                 uint8_t *[01;35m[KpCanId[m[K = mem + 1;
+[4.051s]       |                          [01;35m[K^~~~~~[m[K
+[4.051s] [01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:101:26:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KpCommand[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.051s]   101 |                 uint8_t *[01;35m[KpCommand[m[K = mem + 7 + 1;
+[4.051s]       |                          [01;35m[K^~~~~~~~[m[K
+[4.051s] [01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:102:26:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KpParameter[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.051s]   102 |                 uint8_t *[01;35m[KpParameter[m[K = mem + 7 + 7 + 1;
+[4.051s]       |                          [01;35m[K^~~~~~~~~~[m[K
+[4.051s] [01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:81:28:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kposition[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.051s]    81 |     std::string::size_type [01;35m[Kposition[m[K;
+[4.051s]       |                            [01;35m[K^~~~~~~~[m[K
+[4.051s] [01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:84:13:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KparameterList[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[4.051s]    84 |     int32_t [01;35m[KparameterList[m[K[10] = {0};
+[4.052s]       |             [01;35m[K^~~~~~~~~~~~~[m[K
+[4.052s] [01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:85:13:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KcanIdList[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[4.052s]    85 |     uint8_t [01;35m[KcanIdList[m[K[10] = {0}, cmd[10] = {0};
+[4.052s]       |             [01;35m[K^~~~~~~~~[m[K
+[4.052s] [01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:85:34:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcmd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.052s]    85 |     uint8_t canIdList[10] = {0}, [01;35m[Kcmd[m[K[10] = {0};
+[4.052s]       |                                  [01;35m[K^~~[m[K
+[4.052s] [01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:[m[K In function ‘[01m[Kint32_t sendCommand(uint8_t, uint8_t*, uint8_t*, uint32_t*)[m[K’:
+[4.053s] [01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:142:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KwriteSize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.053s]   142 |     size_t [01;35m[KwriteSize[m[K = 0;
+[4.053s]       |            [01;35m[K^~~~~~~~~[m[K
+[4.053s] [01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:150:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[4.053s]   150 | [01;35m[K}[m[K
+[4.053s]       | [01;35m[K^[m[K
+[4.053s] [01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:[m[K At global scope:
+[4.053s] [01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:165:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmoveit_msgs::msg::DisplayTrajectory_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.053s]   165 | void callback(const moveit_msgs::msg::DisplayTrajectory::ConstPtr &msg[01;35m[K)[m[K
+[4.053s]       |                                                                       [01;35m[K^[m[K
+[4.053s] 
+[4.053s] In file included from [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/display_trajectory.hpp:7[m[K,
+[4.053s]                  from [01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:7[m[K:
+[4.053s] [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/display_trajectory__struct.hpp:131:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.053s]   131 |     [01;36m[KConstPtr[m[K;
+[4.053s]       |     [01;36m[K^~~~~~~~[m[K
+[4.117s] [01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:[m[K In member function ‘[01m[Kvoid Listener::callback(const ConstPtr&)[m[K’:
+[4.117s] [01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:205:17:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kstatus[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[4.117s]   205 |             int [01;35m[Kstatus[m[K = 0;
+[4.117s]       |                 [01;35m[K^~~~~~[m[K
+[4.117s] [01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:171:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.117s]   171 |         char [01;35m[Kstr[m[K[5120];
+[4.117s]       |              [01;35m[K^~~[m[K
+[4.117s] [01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:172:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstr123[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.117s]   172 |         char [01;35m[Kstr123[m[K[5120];
+[4.117s]       |              [01;35m[K^~~~~~[m[K
+[4.117s] [01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:173:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kww[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.117s]   173 |         float [01;35m[Kww[m[K;
+[4.117s]       |               [01;35m[K^~[m[K
+[4.117s] [01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:174:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.117s]   174 |         float [01;35m[Kvv[m[K;
+[4.117s]       |               [01;35m[K^~[m[K
+[4.117s] [01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:175:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kzs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.117s]   175 |         float [01;35m[Kzs[m[K;
+[4.117s]       |               [01;35m[K^~[m[K
+[4.117s] [01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:176:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kzs1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.117s]   176 |         float [01;35m[Kzs1[m[K;
+[4.117s]       |               [01;35m[K^~~[m[K
+[4.117s] [01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:177:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kzss[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.117s]   177 |         float [01;35m[Kzss[m[K = 1.0;
+[4.117s]       |               [01;35m[K^~~[m[K
+[4.123s] [01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.123s] [01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:361:36:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kt5[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[4.123s]   361 |     uint32_t parameterlist5[10] = {[01;35m[Kt5[m[K};
+[4.123s]       |                                    [01;35m[K^~[m[K
+[4.123s] [01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:367:36:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kt4[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[4.123s]   367 |     uint32_t parameterlist4[10] = {[01;35m[Kt4[m[K};
+[4.123s]       |                                    [01;35m[K^~[m[K
+[4.123s] [01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:373:36:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kt3[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[4.123s]   373 |     uint32_t parameterlist3[10] = {[01;35m[Kt3[m[K};
+[4.123s]       |                                    [01;35m[K^~[m[K
+[4.123s] [01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:379:36:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kt1[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[4.123s]   379 |     uint32_t parameterlist2[10] = {[01;35m[Kt1[m[K, t2, t3, t4, t5, 0};
+[4.123s]       |                                    [01;35m[K^~[m[K
+[4.123s] [01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:379:40:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kt2[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[4.123s]   379 |     uint32_t parameterlist2[10] = {t1, [01;35m[Kt2[m[K, t3, t4, t5, 0};
+[4.123s]       |                                        [01;35m[K^~[m[K
+[4.123s] [01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:379:44:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kt3[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[4.123s]   379 |     uint32_t parameterlist2[10] = {t1, t2, [01;35m[Kt3[m[K, t4, t5, 0};
+[4.123s]       |                                            [01;35m[K^~[m[K
+[4.124s] [01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:379:48:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kt4[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[4.124s]   379 |     uint32_t parameterlist2[10] = {t1, t2, t3, [01;35m[Kt4[m[K, t5, 0};
+[4.124s]       |                                                [01;35m[K^~[m[K
+[4.124s] [01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:379:52:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kt5[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[4.124s]   379 |     uint32_t parameterlist2[10] = {t1, t2, t3, t4, [01;35m[Kt5[m[K, 0};
+[4.124s]       |                                                    [01;35m[K^~[m[K
+[12.114s] [100%] [32m[1mLinking CXX executable serial_demo[0m
+[12.262s] [100%] Built target serial_demo
+[12.271s] Invoked command in '/home/zx/ws_moveit2/build/serial_demo' returned '0': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zx/ws_moveit2/build/serial_demo -- -j12 -l12
+[12.289s] Invoking command in '/home/zx/ws_moveit2/build/serial_demo': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zx/ws_moveit2/build/serial_demo
+[12.294s] -- Install configuration: "Release"
+[12.295s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/ament_index/resource_index/package_run_dependencies/serial_demo
+[12.295s] -- Installing: /home/zx/ws_moveit2/install/serial_demo/share/ament_index/resource_index/parent_prefix_path/serial_demo
+[12.295s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/environment/ament_prefix_path.sh
+[12.295s] -- Installing: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/environment/ament_prefix_path.dsv
+[12.295s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/environment/path.sh
+[12.295s] -- Installing: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/environment/path.dsv
+[12.295s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/local_setup.bash
+[12.295s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/local_setup.sh
+[12.295s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/local_setup.zsh
+[12.295s] -- Installing: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/local_setup.dsv
+[12.295s] -- Installing: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/package.dsv
+[12.295s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/ament_index/resource_index/packages/serial_demo
+[12.295s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/cmake/serial_demoConfig.cmake
+[12.295s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/cmake/serial_demoConfig-version.cmake
+[12.295s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/package.xml
+[12.296s] -- Installing: /home/zx/ws_moveit2/install/serial_demo/lib/serial_demo/serial_demo
+[12.297s] -- Set runtime path of "/home/zx/ws_moveit2/install/serial_demo/lib/serial_demo/serial_demo" to ""
+[12.301s] Invoked command in '/home/zx/ws_moveit2/build/serial_demo' returned '0': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zx/ws_moveit2/build/serial_demo

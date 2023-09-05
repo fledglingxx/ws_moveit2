@@ -1,0 +1,2 @@
+Invoking command in '/home/zx/ws_moveit2/src/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zx/ws_moveit2/src/rosparam_shortcuts -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/zx/ws_moveit2/src/install/rosparam_shortcuts
+Invoked command in '/home/zx/ws_moveit2/src/build/rosparam_shortcuts' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zx/ws_moveit2/src/rosparam_shortcuts -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/zx/ws_moveit2/src/install/rosparam_shortcuts

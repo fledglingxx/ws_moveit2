@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target serial_demo[0m
+[100%] Built target serial_demo
+-- Install configuration: ""
+-- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/ament_index/resource_index/package_run_dependencies/serial_demo
+-- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/ament_index/resource_index/parent_prefix_path/serial_demo
+-- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/environment/ament_prefix_path.sh
+-- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/environment/path.sh
+-- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/environment/path.dsv
+-- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/local_setup.bash
+-- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/local_setup.sh
+-- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/local_setup.zsh
+-- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/local_setup.dsv
+-- Installing: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/package.dsv
+-- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/ament_index/resource_index/packages/serial_demo
+-- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/cmake/serial_demoConfig.cmake
+-- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/cmake/serial_demoConfig-version.cmake
+-- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/package.xml
+-- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/lib/serial_demo/serial_demo

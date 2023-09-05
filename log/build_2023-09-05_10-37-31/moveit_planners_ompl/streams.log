@@ -1,0 +1,123 @@
+[0.019s] Invoking command in '/home/zx/ws_moveit2/build/moveit_planners_ompl': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_pr2_description:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_resources_fanuc_description:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_pr2_description:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_resources_fanuc_description:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zx/ws_moveit2/src/moveit2/moveit_planners/ompl -DCMAKE_INSTALL_PREFIX=/home/zx/ws_moveit2/install/moveit_planners_ompl
+[0.027s] -- Found moveit_common: 2.5.4 (/home/zx/ws_moveit2/install/moveit_common/share/moveit_common/cmake)
+[0.028s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.221s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.221s] -- BACKWARD_HAS_UNWIND=1
+[0.221s] -- BACKWARD_HAS_BACKTRACE=0
+[0.221s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.221s] -- BACKWARD_HAS_DW=1
+[0.221s] -- BACKWARD_HAS_BFD=0
+[0.222s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.231s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time thread serialization 
+[0.232s] -- Found moveit_core: 2.5.4 (/home/zx/ws_moveit2/install/moveit_core/share/moveit_core/cmake)
+[0.239s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.245s] -- Found parameter_traits: 0.3.6 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.263s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.265s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.270s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.279s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.291s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.337s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.338s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.436s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.572s] -- Found rclcpp_lifecycle: 16.0.5 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.607s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[0.671s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.912s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.764s] -- Found moveit_ros_planning: 2.5.4 (/home/zx/ws_moveit2/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[1.769s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[2.131s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.132s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.159s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.179s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.179s] -- Configured cppcheck include dirs: /home/zx/ws_moveit2/src/moveit2/moveit_planners/ompl/ompl_interface/include
+[2.179s] -- Configured cppcheck exclude dirs and/or files: 
+[2.180s] -- Added test 'lint_cmake' to check CMake code style
+[2.181s] -- Added test 'xmllint' to check XML markup files
+[2.182s] -- Configuring done
+[2.324s] -- Generating done
+[2.326s] -- Build files have been written to: /home/zx/ws_moveit2/build/moveit_planners_ompl
+[2.339s] Invoked command in '/home/zx/ws_moveit2/build/moveit_planners_ompl' returned '0': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_pr2_description:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_resources_fanuc_description:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_pr2_description:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_resources_fanuc_description:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zx/ws_moveit2/src/moveit2/moveit_planners/ompl -DCMAKE_INSTALL_PREFIX=/home/zx/ws_moveit2/install/moveit_planners_ompl
+[2.340s] Invoking command in '/home/zx/ws_moveit2/build/moveit_planners_ompl': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_pr2_description:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_resources_fanuc_description:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_pr2_description:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_resources_fanuc_description:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zx/ws_moveit2/build/moveit_planners_ompl -- -j12 -l12
+[2.400s] [35m[1mConsolidate compiler generated dependencies of target moveit_ompl_interface[0m
+[2.493s] [ 51%] Built target moveit_ompl_interface
+[2.500s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[2.510s] [ 56%] Built target gtest
+[2.519s] [35m[1mConsolidate compiler generated dependencies of target moveit_ompl_planner_plugin[0m
+[2.538s] [ 60%] Built target moveit_ompl_planner_plugin
+[2.548s] [35m[1mConsolidate compiler generated dependencies of target moveit_generate_state_database[0m
+[2.573s] [ 65%] Built target moveit_generate_state_database
+[2.581s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[2.590s] [ 70%] Built target gtest_main
+[2.599s] [35m[1mConsolidate compiler generated dependencies of target test_state_space[0m
+[2.616s] [ 75%] Built target test_state_space
+[2.624s] [35m[1mConsolidate compiler generated dependencies of target test_threadsafe_state_storage[0m
+[2.640s] [ 80%] Built target test_threadsafe_state_storage
+[2.649s] [35m[1mConsolidate compiler generated dependencies of target test_constrained_state_validity_checker[0m
+[2.671s] [ 85%] Built target test_constrained_state_validity_checker
+[2.680s] [35m[1mConsolidate compiler generated dependencies of target test_constrained_planning_state_space[0m
+[2.698s] [ 90%] Built target test_constrained_planning_state_space
+[2.707s] [35m[1mConsolidate compiler generated dependencies of target test_planning_context_manager[0m
+[2.727s] [ 95%] Built target test_planning_context_manager
+[2.739s] [35m[1mConsolidate compiler generated dependencies of target test_state_validity_checker[0m
+[2.760s] [100%] Built target test_state_validity_checker
+[2.768s] Invoked command in '/home/zx/ws_moveit2/build/moveit_planners_ompl' returned '0': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_pr2_description:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_resources_fanuc_description:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_pr2_description:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_resources_fanuc_description:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zx/ws_moveit2/build/moveit_planners_ompl -- -j12 -l12
+[2.789s] Invoking command in '/home/zx/ws_moveit2/build/moveit_planners_ompl': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_pr2_description:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_resources_fanuc_description:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_pr2_description:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_resources_fanuc_description:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zx/ws_moveit2/build/moveit_planners_ompl
+[2.795s] -- Install configuration: "Release"
+[2.795s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/lib/moveit_planners_ompl/generate_state_database
+[2.795s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/include
+[2.795s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/include/moveit
+[2.795s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface
+[2.796s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/model_based_planning_context.h
+[2.796s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/detail
+[2.796s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/projection_evaluators.h
+[2.796s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/constraint_approximations.h
+[2.796s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/goal_union.h
+[2.796s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/constrained_valid_state_sampler.h
+[2.796s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/constrained_goal_sampler.h
+[2.796s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/constrained_sampler.h
+[2.796s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/threadsafe_state_storage.h
+[2.796s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/constraints_library.h
+[2.796s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/state_validity_checker.h
+[2.796s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/ompl_constraints.h
+[2.796s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/ompl_interface.h
+[2.796s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization
+[2.796s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/model_based_state_space_factory.h
+[2.796s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/work_space
+[2.796s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/work_space/pose_model_state_space.h
+[2.796s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/work_space/pose_model_state_space_factory.h
+[2.796s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/model_based_state_space.h
+[2.796s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/joint_space
+[2.796s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/joint_space/joint_model_state_space.h
+[2.796s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/joint_space/joint_model_state_space_factory.h
+[2.796s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/joint_space/constrained_planning_state_space.h
+[2.797s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/joint_space/constrained_planning_state_space_factory.h
+[2.797s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/planning_context_manager.h
+[2.797s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/lib/libmoveit_ompl_interface.so.2.5.4
+[2.797s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/lib/libmoveit_ompl_interface.so
+[2.797s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/lib/libmoveit_ompl_planner_plugin.so.2.5.4
+[2.797s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/lib/libmoveit_ompl_planner_plugin.so
+[2.797s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/environment/library_path.sh
+[2.797s] -- Installing: /home/zx/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/environment/library_path.dsv
+[2.797s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/ompl_interface_plugin_description.xml
+[2.798s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/share/ament_index/resource_index/package_run_dependencies/moveit_planners_ompl
+[2.798s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/share/ament_index/resource_index/parent_prefix_path/moveit_planners_ompl
+[2.798s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/environment/ament_prefix_path.sh
+[2.798s] -- Installing: /home/zx/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/environment/ament_prefix_path.dsv
+[2.798s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/environment/path.sh
+[2.798s] -- Installing: /home/zx/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/environment/path.dsv
+[2.798s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/local_setup.bash
+[2.798s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/local_setup.sh
+[2.798s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/local_setup.zsh
+[2.798s] -- Installing: /home/zx/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/local_setup.dsv
+[2.798s] -- Installing: /home/zx/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/package.dsv
+[2.798s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/share/ament_index/resource_index/packages/moveit_planners_ompl
+[2.798s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_planners_ompl
+[2.798s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/cmake/export_moveit_planners_omplExport.cmake
+[2.798s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/cmake/export_moveit_planners_omplExport-release.cmake
+[2.799s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/cmake/ament_cmake_export_targets-extras.cmake
+[2.799s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.799s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/cmake/moveit_planners_omplConfig.cmake
+[2.799s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/cmake/moveit_planners_omplConfig-version.cmake
+[2.799s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/package.xml
+[2.801s] Invoked command in '/home/zx/ws_moveit2/build/moveit_planners_ompl' returned '0': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_pr2_description:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_resources_fanuc_description:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_pr2_description:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_resources_fanuc_description:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zx/ws_moveit2/build/moveit_planners_ompl

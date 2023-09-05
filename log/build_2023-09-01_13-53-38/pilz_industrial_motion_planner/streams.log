@@ -1,0 +1,201 @@
+[0.023s] Invoking command in '/home/zx/ws_moveit2/build/pilz_industrial_motion_planner': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/zx/ws_moveit2/install/moveit_ros_planning_interface:/home/zx/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/zx/ws_moveit2/install/moveit_ros_move_group:/home/zx/ws_moveit2/install/moveit_ros_warehouse:/home/zx/ws_moveit2/install/moveit_kinematics:/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/moveit_configs_utils:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_prbt_support:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_common:/home/zx/ws_moveit2/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/zx/ws_moveit2/install/moveit_ros_planning_interface:/home/zx/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/zx/ws_moveit2/install/moveit_ros_move_group:/home/zx/ws_moveit2/install/moveit_ros_warehouse:/home/zx/ws_moveit2/install/moveit_kinematics:/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_prbt_support:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/zx/ws_moveit2/install/moveit_ros_move_group/lib:/home/zx/ws_moveit2/install/moveit_ros_warehouse/lib:/home/zx/ws_moveit2/install/moveit_kinematics/lib:/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/zx/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zx/ws_moveit2/build/pilz_industrial_motion_planner -- -j12 -l12
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target planning_context_loader_base[0m
+[0.071s] [35m[1mConsolidate compiler generated dependencies of target trajectory_generation_common[0m
+[0.071s] [35m[1mConsolidate compiler generated dependencies of target joint_limits_common[0m
+[0.097s] [  2%] Built target planning_context_loader_base
+[0.108s] [ 10%] Built target joint_limits_common
+[0.111s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[0.119s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[0.125s] [ 15%] Built target trajectory_generation_common
+[0.131s] [ 19%] Built target gmock
+[0.134s] [ 21%] Built target gmock_main
+[0.140s] [35m[1mConsolidate compiler generated dependencies of target pilz_industrial_motion_planner[0m
+[0.147s] [35m[1mConsolidate compiler generated dependencies of target pilz_industrial_motion_planner_test_utils[0m
+[0.151s] [35m[1mConsolidate compiler generated dependencies of target planning_context_loader_circ[0m
+[0.166s] [ 24%] Built target pilz_industrial_motion_planner
+[0.171s] [ 26%] Built target pilz_industrial_motion_planner_test_utils
+[0.183s] [35m[1mConsolidate compiler generated dependencies of target unittest_get_solver_tip_frame[0m
+[0.184s] [35m[1mConsolidate compiler generated dependencies of target planning_context_loader_lin[0m
+[0.185s] [ 31%] Built target planning_context_loader_circ
+[0.203s] [35m[1mConsolidate compiler generated dependencies of target planning_context_loader_ptp[0m
+[0.206s] [ 33%] Built target unittest_get_solver_tip_frame
+[0.223s] [35m[1mConsolidate compiler generated dependencies of target command_list_manager[0m
+[0.224s] [ 38%] Built target planning_context_loader_lin
+[0.235s] [ 43%] Built target planning_context_loader_ptp
+[0.239s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.245s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.255s] [ 46%] Built target command_list_manager
+[0.255s] [ 49%] Built target gtest
+[0.256s] [ 51%] Built target gtest_main
+[0.270s] [35m[1mConsolidate compiler generated dependencies of target sequence_capability[0m
+[0.271s] [35m[1mConsolidate compiler generated dependencies of target unittest_pilz_industrial_motion_planner_direct[0m
+[0.271s] [35m[1mConsolidate compiler generated dependencies of target unittest_velocity_profile_atrap[0m
+[0.287s] [ 55%] Built target unittest_velocity_profile_atrap
+[0.297s] [ 57%] Built target unittest_pilz_industrial_motion_planner_direct
+[0.299s] [35m[1mConsolidate compiler generated dependencies of target unittest_joint_limit[0m
+[0.313s] [35m[1mConsolidate compiler generated dependencies of target unittest_joint_limits_aggregator[0m
+[0.316s] [ 61%] Built target sequence_capability
+[0.317s] [ 63%] Built target unittest_joint_limit
+[0.327s] [35m[1mConsolidate compiler generated dependencies of target unittest_joint_limits_container[0m
+[0.327s] [35m[1mConsolidate compiler generated dependencies of target unittest_joint_limits_validator[0m
+[0.338s] [ 66%] Built target unittest_joint_limits_aggregator
+[0.340s] [ 68%] Built target unittest_joint_limits_validator
+[0.340s] [ 71%] Built target unittest_joint_limits_container
+[0.350s] [35m[1mConsolidate compiler generated dependencies of target unittest_cartesian_limits_aggregator[0m
+[0.352s] [35m[1mConsolidate compiler generated dependencies of target unittest_planning_context_loaders[0m
+[0.352s] [35m[1mConsolidate compiler generated dependencies of target unittest_planning_context[0m
+[0.367s] [ 73%] Built target unittest_cartesian_limits_aggregator
+[0.375s] [ 77%] Built target unittest_planning_context_loaders
+[0.375s] [ 78%] Built target unittest_planning_context
+[0.378s] [35m[1mConsolidate compiler generated dependencies of target unittest_pilz_industrial_motion_planner[0m
+[0.387s] [35m[1mConsolidate compiler generated dependencies of target unittest_trajectory_generator_lin[0m
+[0.387s] [35m[1mConsolidate compiler generated dependencies of target unittest_trajectory_generator_ptp[0m
+[0.402s] [ 80%] Built target unittest_pilz_industrial_motion_planner
+[0.411s] [ 83%] Built target unittest_trajectory_generator_ptp
+[0.412s] [ 85%] Built target unittest_trajectory_generator_lin
+[0.414s] [35m[1mConsolidate compiler generated dependencies of target unittest_trajectory_generator_circ[0m
+[0.423s] [35m[1mConsolidate compiler generated dependencies of target unittest_trajectory_generator_common[0m
+[0.426s] [35m[1mConsolidate compiler generated dependencies of target unittest_trajectory_blender_transition_window[0m
+[0.441s] [ 87%] Built target unittest_trajectory_generator_circ
+[0.444s] [ 90%] Built target unittest_trajectory_generator_common
+[0.452s] [35m[1mConsolidate compiler generated dependencies of target unittest_trajectory_functions[0m
+[0.456s] [35m[1mConsolidate compiler generated dependencies of target unittest_trajectory_generator[0m
+[0.462s] [ 93%] Built target unittest_trajectory_blender_transition_window
+[0.474s] [ 96%] Built target unittest_trajectory_functions
+[0.483s] [100%] Built target unittest_trajectory_generator
+[0.493s] Invoked command in '/home/zx/ws_moveit2/build/pilz_industrial_motion_planner' returned '0': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/zx/ws_moveit2/install/moveit_ros_planning_interface:/home/zx/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/zx/ws_moveit2/install/moveit_ros_move_group:/home/zx/ws_moveit2/install/moveit_ros_warehouse:/home/zx/ws_moveit2/install/moveit_kinematics:/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/moveit_configs_utils:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_prbt_support:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_common:/home/zx/ws_moveit2/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/zx/ws_moveit2/install/moveit_ros_planning_interface:/home/zx/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/zx/ws_moveit2/install/moveit_ros_move_group:/home/zx/ws_moveit2/install/moveit_ros_warehouse:/home/zx/ws_moveit2/install/moveit_kinematics:/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_prbt_support:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/zx/ws_moveit2/install/moveit_ros_move_group/lib:/home/zx/ws_moveit2/install/moveit_ros_warehouse/lib:/home/zx/ws_moveit2/install/moveit_kinematics/lib:/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/zx/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zx/ws_moveit2/build/pilz_industrial_motion_planner -- -j12 -l12
+[0.548s] Invoking command in '/home/zx/ws_moveit2/build/pilz_industrial_motion_planner': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/zx/ws_moveit2/install/moveit_ros_planning_interface:/home/zx/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/zx/ws_moveit2/install/moveit_ros_move_group:/home/zx/ws_moveit2/install/moveit_ros_warehouse:/home/zx/ws_moveit2/install/moveit_kinematics:/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/moveit_configs_utils:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_prbt_support:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_common:/home/zx/ws_moveit2/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/zx/ws_moveit2/install/moveit_ros_planning_interface:/home/zx/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/zx/ws_moveit2/install/moveit_ros_move_group:/home/zx/ws_moveit2/install/moveit_ros_warehouse:/home/zx/ws_moveit2/install/moveit_kinematics:/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_prbt_support:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/zx/ws_moveit2/install/moveit_ros_move_group/lib:/home/zx/ws_moveit2/install/moveit_ros_warehouse/lib:/home/zx/ws_moveit2/install/moveit_kinematics/lib:/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/zx/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zx/ws_moveit2/build/pilz_industrial_motion_planner
+[0.554s] -- Install configuration: "Release"
+[0.555s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/plugins/pilz_industrial_motion_planner_plugin_description.xml
+[0.555s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/plugins/sequence_capability_plugin_description.xml
+[0.555s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/plugins/planning_context_plugin_description.xml
+[0.555s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/lib/libpilz_industrial_motion_planner.so
+[0.555s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/lib/libjoint_limits_common.so
+[0.555s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/lib/libplanning_context_loader_base.so
+[0.555s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/lib/libplanning_context_loader_ptp.so
+[0.555s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/lib/libplanning_context_loader_lin.so
+[0.555s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/lib/libplanning_context_loader_circ.so
+[0.556s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/lib/libcommand_list_manager.so
+[0.556s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/lib/libsequence_capability.so
+[0.556s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/lib/libtrajectory_generation_common.so
+[0.556s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include
+[0.556s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/joint_limits_copy
+[0.556s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/joint_limits_copy/joint_limits.hpp
+[0.556s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/joint_limits_copy/joint_limits_rosparam.hpp
+[0.556s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner
+[0.557s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/joint_limits_validator.h
+[0.557s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/move_group_sequence_action.h
+[0.557s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/plan_components_builder.h
+[0.557s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/trajectory_functions.h
+[0.557s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/planning_context_lin.h
+[0.557s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/path_circle_generator.h
+[0.557s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/planning_context_base.h
+[0.557s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/joint_limits_extension.h
+[0.557s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/trajectory_blender_transition_window.h
+[0.557s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/cartesian_trajectory_point.h
+[0.557s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/trajectory_generation_exceptions.h
+[0.557s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/pilz_industrial_motion_planner.h
+[0.557s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/planning_context_circ.h
+[0.557s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/trajectory_generator_circ.h
+[0.557s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/cartesian_limit.h
+[0.557s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/capability_names.h
+[0.558s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/planning_context_loader_circ.h
+[0.558s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/planning_context_loader.h
+[0.558s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/cartesian_trajectory.h
+[0.558s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/trajectory_blender.h
+[0.558s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/planning_context_loader_lin.h
+[0.558s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/limits_container.h
+[0.558s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/velocity_profile_atrap.h
+[0.558s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/joint_limits_interface_extension.h
+[0.558s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/trajectory_generator.h
+[0.558s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/command_list_manager.h
+[0.558s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/joint_limits_aggregator.h
+[0.558s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/planning_context_loader_ptp.h
+[0.558s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/planning_context_ptp.h
+[0.558s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/cartesian_limits_aggregator.h
+[0.558s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/joint_limits_container.h
+[0.558s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/planning_exceptions.h
+[0.558s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/tip_frame_getter.h
+[0.558s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/trajectory_blend_request.h
+[0.558s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/trajectory_generator_lin.h
+[0.558s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/trajectory_blend_response.h
+[0.558s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/move_group_sequence_service.h
+[0.559s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/trajectory_generator_ptp.h
+[0.559s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/environment/library_path.sh
+[0.559s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/environment/library_path.dsv
+[0.559s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/lib/pilz_industrial_motion_planner/unittest_pilz_industrial_motion_planner_direct
+[0.559s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/lib/pilz_industrial_motion_planner/unittest_velocity_profile_atrap
+[0.559s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/lib/pilz_industrial_motion_planner/unittest_trajectory_generator
+[0.559s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/lib/pilz_industrial_motion_planner/unittest_trajectory_functions
+[0.559s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/lib/pilz_industrial_motion_planner/unittest_trajectory_blender_transition_window
+[0.560s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/lib/pilz_industrial_motion_planner/unittest_trajectory_generator_common
+[0.560s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/lib/pilz_industrial_motion_planner/unittest_trajectory_generator_circ
+[0.560s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/lib/pilz_industrial_motion_planner/unittest_trajectory_generator_lin
+[0.560s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/lib/pilz_industrial_motion_planner/unittest_trajectory_generator_ptp
+[0.560s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/lib/pilz_industrial_motion_planner/unittest_pilz_industrial_motion_planner
+[0.560s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/lib/pilz_industrial_motion_planner/unittest_joint_limit
+[0.561s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/lib/pilz_industrial_motion_planner/unittest_joint_limits_aggregator
+[0.561s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/lib/pilz_industrial_motion_planner/unittest_joint_limits_container
+[0.561s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/lib/pilz_industrial_motion_planner/unittest_joint_limits_validator
+[0.561s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/lib/pilz_industrial_motion_planner/unittest_cartesian_limits_aggregator
+[0.561s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/lib/pilz_industrial_motion_planner/unittest_planning_context_loaders
+[0.561s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/lib/pilz_industrial_motion_planner/unittest_planning_context
+[0.562s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/lib/pilz_industrial_motion_planner/unittest_get_solver_tip_frame
+[0.562s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/config
+[0.562s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/config/unittest_trajectory_generator_circ.yaml
+[0.562s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/config/unittest_cartesian_limits_aggregator.yaml
+[0.562s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/config/unittest_trajectory_blender_transition_window.yaml
+[0.562s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/config/unittest_joint_limit_config.yaml
+[0.562s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/config/unittest_trajectory_generator_lin.yaml
+[0.562s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/config/unittest_trajectory_generator_common.yaml
+[0.562s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/config/unittest_trajectory_generator_ptp.yaml
+[0.562s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/config/unittest_trajectory_functions.yaml
+[0.562s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/config/unittest_joint_limits_aggregator.yaml
+[0.562s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/launch
+[0.563s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/launch/unittest_pilz_industrial_motion_planner.test.py
+[0.563s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/launch/unittest_trajectory_functions.test.py
+[0.563s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/launch/unittest_planning_context_loaders.test.py
+[0.563s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/launch/unittest_joint_limits_aggregator.test.py
+[0.563s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/launch/unittest_planning_context.test.py
+[0.563s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/launch/unittest_trajectory_generator_common.test.py
+[0.563s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/launch/unittest_cartesian_limits_aggregator.test.py
+[0.563s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/launch/unittest_trajectory_blender_transition_window.test.py
+[0.563s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/launch/unittest_trajectory_generator_circ.test.py
+[0.563s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/launch/unittest_trajectory_generator_lin.test.py
+[0.563s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/launch/common_parameters.py
+[0.563s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/launch/unittest_trajectory_generator_ptp.test.py
+[0.563s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/launch/unittest_joint_limit.test.py
+[0.563s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/test_data
+[0.564s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/test_data/frankaemika_panda
+[0.564s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/test_data/frankaemika_panda/testdata_sequence.xml
+[0.564s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/test_data/prbt
+[0.564s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/test_data/prbt/testdata_with_gripper.xml
+[0.564s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/test_data/prbt/testdata_deprecated.xml
+[0.564s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/test_data/prbt/testdata_sequence.xml
+[0.564s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/test_data/concept_testdata.png
+[0.564s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/test_data/concept_testdata.odp
+[0.564s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/test_data/testpoints.py
+[0.564s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/ament_index/resource_index/package_run_dependencies/pilz_industrial_motion_planner
+[0.564s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/ament_index/resource_index/parent_prefix_path/pilz_industrial_motion_planner
+[0.564s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/environment/ament_prefix_path.sh
+[0.564s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/environment/ament_prefix_path.dsv
+[0.564s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/environment/path.sh
+[0.564s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/environment/path.dsv
+[0.564s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/local_setup.bash
+[0.564s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/local_setup.sh
+[0.564s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/local_setup.zsh
+[0.565s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/local_setup.dsv
+[0.565s] -- Installing: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/package.dsv
+[0.565s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/ament_index/resource_index/packages/pilz_industrial_motion_planner
+[0.565s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/ament_index/resource_index/moveit_core__pluginlib__plugin/pilz_industrial_motion_planner
+[0.565s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/ament_index/resource_index/moveit_ros_move_group__pluginlib__plugin/pilz_industrial_motion_planner
+[0.565s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/ament_index/resource_index/pilz_industrial_motion_planner__pluginlib__plugin/pilz_industrial_motion_planner
+[0.565s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/cmake/pilz_industrial_motion_plannerTargetsExport.cmake
+[0.565s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/cmake/pilz_industrial_motion_plannerTargetsExport-release.cmake
+[0.565s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.565s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/cmake/ament_cmake_export_targets-extras.cmake
+[0.565s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.565s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/cmake/pilz_industrial_motion_plannerConfig.cmake
+[0.565s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/cmake/pilz_industrial_motion_plannerConfig-version.cmake
+[0.565s] -- Up-to-date: /home/zx/ws_moveit2/install/pilz_industrial_motion_planner/share/pilz_industrial_motion_planner/package.xml
+[0.567s] Invoked command in '/home/zx/ws_moveit2/build/pilz_industrial_motion_planner' returned '0': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/zx/ws_moveit2/install/moveit_ros_planning_interface:/home/zx/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/zx/ws_moveit2/install/moveit_ros_move_group:/home/zx/ws_moveit2/install/moveit_ros_warehouse:/home/zx/ws_moveit2/install/moveit_kinematics:/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/moveit_configs_utils:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_prbt_support:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_common:/home/zx/ws_moveit2/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/zx/ws_moveit2/install/moveit_ros_planning_interface:/home/zx/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/zx/ws_moveit2/install/moveit_ros_move_group:/home/zx/ws_moveit2/install/moveit_ros_warehouse:/home/zx/ws_moveit2/install/moveit_kinematics:/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_prbt_support:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/zx/ws_moveit2/install/moveit_ros_move_group/lib:/home/zx/ws_moveit2/install/moveit_ros_warehouse/lib:/home/zx/ws_moveit2/install/moveit_kinematics/lib:/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/zx/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zx/ws_moveit2/build/pilz_industrial_motion_planner

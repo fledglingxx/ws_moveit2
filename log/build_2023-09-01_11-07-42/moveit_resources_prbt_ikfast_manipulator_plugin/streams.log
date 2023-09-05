@@ -1,0 +1,44 @@
+[0.016s] Invoking command in '/home/zx/ws_moveit2/build/moveit_resources_prbt_ikfast_manipulator_plugin': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zx/ws_moveit2/src/moveit2/moveit_planners/test_configs/prbt_ikfast_manipulator_plugin -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/zx/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin
+[0.051s] -- The C compiler identification is GNU 11.4.0
+[0.095s] -- The CXX compiler identification is GNU 11.4.0
+[0.103s] -- Detecting C compiler ABI info
+[0.156s] -- Detecting C compiler ABI info - done
+[0.161s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.161s] -- Detecting C compile features
+[0.161s] -- Detecting C compile features - done
+[0.164s] -- Detecting CXX compiler ABI info
+[0.228s] -- Detecting CXX compiler ABI info - done
+[0.233s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.234s] -- Detecting CXX compile features
+[0.234s] -- Detecting CXX compile features - done
+[0.236s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.392s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.473s] -- Found moveit_core: 2.5.4 (/home/zx/ws_moveit2/install/moveit_core/share/moveit_core/cmake)
+[0.619s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.633s] -- Found parameter_traits: 0.3.6 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.678s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.682s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.689s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.701s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.719s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.775s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.777s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.850s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.872s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.913s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.922s] -- Found Threads: TRUE  
+[1.132s] -- Found rclcpp_lifecycle: 16.0.5 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.193s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.346s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.609s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.609s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.947s] -- Found tf2_kdl: 0.25.3 (/opt/ros/humble/share/tf2_kdl/cmake)
+[2.966s] -- Found tf2_eigen_kdl: 0.25.3 (/opt/ros/humble/share/tf2_eigen_kdl/cmake)
+[3.035s] -- Configuring done
+[3.077s] -- Generating done
+[3.080s] -- Build files have been written to: /home/zx/ws_moveit2/build/moveit_resources_prbt_ikfast_manipulator_plugin
+[3.100s] Invoked command in '/home/zx/ws_moveit2/build/moveit_resources_prbt_ikfast_manipulator_plugin' returned '0': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zx/ws_moveit2/src/moveit2/moveit_planners/test_configs/prbt_ikfast_manipulator_plugin -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/zx/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin
+[3.102s] Invoking command in '/home/zx/ws_moveit2/build/moveit_resources_prbt_ikfast_manipulator_plugin': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zx/ws_moveit2/build/moveit_resources_prbt_ikfast_manipulator_plugin -- -j12 -l12
+[3.147s] [ 50%] [32mBuilding CXX object CMakeFiles/prbt_manipulator_moveit_ikfast_plugin.dir/src/prbt_manipulator_ikfast_moveit_plugin.cpp.o[0m
+[34.265s] [100%] [32m[1mLinking CXX shared library libprbt_manipulator_moveit_ikfast_plugin.so[0m
+[34.389s] [100%] Built target prbt_manipulator_moveit_ikfast_plugin

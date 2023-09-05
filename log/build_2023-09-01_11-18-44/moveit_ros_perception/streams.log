@@ -1,0 +1,22 @@
+[0.020s] Invoking command in '/home/zx/ws_moveit2/build/moveit_ros_perception': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zx/ws_moveit2/build/moveit_ros_perception -- -j12 -l12
+[0.058s] [35m[1mConsolidate compiler generated dependencies of target moveit_lazy_free_space_updater[0m
+[0.070s] [ 10%] Built target moveit_lazy_free_space_updater
+[0.087s] [ 15%] [32mBuilding CXX object semantic_world/CMakeFiles/moveit_semantic_world.dir/src/semantic_world.cpp.o[0m
+[18.226s] [ 20%] [32m[1mLinking CXX shared library libmoveit_semantic_world.so[0m
+[18.537s] [ 20%] Built target moveit_semantic_world
+[18.550s] [35m[1mConsolidate compiler generated dependencies of target moveit_mesh_filter[0m
+[18.575s] [ 50%] Built target moveit_mesh_filter
+[18.586s] [35m[1mConsolidate compiler generated dependencies of target moveit_point_containment_filter[0m
+[18.605s] [ 60%] Built target moveit_point_containment_filter
+[18.628s] [ 65%] [32mBuilding CXX object depth_image_octomap_updater/CMakeFiles/moveit_depth_image_octomap_updater_core.dir/src/depth_image_octomap_updater.cpp.o[0m
+[25.155s] [ 70%] [32m[1mLinking CXX shared library libmoveit_depth_image_octomap_updater_core.so[0m
+[25.346s] [ 70%] Built target moveit_depth_image_octomap_updater_core
+[25.369s] [ 75%] [32mBuilding CXX object pointcloud_octomap_updater/CMakeFiles/moveit_pointcloud_octomap_updater_core.dir/src/pointcloud_octomap_updater.cpp.o[0m
+[37.420s] [ 80%] [32m[1mLinking CXX shared library libmoveit_pointcloud_octomap_updater_core.so[0m
+[37.655s] [ 80%] Built target moveit_pointcloud_octomap_updater_core
+[37.675s] [ 85%] [32mBuilding CXX object depth_image_octomap_updater/CMakeFiles/moveit_depth_image_octomap_updater.dir/src/updater_plugin.cpp.o[0m
+[42.219s] [ 90%] [32m[1mLinking CXX shared library libmoveit_depth_image_octomap_updater.so[0m
+[42.354s] [ 90%] Built target moveit_depth_image_octomap_updater
+[42.376s] [ 95%] [32mBuilding CXX object pointcloud_octomap_updater/CMakeFiles/moveit_pointcloud_octomap_updater.dir/src/plugin_init.cpp.o[0m
+[45.818s] [100%] [32m[1mLinking CXX shared library libmoveit_pointcloud_octomap_updater.so[0m
+[45.952s] [100%] Built target moveit_pointcloud_octomap_updater

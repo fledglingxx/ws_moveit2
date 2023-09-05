@@ -1,0 +1,52 @@
+[0.019s] Invoking command in '/home/zx/ws_moveit2/build/moveit_visual_tools': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zx/ws_moveit2/build/moveit_visual_tools -- -j12 -l12
+[0.063s] [ 16%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o[0m
+[19.775s] [ 33%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/imarker_end_effector.cpp.o[0m
+[31.176s] [ 50%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/imarker_robot_state.cpp.o[0m
+[42.704s] [ 66%] [32m[1mLinking CXX shared library libmoveit_visual_tools.so[0m
+[43.172s] [ 66%] Built target moveit_visual_tools
+[43.191s] [ 83%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools_demo.dir/src/moveit_visual_tools_demo.cpp.o[0m
+[55.926s] [100%] [32m[1mLinking CXX executable moveit_visual_tools_demo[0m
+[56.300s] [100%] Built target moveit_visual_tools_demo
+[56.310s] Invoked command in '/home/zx/ws_moveit2/build/moveit_visual_tools' returned '0': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zx/ws_moveit2/build/moveit_visual_tools -- -j12 -l12
+[56.331s] Invoking command in '/home/zx/ws_moveit2/build/moveit_visual_tools': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zx/ws_moveit2/build/moveit_visual_tools
+[56.337s] -- Install configuration: "Release"
+[56.337s] -- Installing: /home/zx/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/environment/library_path.sh
+[56.337s] -- Installing: /home/zx/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/environment/library_path.dsv
+[56.338s] -- Installing: /home/zx/ws_moveit2/install/moveit_visual_tools/lib/libmoveit_visual_tools.so
+[56.339s] -- Set runtime path of "/home/zx/ws_moveit2/install/moveit_visual_tools/lib/libmoveit_visual_tools.so" to ""
+[56.339s] -- Installing: /home/zx/ws_moveit2/install/moveit_visual_tools/lib/moveit_visual_tools/moveit_visual_tools_demo
+[56.339s] -- Set runtime path of "/home/zx/ws_moveit2/install/moveit_visual_tools/lib/moveit_visual_tools/moveit_visual_tools_demo" to ""
+[56.339s] -- Installing: /home/zx/ws_moveit2/install/moveit_visual_tools/include
+[56.339s] -- Installing: /home/zx/ws_moveit2/install/moveit_visual_tools/include/moveit_visual_tools
+[56.339s] -- Installing: /home/zx/ws_moveit2/install/moveit_visual_tools/include/moveit_visual_tools/imarker_robot_state.h
+[56.339s] -- Installing: /home/zx/ws_moveit2/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h
+[56.339s] -- Installing: /home/zx/ws_moveit2/install/moveit_visual_tools/include/moveit_visual_tools/imarker_end_effector.h
+[56.339s] -- Installing: /home/zx/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/launch
+[56.339s] -- Installing: /home/zx/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/launch/demo.rviz
+[56.340s] -- Installing: /home/zx/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/launch/demo_rviz.launch.py
+[56.340s] -- Installing: /home/zx/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/resources
+[56.340s] -- Installing: /home/zx/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/resources/rrbot.urdf
+[56.340s] -- Installing: /home/zx/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/resources/demo.png
+[56.340s] -- Installing: /home/zx/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/resources/demo_mesh.stl
+[56.341s] -- Installing: /home/zx/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/resources/rrbot.srdf
+[56.341s] -- Installing: /home/zx/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/resources/screenshot.png
+[56.341s] -- Installing: /home/zx/ws_moveit2/install/moveit_visual_tools/share/ament_index/resource_index/package_run_dependencies/moveit_visual_tools
+[56.341s] -- Installing: /home/zx/ws_moveit2/install/moveit_visual_tools/share/ament_index/resource_index/parent_prefix_path/moveit_visual_tools
+[56.341s] -- Installing: /home/zx/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/environment/ament_prefix_path.sh
+[56.342s] -- Installing: /home/zx/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/environment/ament_prefix_path.dsv
+[56.342s] -- Installing: /home/zx/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/environment/path.sh
+[56.342s] -- Installing: /home/zx/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/environment/path.dsv
+[56.342s] -- Installing: /home/zx/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/local_setup.bash
+[56.342s] -- Installing: /home/zx/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/local_setup.sh
+[56.342s] -- Installing: /home/zx/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/local_setup.zsh
+[56.342s] -- Installing: /home/zx/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/local_setup.dsv
+[56.342s] -- Installing: /home/zx/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/package.dsv
+[56.342s] -- Installing: /home/zx/ws_moveit2/install/moveit_visual_tools/share/ament_index/resource_index/packages/moveit_visual_tools
+[56.343s] -- Installing: /home/zx/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/cmake/export_moveit_visual_toolsExport.cmake
+[56.343s] -- Installing: /home/zx/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/cmake/export_moveit_visual_toolsExport-release.cmake
+[56.343s] -- Installing: /home/zx/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/cmake/ament_cmake_export_targets-extras.cmake
+[56.343s] -- Installing: /home/zx/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[56.343s] -- Installing: /home/zx/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/cmake/moveit_visual_toolsConfig.cmake
+[56.343s] -- Installing: /home/zx/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/cmake/moveit_visual_toolsConfig-version.cmake
+[56.344s] -- Installing: /home/zx/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/package.xml
+[56.347s] Invoked command in '/home/zx/ws_moveit2/build/moveit_visual_tools' returned '0': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zx/ws_moveit2/build/moveit_visual_tools

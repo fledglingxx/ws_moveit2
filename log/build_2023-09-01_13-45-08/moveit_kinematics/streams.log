@@ -1,0 +1,126 @@
+[0.020s] Invoking command in '/home/zx/ws_moveit2/build/moveit_kinematics': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/zx/ws_moveit2/install/moveit_configs_utils:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_resources_fanuc_description:/home/zx/ws_moveit2/install/moveit_common:/home/zx/ws_moveit2/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_resources_fanuc_description:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/zx/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zx/ws_moveit2/build/moveit_kinematics -- -j12 -l12
+[0.061s] [  5%] [32mBuilding CXX object cached_ik_kinematics_plugin/CMakeFiles/moveit_cached_ik_kinematics_base.dir/src/ik_cache.cpp.o[0m
+[10.250s] [ 10%] [32m[1mLinking CXX shared library libmoveit_cached_ik_kinematics_base.so[0m
+[10.481s] [ 10%] Built target moveit_cached_ik_kinematics_base
+[10.499s] [ 15%] [32mBuilding CXX object test/CMakeFiles/benchmark_ik.dir/benchmark_ik.cpp.o[0m
+[18.403s] [ 21%] [32m[1mLinking CXX executable benchmark_ik[0m
+[18.687s] [ 21%] Built target benchmark_ik
+[18.697s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[18.709s] [ 31%] Built target gtest
+[18.719s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[18.731s] [ 42%] Built target gtest_main
+[18.750s] [ 47%] [32mBuilding CXX object lma_kinematics_plugin/CMakeFiles/moveit_lma_kinematics_plugin.dir/src/lma_kinematics_plugin.cpp.o[0m
+[25.418s] [ 52%] [32m[1mLinking CXX shared library libmoveit_lma_kinematics_plugin.so[0m
+[25.577s] [ 52%] Built target moveit_lma_kinematics_plugin
+[25.587s] [35m[1mConsolidate compiler generated dependencies of target moveit_kdl_kinematics_plugin[0m
+[25.599s] [ 57%] [32mBuilding CXX object kdl_kinematics_plugin/CMakeFiles/moveit_kdl_kinematics_plugin.dir/src/kdl_kinematics_plugin.cpp.o[0m
+[32.529s] [ 63%] [32m[1mLinking CXX shared library libmoveit_kdl_kinematics_plugin.so[0m
+[32.677s] [ 68%] Built target moveit_kdl_kinematics_plugin
+[32.696s] [ 73%] [32mBuilding CXX object srv_kinematics_plugin/CMakeFiles/moveit_srv_kinematics_plugin.dir/src/srv_kinematics_plugin.cpp.o[0m
+[39.139s] [ 78%] [32m[1mLinking CXX shared library libmoveit_srv_kinematics_plugin.so[0m
+[39.284s] [ 78%] Built target moveit_srv_kinematics_plugin
+[39.317s] [ 84%] [32mBuilding CXX object test/CMakeFiles/test_kinematics_plugin.dir/test_kinematics_plugin.cpp.o[0m
+[59.072s] [ 89%] [32m[1mLinking CXX executable test_kinematics_plugin[0m
+[59.333s] [ 89%] Built target test_kinematics_plugin
+[59.349s] [ 94%] [32mBuilding CXX object cached_ik_kinematics_plugin/CMakeFiles/moveit_cached_ik_kinematics_plugin.dir/src/cached_ik_kinematics_plugin.cpp.o[0m
+[64.714s] [100%] [32m[1mLinking CXX shared library libmoveit_cached_ik_kinematics_plugin.so[0m
+[64.856s] [100%] Built target moveit_cached_ik_kinematics_plugin
+[64.865s] Invoked command in '/home/zx/ws_moveit2/build/moveit_kinematics' returned '0': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/zx/ws_moveit2/install/moveit_configs_utils:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_resources_fanuc_description:/home/zx/ws_moveit2/install/moveit_common:/home/zx/ws_moveit2/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_resources_fanuc_description:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/zx/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zx/ws_moveit2/build/moveit_kinematics -- -j12 -l12
+[64.884s] Invoking command in '/home/zx/ws_moveit2/build/moveit_kinematics': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/zx/ws_moveit2/install/moveit_configs_utils:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_resources_fanuc_description:/home/zx/ws_moveit2/install/moveit_common:/home/zx/ws_moveit2/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_resources_fanuc_description:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/zx/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zx/ws_moveit2/build/moveit_kinematics
+[64.889s] -- Install configuration: "Release"
+[64.890s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/kdl_kinematics_plugin_description.xml
+[64.890s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/lma_kinematics_plugin_description.xml
+[64.890s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/srv_kinematics_plugin_description.xml
+[64.890s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/cached_ik_kinematics_plugin_description.xml
+[64.890s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/include
+[64.890s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/include/moveit
+[64.890s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/include/moveit/cached_ik_kinematics_plugin
+[64.890s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/include/moveit/cached_ik_kinematics_plugin/detail
+[64.891s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/include/moveit/cached_ik_kinematics_plugin/detail/GreedyKCenters.h
+[64.891s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/include/moveit/cached_ik_kinematics_plugin/detail/NearestNeighborsGNAT.h
+[64.891s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/include/moveit/cached_ik_kinematics_plugin/detail/NearestNeighbors.h
+[64.891s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/include/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_plugin.h
+[64.891s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/include/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_plugin-inl.h
+[64.891s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/launch
+[64.891s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/launch/measure_ik_call_cost.launch
+[64.892s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/lib/moveit_kinematics/auto_create_ikfast_moveit_plugin.sh
+[64.892s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/lib/moveit_kinematics/create_ikfast_moveit_plugin.py
+[64.892s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/lib/moveit_kinematics/round_collada_numbers.py
+[64.892s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates
+[64.892s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates/ikfast.h
+[64.892s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates/CMakeLists.txt
+[64.892s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates/ikfast61_moveit_plugin_template.cpp
+[64.893s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_kinematics/include
+[64.893s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_kinematics/include/moveit
+[64.893s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/include/moveit/kdl_kinematics_plugin
+[64.893s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/include/moveit/kdl_kinematics_plugin/chainiksolver_vel_mimic_svd.hpp
+[64.893s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/include/moveit/kdl_kinematics_plugin/joint_mimic.hpp
+[64.893s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/include/moveit/kdl_kinematics_plugin/kdl_kinematics_plugin.h
+[64.893s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_kinematics/include
+[64.893s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_kinematics/include/moveit
+[64.893s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/include/moveit/lma_kinematics_plugin
+[64.893s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/include/moveit/lma_kinematics_plugin/lma_kinematics_plugin.h
+[64.894s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_kinematics/include
+[64.894s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_kinematics/include/moveit
+[64.894s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/include/moveit/srv_kinematics_plugin
+[64.894s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/include/moveit/srv_kinematics_plugin/srv_kinematics_plugin.h
+[64.894s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/config
+[64.894s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/config/fanuc-lma-singular-test.yaml
+[64.894s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/config/panda-kdl-test.yaml
+[64.894s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/config/panda-lma-test.yaml
+[64.895s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/config/panda-kdl-singular-test.yaml
+[64.895s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/config/panda-lma-singular-test.yaml
+[64.895s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/config/fanuc-kdl-singular-test.yaml
+[64.895s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/config/fanuc-lma-test.yaml
+[64.895s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/config/fanuc-kdl-test.yaml
+[64.895s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/launch
+[64.895s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/launch/fanuc-lma.test.py
+[64.895s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/launch/fanuc-lma-singular.test.py
+[64.895s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/launch/fanuc-kdl.test.py
+[64.896s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/launch/panda-lma-singular.test.py
+[64.896s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/launch/fanuc-kdl-singular.test.py
+[64.896s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/launch/panda-kdl-singular.test.py
+[64.896s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/launch/panda-kdl.test.py
+[64.896s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/launch/panda-lma.test.py
+[64.896s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/lib/moveit_kinematics/benchmark_ik
+[64.897s] -- Set runtime path of "/home/zx/ws_moveit2/install/moveit_kinematics/lib/moveit_kinematics/benchmark_ik" to ""
+[64.897s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/lib/moveit_kinematics/test_kinematics_plugin
+[64.898s] -- Set runtime path of "/home/zx/ws_moveit2/install/moveit_kinematics/lib/moveit_kinematics/test_kinematics_plugin" to ""
+[64.898s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_base.so.2.5.4
+[64.898s] -- Set runtime path of "/home/zx/ws_moveit2/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_base.so.2.5.4" to ""
+[64.898s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_base.so
+[64.898s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_plugin.so.2.5.4
+[64.898s] -- Set runtime path of "/home/zx/ws_moveit2/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_plugin.so.2.5.4" to ""
+[64.898s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_plugin.so
+[64.899s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/lib/libmoveit_kdl_kinematics_plugin.so
+[64.899s] -- Set runtime path of "/home/zx/ws_moveit2/install/moveit_kinematics/lib/libmoveit_kdl_kinematics_plugin.so" to ""
+[64.899s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/lib/libmoveit_lma_kinematics_plugin.so.2.5.4
+[64.899s] -- Set runtime path of "/home/zx/ws_moveit2/install/moveit_kinematics/lib/libmoveit_lma_kinematics_plugin.so.2.5.4" to ""
+[64.899s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/lib/libmoveit_lma_kinematics_plugin.so
+[64.899s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/lib/libmoveit_srv_kinematics_plugin.so.2.5.4
+[64.900s] -- Set runtime path of "/home/zx/ws_moveit2/install/moveit_kinematics/lib/libmoveit_srv_kinematics_plugin.so.2.5.4" to ""
+[64.900s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/lib/libmoveit_srv_kinematics_plugin.so
+[64.900s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/environment/library_path.sh
+[64.900s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/environment/library_path.dsv
+[64.900s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/ament_index/resource_index/package_run_dependencies/moveit_kinematics
+[64.900s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/ament_index/resource_index/parent_prefix_path/moveit_kinematics
+[64.900s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/environment/ament_prefix_path.sh
+[64.901s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/environment/ament_prefix_path.dsv
+[64.901s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/environment/path.sh
+[64.901s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/environment/path.dsv
+[64.901s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/local_setup.bash
+[64.901s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/local_setup.sh
+[64.901s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/local_setup.zsh
+[64.901s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/local_setup.dsv
+[64.901s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/package.dsv
+[64.901s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/ament_index/resource_index/packages/moveit_kinematics
+[64.901s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_kinematics
+[64.902s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/cmake/export_moveit_kinematicsExport.cmake
+[64.902s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/cmake/export_moveit_kinematicsExport-release.cmake
+[64.902s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/cmake/ConfigExtras.cmake
+[64.902s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/cmake/ament_cmake_export_targets-extras.cmake
+[64.903s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/cmake/ament_cmake_export_dependencies-extras.cmake
+[64.903s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/cmake/moveit_kinematicsConfig.cmake
+[64.903s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/cmake/moveit_kinematicsConfig-version.cmake
+[64.903s] -- Installing: /home/zx/ws_moveit2/install/moveit_kinematics/share/moveit_kinematics/package.xml
+[64.906s] Invoked command in '/home/zx/ws_moveit2/build/moveit_kinematics' returned '0': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/zx/ws_moveit2/install/moveit_configs_utils:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_resources_fanuc_description:/home/zx/ws_moveit2/install/moveit_common:/home/zx/ws_moveit2/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_resources_panda_description:/home/zx/ws_moveit2/install/moveit_resources_fanuc_description:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/zx/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zx/ws_moveit2/build/moveit_kinematics

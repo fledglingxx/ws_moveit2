@@ -1,0 +1,9 @@
+/home/zx/ws_moveit2/build/urdf_2/CMakeFiles/uninstall.dir
+/home/zx/ws_moveit2/build/urdf_2/CMakeFiles/urdf_2_uninstall.dir
+/home/zx/ws_moveit2/build/urdf_2/CMakeFiles/test.dir
+/home/zx/ws_moveit2/build/urdf_2/CMakeFiles/edit_cache.dir
+/home/zx/ws_moveit2/build/urdf_2/CMakeFiles/rebuild_cache.dir
+/home/zx/ws_moveit2/build/urdf_2/CMakeFiles/list_install_components.dir
+/home/zx/ws_moveit2/build/urdf_2/CMakeFiles/install.dir
+/home/zx/ws_moveit2/build/urdf_2/CMakeFiles/install/local.dir
+/home/zx/ws_moveit2/build/urdf_2/CMakeFiles/install/strip.dir

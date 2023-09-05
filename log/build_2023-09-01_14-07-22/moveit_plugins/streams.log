@@ -1,0 +1,43 @@
+[0.014s] Invoking command in '/home/zx/ws_moveit2/build/moveit_plugins': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_simple_controller_manager:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_simple_controller_manager:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zx/ws_moveit2/src/moveit2/moveit_plugins/moveit_plugins -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/zx/ws_moveit2/install/moveit_plugins
+[0.076s] -- The C compiler identification is GNU 11.4.0
+[0.139s] -- The CXX compiler identification is GNU 11.4.0
+[0.149s] -- Detecting C compiler ABI info
+[0.221s] -- Detecting C compiler ABI info - done
+[0.231s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.232s] -- Detecting C compile features
+[0.232s] -- Detecting C compile features - done
+[0.236s] -- Detecting CXX compiler ABI info
+[0.317s] -- Detecting CXX compiler ABI info - done
+[0.325s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.325s] -- Detecting CXX compile features
+[0.326s] -- Detecting CXX compile features - done
+[0.329s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.523s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.640s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.721s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.722s] -- Added test 'lint_cmake' to check CMake code style
+[0.723s] -- Added test 'xmllint' to check XML markup files
+[0.724s] -- Configuring done
+[0.727s] -- Generating done
+[0.728s] -- Build files have been written to: /home/zx/ws_moveit2/build/moveit_plugins
+[0.732s] Invoked command in '/home/zx/ws_moveit2/build/moveit_plugins' returned '0': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_simple_controller_manager:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_simple_controller_manager:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zx/ws_moveit2/src/moveit2/moveit_plugins/moveit_plugins -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/zx/ws_moveit2/install/moveit_plugins
+[0.734s] Invoking command in '/home/zx/ws_moveit2/build/moveit_plugins': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_simple_controller_manager:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_simple_controller_manager:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zx/ws_moveit2/build/moveit_plugins -- -j12 -l12
+[0.771s] Invoked command in '/home/zx/ws_moveit2/build/moveit_plugins' returned '0': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_simple_controller_manager:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_simple_controller_manager:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zx/ws_moveit2/build/moveit_plugins -- -j12 -l12
+[0.790s] Invoking command in '/home/zx/ws_moveit2/build/moveit_plugins': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_simple_controller_manager:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_simple_controller_manager:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zx/ws_moveit2/build/moveit_plugins
+[0.797s] -- Install configuration: "Release"
+[0.797s] -- Installing: /home/zx/ws_moveit2/install/moveit_plugins/share/ament_index/resource_index/package_run_dependencies/moveit_plugins
+[0.797s] -- Installing: /home/zx/ws_moveit2/install/moveit_plugins/share/ament_index/resource_index/parent_prefix_path/moveit_plugins
+[0.798s] -- Installing: /home/zx/ws_moveit2/install/moveit_plugins/share/moveit_plugins/environment/ament_prefix_path.sh
+[0.798s] -- Installing: /home/zx/ws_moveit2/install/moveit_plugins/share/moveit_plugins/environment/ament_prefix_path.dsv
+[0.798s] -- Installing: /home/zx/ws_moveit2/install/moveit_plugins/share/moveit_plugins/environment/path.sh
+[0.798s] -- Installing: /home/zx/ws_moveit2/install/moveit_plugins/share/moveit_plugins/environment/path.dsv
+[0.798s] -- Installing: /home/zx/ws_moveit2/install/moveit_plugins/share/moveit_plugins/local_setup.bash
+[0.798s] -- Installing: /home/zx/ws_moveit2/install/moveit_plugins/share/moveit_plugins/local_setup.sh
+[0.798s] -- Installing: /home/zx/ws_moveit2/install/moveit_plugins/share/moveit_plugins/local_setup.zsh
+[0.798s] -- Installing: /home/zx/ws_moveit2/install/moveit_plugins/share/moveit_plugins/local_setup.dsv
+[0.798s] -- Installing: /home/zx/ws_moveit2/install/moveit_plugins/share/moveit_plugins/package.dsv
+[0.798s] -- Installing: /home/zx/ws_moveit2/install/moveit_plugins/share/ament_index/resource_index/packages/moveit_plugins
+[0.799s] -- Installing: /home/zx/ws_moveit2/install/moveit_plugins/share/moveit_plugins/cmake/moveit_pluginsConfig.cmake
+[0.799s] -- Installing: /home/zx/ws_moveit2/install/moveit_plugins/share/moveit_plugins/cmake/moveit_pluginsConfig-version.cmake
+[0.799s] -- Installing: /home/zx/ws_moveit2/install/moveit_plugins/share/moveit_plugins/package.xml
+[0.803s] Invoked command in '/home/zx/ws_moveit2/build/moveit_plugins' returned '0': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_simple_controller_manager:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_simple_controller_manager:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zx/ws_moveit2/build/moveit_plugins

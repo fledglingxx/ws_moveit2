@@ -1,0 +1,22 @@
+[  2%] Built target gtest_main
+[  5%] Built target gmock_main
+[  7%] Built target gtest
+[ 11%] Built target gmock
+[ 32%] Built target moveit_task_constructor_core
+[ 38%] Built target gtest_utils
+[ 60%] Built target moveit_task_constructor_core_stages
+[ 63%] Built target moveit_task_constructor_core_stage_plugins
+[ 65%] Built target moveit_task_constructor_core-test-serial
+[ 68%] Built target moveit_task_constructor_core-test-interface-state
+[ 71%] Built target moveit_task_constructor_core-test-pruning
+[ 76%] Built target moveit_task_constructor_core-test-move-relative
+[ 78%] Built target moveit_task_constructor_core-test-stage
+[ 73%] Built target moveit_task_constructor_core-test-container
+[ 81%] Built target moveit_task_constructor_core-test-fallback
+[ 84%] Built target moveit_task_constructor_core-test-move-to
+[ 86%] Built target moveit_task_constructor_core-test-cost-queue
+[ 89%] Built target moveit_task_constructor_core-test-properties
+[ 92%] Built target moveit_task_constructor_core-test-cost-terms
+[ 94%] Built target pick_ur5
+[ 97%] Built target pick_pr2
+[100%] Built target pick_pa10

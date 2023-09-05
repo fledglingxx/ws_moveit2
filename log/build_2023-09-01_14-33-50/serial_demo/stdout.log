@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target serial_demo[0m
+[100%] Built target serial_demo
+-- Install configuration: "Release"
+-- Installing: /home/zx/ws_moveit2/install/serial_demo/share/ament_index/resource_index/package_run_dependencies/serial_demo
+-- Installing: /home/zx/ws_moveit2/install/serial_demo/share/ament_index/resource_index/parent_prefix_path/serial_demo
+-- Installing: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/environment/ament_prefix_path.sh
+-- Installing: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/environment/ament_prefix_path.dsv
+-- Installing: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/environment/path.sh
+-- Installing: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/environment/path.dsv
+-- Installing: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/local_setup.bash
+-- Installing: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/local_setup.sh
+-- Installing: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/local_setup.zsh
+-- Installing: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/local_setup.dsv
+-- Installing: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/package.dsv
+-- Installing: /home/zx/ws_moveit2/install/serial_demo/share/ament_index/resource_index/packages/serial_demo
+-- Installing: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/cmake/serial_demoConfig.cmake
+-- Installing: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/cmake/serial_demoConfig-version.cmake
+-- Installing: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/package.xml
+-- Installing: /home/zx/ws_moveit2/install/serial_demo/lib/serial_demo/serial_demo
+-- Set runtime path of "/home/zx/ws_moveit2/install/serial_demo/lib/serial_demo/serial_demo" to ""

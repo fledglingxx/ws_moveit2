@@ -1,0 +1,22 @@
+[0.053s] Invoking command in '/home/zx/ws_moveit2/build/serial_demo': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zx/ws_moveit2/build/serial_demo -- -j12 -l12
+[0.102s] [100%] Built target serial_demo
+[0.138s] Invoked command in '/home/zx/ws_moveit2/build/serial_demo' returned '0': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zx/ws_moveit2/build/serial_demo -- -j12 -l12
+[0.200s] Invoking command in '/home/zx/ws_moveit2/build/serial_demo': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zx/ws_moveit2/build/serial_demo
+[0.218s] -- Install configuration: "Release"
+[0.218s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/ament_index/resource_index/package_run_dependencies/serial_demo
+[0.218s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/ament_index/resource_index/parent_prefix_path/serial_demo
+[0.218s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/environment/ament_prefix_path.sh
+[0.218s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/environment/ament_prefix_path.dsv
+[0.218s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/environment/path.sh
+[0.218s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/environment/path.dsv
+[0.219s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/local_setup.bash
+[0.219s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/local_setup.sh
+[0.219s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/local_setup.zsh
+[0.219s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/local_setup.dsv
+[0.219s] -- Installing: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/package.dsv
+[0.219s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/ament_index/resource_index/packages/serial_demo
+[0.219s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/cmake/serial_demoConfig.cmake
+[0.219s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/cmake/serial_demoConfig-version.cmake
+[0.219s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/share/serial_demo/package.xml
+[0.219s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_demo/lib/serial_demo/serial_demo
+[0.232s] Invoked command in '/home/zx/ws_moveit2/build/serial_demo' returned '0': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zx/ws_moveit2/build/serial_demo

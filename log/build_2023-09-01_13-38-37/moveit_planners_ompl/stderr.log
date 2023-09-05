@@ -1,0 +1,8 @@
+[0mmoveit_planners_ompl: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[K已杀死 signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [ompl_interface/CMakeFiles/moveit_ompl_interface.dir/build.make:174：ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/parameterization/joint_space/joint_model_state_space.cpp.o] 错误 1
+gmake[2]: *** 正在等待未完成的任务....
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[K已杀死 signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [ompl_interface/CMakeFiles/moveit_ompl_interface.dir/build.make:146：ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/parameterization/joint_space/constrained_planning_state_space.cpp.o] 错误 1

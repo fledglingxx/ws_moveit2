@@ -1,0 +1,3 @@
+Invoking command in '/home/zx/ws_moveit2/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zx/ws_moveit2/src/rosparam_shortcuts -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/zx/ws_moveit2/install/rosparam_shortcuts
+Invoked command in '/home/zx/ws_moveit2/build/rosparam_shortcuts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zx/ws_moveit2/src/rosparam_shortcuts -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/zx/ws_moveit2/install/rosparam_shortcuts
+Invoking command in '/home/zx/ws_moveit2/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zx/ws_moveit2/build/rosparam_shortcuts -- -j12 -l12

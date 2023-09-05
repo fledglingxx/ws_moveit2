@@ -1,0 +1,68 @@
+[0.014s] Invoking command in '/home/zx/ws_moveit2/src/build/moveit_core': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/src/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/src/install/srdfdom:/home/zx/ws_moveit2/src/install/moveit_resources_pr2_description:/home/zx/ws_moveit2/src/install/moveit_resources_panda_description:/home/zx/ws_moveit2/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/src/install/moveit_resources_panda_moveit_config:/home/zx/ws_moveit2/src/install/srdfdom:/home/zx/ws_moveit2/src/install/moveit_resources_pr2_description:/home/zx/ws_moveit2/src/install/moveit_resources_panda_description:/home/zx/ws_moveit2/src/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zx/ws_moveit2/src/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zx/ws_moveit2/src/moveit2/moveit_core -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/zx/ws_moveit2/src/install/moveit_core
+[0.079s] -- The CXX compiler identification is GNU 11.4.0
+[0.088s] -- Detecting CXX compiler ABI info
+[0.157s] -- Detecting CXX compiler ABI info - done
+[0.163s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.163s] -- Detecting CXX compile features
+[0.164s] -- Detecting CXX compile features - done
+[0.165s] -- Found moveit_common: 2.5.4 (/home/zx/ws_moveit2/src/install/moveit_common/share/moveit_common/cmake)
+[0.167s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.321s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.470s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[0.474s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.474s] -- BACKWARD_HAS_UNWIND=1
+[0.474s] -- BACKWARD_HAS_BACKTRACE=0
+[0.475s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.475s] -- BACKWARD_HAS_DW=1
+[0.475s] -- BACKWARD_HAS_BFD=0
+[0.475s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.477s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.510s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.515s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.523s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.536s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.563s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.631s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.634s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.715s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.736s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.778s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.788s] -- Looking for C++ include pthread.h
+[0.878s] -- Looking for C++ include pthread.h - found
+[0.878s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.986s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.988s] -- Found Threads: TRUE  
+[1.164s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.172s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.177s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.178s] -- Checking for module 'fcl>=0.5.0'
+[1.208s] --   Found fcl, version 0.7.0
+[1.331s] -- Found Bullet: /usr/lib/x86_64-linux-gnu/libBulletDynamics.so (Required is at least version "2.87") 
+[1.333s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[1.355s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[1.399s] -- Found tf2_eigen: 0.25.3 (/opt/ros/humble/share/tf2_eigen/cmake)
+[1.928s] -- Found tf2_kdl: 0.25.3 (/opt/ros/humble/share/tf2_kdl/cmake)
+[1.950s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.968s] -- Found tf2_geometry_msgs: 0.25.3 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.989s] -- Found eigen_stl_containers: 1.0.0 (/opt/ros/humble/share/eigen_stl_containers/cmake)
+[2.010s] [31mCMake Error at CMakeLists.txt:34 (find_package):
+[2.010s]   By not providing "Findgenerate_parameter_library.cmake" in
+[2.010s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[2.010s]   configuration file provided by "generate_parameter_library", but CMake did
+[2.010s]   not find one.
+[2.010s] 
+[2.010s]   Could not find a package configuration file provided by
+[2.010s]   "generate_parameter_library" with any of the following names:
+[2.010s] 
+[2.010s]     generate_parameter_libraryConfig.cmake
+[2.010s]     generate_parameter_library-config.cmake
+[2.011s] 
+[2.011s]   Add the installation prefix of "generate_parameter_library" to
+[2.011s]   CMAKE_PREFIX_PATH or set "generate_parameter_library_DIR" to a directory
+[2.011s]   containing one of the above files.  If "generate_parameter_library"
+[2.011s]   provides a separate development package or SDK, be sure it has been
+[2.011s]   installed.
+[2.011s] 
+[2.011s] [0m
+[2.011s] -- Configuring incomplete, errors occurred!
+[2.011s] See also "/home/zx/ws_moveit2/src/build/moveit_core/CMakeFiles/CMakeOutput.log".

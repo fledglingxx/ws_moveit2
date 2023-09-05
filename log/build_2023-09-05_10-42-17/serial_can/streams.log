@@ -1,0 +1,24 @@
+[0.063s] Invoking command in '/home/zx/ws_moveit2/build/serial_can': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zx/ws_moveit2/build/serial_can -- -j12 -l12
+[0.154s] [100%] Built target serial_can
+[0.160s] Invoked command in '/home/zx/ws_moveit2/build/serial_can' returned '0': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zx/ws_moveit2/build/serial_can -- -j12 -l12
+[0.173s] Invoking command in '/home/zx/ws_moveit2/build/serial_can': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zx/ws_moveit2/build/serial_can
+[0.198s] -- Install configuration: "Release"
+[0.198s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_can/lib/libcontrolcan.so
+[0.198s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_can/lib/libmylibscan.so
+[0.198s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_can/lib/serial_can/serial_can
+[0.198s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_can/share/ament_index/resource_index/package_run_dependencies/serial_can
+[0.198s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_can/share/ament_index/resource_index/parent_prefix_path/serial_can
+[0.198s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_can/share/serial_can/environment/ament_prefix_path.sh
+[0.198s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_can/share/serial_can/environment/ament_prefix_path.dsv
+[0.198s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_can/share/serial_can/environment/path.sh
+[0.199s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_can/share/serial_can/environment/path.dsv
+[0.199s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_can/share/serial_can/local_setup.bash
+[0.199s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_can/share/serial_can/local_setup.sh
+[0.199s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_can/share/serial_can/local_setup.zsh
+[0.199s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_can/share/serial_can/local_setup.dsv
+[0.199s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_can/share/serial_can/package.dsv
+[0.199s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_can/share/ament_index/resource_index/packages/serial_can
+[0.199s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_can/share/serial_can/cmake/serial_canConfig.cmake
+[0.199s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_can/share/serial_can/cmake/serial_canConfig-version.cmake
+[0.199s] -- Up-to-date: /home/zx/ws_moveit2/install/serial_can/share/serial_can/package.xml
+[0.217s] Invoked command in '/home/zx/ws_moveit2/build/serial_can' returned '0': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zx/ws_moveit2/build/serial_can

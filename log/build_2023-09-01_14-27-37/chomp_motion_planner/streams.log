@@ -1,0 +1,37 @@
+[0.014s] Invoking command in '/home/zx/ws_moveit2/build/chomp_motion_planner': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zx/ws_moveit2/build/chomp_motion_planner -- -j12 -l12
+[0.069s] [100%] Built target chomp_motion_planner
+[0.079s] Invoked command in '/home/zx/ws_moveit2/build/chomp_motion_planner' returned '0': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zx/ws_moveit2/build/chomp_motion_planner -- -j12 -l12
+[0.130s] Invoking command in '/home/zx/ws_moveit2/build/chomp_motion_planner': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zx/ws_moveit2/build/chomp_motion_planner
+[0.137s] -- Install configuration: "Release"
+[0.137s] -- Up-to-date: /home/zx/ws_moveit2/install/chomp_motion_planner/lib/libchomp_motion_planner.so.2.5.4
+[0.137s] -- Up-to-date: /home/zx/ws_moveit2/install/chomp_motion_planner/lib/libchomp_motion_planner.so
+[0.137s] -- Up-to-date: /home/zx/ws_moveit2/install/chomp_motion_planner/include
+[0.137s] -- Up-to-date: /home/zx/ws_moveit2/install/chomp_motion_planner/include/chomp_motion_planner
+[0.138s] -- Up-to-date: /home/zx/ws_moveit2/install/chomp_motion_planner/include/chomp_motion_planner/chomp_cost.h
+[0.138s] -- Up-to-date: /home/zx/ws_moveit2/install/chomp_motion_planner/include/chomp_motion_planner/chomp_trajectory.h
+[0.138s] -- Up-to-date: /home/zx/ws_moveit2/install/chomp_motion_planner/include/chomp_motion_planner/multivariate_gaussian.h
+[0.139s] -- Up-to-date: /home/zx/ws_moveit2/install/chomp_motion_planner/include/chomp_motion_planner/chomp_parameters.h
+[0.139s] -- Up-to-date: /home/zx/ws_moveit2/install/chomp_motion_planner/include/chomp_motion_planner/chomp_planner.h
+[0.139s] -- Up-to-date: /home/zx/ws_moveit2/install/chomp_motion_planner/include/chomp_motion_planner/chomp_optimizer.h
+[0.140s] -- Up-to-date: /home/zx/ws_moveit2/install/chomp_motion_planner/include/chomp_motion_planner/chomp_utils.h
+[0.140s] -- Up-to-date: /home/zx/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/environment/library_path.sh
+[0.140s] -- Up-to-date: /home/zx/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/environment/library_path.dsv
+[0.140s] -- Up-to-date: /home/zx/ws_moveit2/install/chomp_motion_planner/share/ament_index/resource_index/package_run_dependencies/chomp_motion_planner
+[0.140s] -- Up-to-date: /home/zx/ws_moveit2/install/chomp_motion_planner/share/ament_index/resource_index/parent_prefix_path/chomp_motion_planner
+[0.140s] -- Up-to-date: /home/zx/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/environment/ament_prefix_path.sh
+[0.141s] -- Up-to-date: /home/zx/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/environment/ament_prefix_path.dsv
+[0.142s] -- Up-to-date: /home/zx/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/environment/path.sh
+[0.142s] -- Up-to-date: /home/zx/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/environment/path.dsv
+[0.142s] -- Up-to-date: /home/zx/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.bash
+[0.142s] -- Up-to-date: /home/zx/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.sh
+[0.142s] -- Up-to-date: /home/zx/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.zsh
+[0.142s] -- Up-to-date: /home/zx/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.dsv
+[0.142s] -- Installing: /home/zx/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/package.dsv
+[0.142s] -- Up-to-date: /home/zx/ws_moveit2/install/chomp_motion_planner/share/ament_index/resource_index/packages/chomp_motion_planner
+[0.142s] -- Up-to-date: /home/zx/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerTargetsExport.cmake
+[0.142s] -- Up-to-date: /home/zx/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerTargetsExport-release.cmake
+[0.142s] -- Up-to-date: /home/zx/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/cmake/ament_cmake_export_targets-extras.cmake
+[0.142s] -- Up-to-date: /home/zx/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerConfig.cmake
+[0.142s] -- Up-to-date: /home/zx/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerConfig-version.cmake
+[0.142s] -- Up-to-date: /home/zx/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/package.xml
+[0.152s] Invoked command in '/home/zx/ws_moveit2/build/chomp_motion_planner' returned '0': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zx/ws_moveit2/build/chomp_motion_planner

@@ -1,0 +1,57 @@
+[0.063s] Invoking command in '/home/zx/ws_moveit2/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zx/ws_moveit2/install/tihu_2:/home/zx/ws_moveit2/install/moveit_configs_utils:/home/zx/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/zx/ws_moveit2/build/srdfdom -- -j12 -l12
+[0.537s] [ 18%] Built target gtest_main
+[0.537s] [ 36%] Built target gtest
+[0.538s] [ 63%] Built target srdfdom
+[0.538s] [ 63%] Built target ament_cmake_python_copy_srdfdom
+[0.538s] [ 90%] Built target test_cpp_C
+[0.539s] [100%] Built target test_cpp_nl_NL.UTF-8
+[0.539s] running egg_info
+[0.539s] writing srdfdom.egg-info/PKG-INFO
+[0.540s] writing dependency_links to srdfdom.egg-info/dependency_links.txt
+[0.540s] writing top-level names to srdfdom.egg-info/top_level.txt
+[0.540s] reading manifest file 'srdfdom.egg-info/SOURCES.txt'
+[0.540s] writing manifest file 'srdfdom.egg-info/SOURCES.txt'
+[0.541s] [100%] Built target ament_cmake_python_build_srdfdom_egg
+[0.550s] Invoked command in '/home/zx/ws_moveit2/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zx/ws_moveit2/install/tihu_2:/home/zx/ws_moveit2/install/moveit_configs_utils:/home/zx/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/zx/ws_moveit2/build/srdfdom -- -j12 -l12
+[0.780s] Invoking command in '/home/zx/ws_moveit2/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zx/ws_moveit2/install/tihu_2:/home/zx/ws_moveit2/install/moveit_configs_utils:/home/zx/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/zx/ws_moveit2/build/srdfdom
+[0.804s] -- Install configuration: "Release"
+[0.804s] -- Up-to-date: /home/zx/ws_moveit2/install/srdfdom/lib/libsrdfdom.so.2.0.4
+[0.804s] -- Up-to-date: /home/zx/ws_moveit2/install/srdfdom/lib/libsrdfdom.so
+[0.804s] -- Up-to-date: /home/zx/ws_moveit2/install/srdfdom/include/srdfdom
+[0.804s] -- Up-to-date: /home/zx/ws_moveit2/install/srdfdom/include/srdfdom/srdf_writer.h
+[0.805s] -- Up-to-date: /home/zx/ws_moveit2/install/srdfdom/include/srdfdom/model.h
+[0.805s] -- Up-to-date: /home/zx/ws_moveit2/install/srdfdom/include/srdfdom/visibility_control.h
+[0.805s] -- Up-to-date: /home/zx/ws_moveit2/install/srdfdom/lib/srdfdom/display_srdf
+[0.805s] -- Up-to-date: /home/zx/ws_moveit2/install/srdfdom/share/srdfdom/environment/pythonpath.sh
+[0.805s] -- Up-to-date: /home/zx/ws_moveit2/install/srdfdom/share/srdfdom/environment/pythonpath.dsv
+[0.805s] -- Up-to-date: /home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info
+[0.805s] -- Installing: /home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/dependency_links.txt
+[0.805s] -- Installing: /home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/top_level.txt
+[0.805s] -- Installing: /home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/SOURCES.txt
+[0.806s] -- Installing: /home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/PKG-INFO
+[0.806s] -- Up-to-date: /home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom
+[0.806s] -- Up-to-date: /home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/__init__.py
+[0.806s] -- Up-to-date: /home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/srdf.py
+[0.847s] Listing '/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom'...
+[0.853s] -- Up-to-date: /home/zx/ws_moveit2/install/srdfdom/share/srdfdom/environment/library_path.sh
+[0.853s] -- Up-to-date: /home/zx/ws_moveit2/install/srdfdom/share/srdfdom/environment/library_path.dsv
+[0.854s] -- Up-to-date: /home/zx/ws_moveit2/install/srdfdom/share/ament_index/resource_index/package_run_dependencies/srdfdom
+[0.854s] -- Up-to-date: /home/zx/ws_moveit2/install/srdfdom/share/ament_index/resource_index/parent_prefix_path/srdfdom
+[0.854s] -- Up-to-date: /home/zx/ws_moveit2/install/srdfdom/share/srdfdom/environment/ament_prefix_path.sh
+[0.854s] -- Up-to-date: /home/zx/ws_moveit2/install/srdfdom/share/srdfdom/environment/ament_prefix_path.dsv
+[0.854s] -- Up-to-date: /home/zx/ws_moveit2/install/srdfdom/share/srdfdom/environment/path.sh
+[0.854s] -- Up-to-date: /home/zx/ws_moveit2/install/srdfdom/share/srdfdom/environment/path.dsv
+[0.854s] -- Up-to-date: /home/zx/ws_moveit2/install/srdfdom/share/srdfdom/local_setup.bash
+[0.854s] -- Up-to-date: /home/zx/ws_moveit2/install/srdfdom/share/srdfdom/local_setup.sh
+[0.854s] -- Up-to-date: /home/zx/ws_moveit2/install/srdfdom/share/srdfdom/local_setup.zsh
+[0.855s] -- Up-to-date: /home/zx/ws_moveit2/install/srdfdom/share/srdfdom/local_setup.dsv
+[0.855s] -- Installing: /home/zx/ws_moveit2/install/srdfdom/share/srdfdom/package.dsv
+[0.855s] -- Up-to-date: /home/zx/ws_moveit2/install/srdfdom/share/ament_index/resource_index/packages/srdfdom
+[0.855s] -- Up-to-date: /home/zx/ws_moveit2/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport.cmake
+[0.855s] -- Up-to-date: /home/zx/ws_moveit2/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport-release.cmake
+[0.855s] -- Up-to-date: /home/zx/ws_moveit2/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_targets-extras.cmake
+[0.855s] -- Up-to-date: /home/zx/ws_moveit2/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.855s] -- Up-to-date: /home/zx/ws_moveit2/install/srdfdom/share/srdfdom/cmake/srdfdomConfig.cmake
+[0.855s] -- Up-to-date: /home/zx/ws_moveit2/install/srdfdom/share/srdfdom/cmake/srdfdomConfig-version.cmake
+[0.855s] -- Up-to-date: /home/zx/ws_moveit2/install/srdfdom/share/srdfdom/package.xml
+[0.879s] Invoked command in '/home/zx/ws_moveit2/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zx/ws_moveit2/install/tihu_2:/home/zx/ws_moveit2/install/moveit_configs_utils:/home/zx/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/zx/ws_moveit2/build/srdfdom

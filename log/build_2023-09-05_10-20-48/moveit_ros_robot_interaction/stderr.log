@@ -1,0 +1,10 @@
+[0mmoveit_ros_robot_interaction: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[K已杀死 signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_robot_interaction.dir/build.make:146：CMakeFiles/moveit_robot_interaction.dir/src/robot_interaction.cpp.o] 错误 1
+gmake[2]: *** 正在等待未完成的任务....
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[K已杀死 signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_robot_interaction.dir/build.make:132：CMakeFiles/moveit_robot_interaction.dir/src/interaction_handler.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:157：CMakeFiles/moveit_robot_interaction.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

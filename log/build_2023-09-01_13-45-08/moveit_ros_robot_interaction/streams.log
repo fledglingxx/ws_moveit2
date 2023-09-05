@@ -1,0 +1,55 @@
+[0.019s] Invoking command in '/home/zx/ws_moveit2/build/moveit_ros_robot_interaction': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zx/ws_moveit2/build/moveit_ros_robot_interaction -- -j12 -l12
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target moveit_robot_interaction[0m
+[0.076s] [  7%] [32mBuilding CXX object CMakeFiles/moveit_robot_interaction.dir/src/interaction_handler.cpp.o[0m
+[8.624s] [ 15%] [32mBuilding CXX object CMakeFiles/moveit_robot_interaction.dir/src/robot_interaction.cpp.o[0m
+[21.740s] [ 23%] [32m[1mLinking CXX shared library libmoveit_robot_interaction.so[0m
+[21.981s] [ 53%] Built target moveit_robot_interaction
+[21.992s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[22.004s] [ 69%] Built target gtest
+[22.014s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[22.026s] [ 84%] Built target gtest_main
+[22.048s] [ 92%] [32mBuilding CXX object CMakeFiles/locked_robot_state_test.dir/test/locked_robot_state_test.cpp.o[0m
+[27.519s] [100%] [32m[1mLinking CXX executable locked_robot_state_test[0m
+[27.798s] [100%] Built target locked_robot_state_test
+[27.808s] Invoked command in '/home/zx/ws_moveit2/build/moveit_ros_robot_interaction' returned '0': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zx/ws_moveit2/build/moveit_ros_robot_interaction -- -j12 -l12
+[27.836s] Invoking command in '/home/zx/ws_moveit2/build/moveit_ros_robot_interaction': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zx/ws_moveit2/build/moveit_ros_robot_interaction
+[27.845s] -- Install configuration: "Release"
+[27.845s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_robot_interaction/lib/libmoveit_robot_interaction.so.2.5.4
+[27.847s] -- Set runtime path of "/home/zx/ws_moveit2/install/moveit_ros_robot_interaction/lib/libmoveit_robot_interaction.so.2.5.4" to ""
+[27.847s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_robot_interaction/lib/libmoveit_robot_interaction.so
+[27.847s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_robot_interaction/include
+[27.847s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_robot_interaction/include/moveit
+[27.847s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_robot_interaction/include/moveit/robot_interaction
+[27.847s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/interaction_handler.h
+[27.847s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/locked_robot_state.h
+[27.847s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/interaction.h
+[27.847s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/robot_interaction.h
+[27.847s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/kinematic_options.h
+[27.847s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/interactive_marker_helpers.h
+[27.847s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/kinematic_options_map.h
+[27.848s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_robot_interaction/include/moveit_robot_interaction_export.h
+[27.848s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/resources
+[27.848s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/resources/access-denied.dae
+[27.848s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/resources/access-denied.stl
+[27.848s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/library_path.sh
+[27.848s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/library_path.dsv
+[27.849s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_robot_interaction/share/ament_index/resource_index/package_run_dependencies/moveit_ros_robot_interaction
+[27.849s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_robot_interaction/share/ament_index/resource_index/parent_prefix_path/moveit_ros_robot_interaction
+[27.849s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/ament_prefix_path.sh
+[27.849s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/ament_prefix_path.dsv
+[27.849s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/path.sh
+[27.849s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/path.dsv
+[27.849s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/local_setup.bash
+[27.850s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/local_setup.sh
+[27.850s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/local_setup.zsh
+[27.850s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/local_setup.dsv
+[27.850s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/package.dsv
+[27.850s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_robot_interaction/share/ament_index/resource_index/packages/moveit_ros_robot_interaction
+[27.850s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/export_moveit_ros_robot_interactionExport.cmake
+[27.851s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/export_moveit_ros_robot_interactionExport-release.cmake
+[27.851s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/ament_cmake_export_targets-extras.cmake
+[27.851s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/ament_cmake_export_dependencies-extras.cmake
+[27.851s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/moveit_ros_robot_interactionConfig.cmake
+[27.851s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/moveit_ros_robot_interactionConfig-version.cmake
+[27.851s] -- Installing: /home/zx/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/package.xml
+[27.855s] Invoked command in '/home/zx/ws_moveit2/build/moveit_ros_robot_interaction' returned '0': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zx/ws_moveit2/build/moveit_ros_robot_interaction

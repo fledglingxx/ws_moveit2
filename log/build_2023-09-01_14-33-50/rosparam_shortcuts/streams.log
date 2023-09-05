@@ -1,0 +1,52 @@
+[0.499s] Invoking command in '/home/zx/ws_moveit2/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zx/ws_moveit2/install/tihu_2:/home/zx/ws_moveit2/install/moveit_configs_utils:/home/zx/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/zx/ws_moveit2/build/rosparam_shortcuts -- -j12 -l12
+[0.561s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.562s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.563s] [35m[1mConsolidate compiler generated dependencies of target rosparam_shortcuts[0m
+[0.614s] [ 15%] Built target gtest_main
+[0.668s] [ 30%] Built target gtest
+[0.672s] [ 53%] Built target rosparam_shortcuts
+[0.672s] [35m[1mConsolidate compiler generated dependencies of target rosparam_shortcuts_example[0m
+[0.672s] [35m[1mConsolidate compiler generated dependencies of target test_node_parameters[0m
+[0.672s] [35m[1mConsolidate compiler generated dependencies of target rosparam_shortcuts_node_parameters_example[0m
+[0.673s] [ 69%] Built target test_node_parameters
+[0.673s] [ 84%] Built target rosparam_shortcuts_example
+[0.673s] [100%] Built target rosparam_shortcuts_node_parameters_example
+[0.711s] Invoked command in '/home/zx/ws_moveit2/build/rosparam_shortcuts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zx/ws_moveit2/install/tihu_2:/home/zx/ws_moveit2/install/moveit_configs_utils:/home/zx/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/zx/ws_moveit2/build/rosparam_shortcuts -- -j12 -l12
+[0.818s] Invoking command in '/home/zx/ws_moveit2/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zx/ws_moveit2/install/tihu_2:/home/zx/ws_moveit2/install/moveit_configs_utils:/home/zx/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/zx/ws_moveit2/build/rosparam_shortcuts
+[0.857s] -- Install configuration: "Release"
+[0.857s] -- Installing: /home/zx/ws_moveit2/install/rosparam_shortcuts/lib/librosparam_shortcuts.so
+[0.858s] -- Set runtime path of "/home/zx/ws_moveit2/install/rosparam_shortcuts/lib/librosparam_shortcuts.so" to ""
+[0.858s] -- Installing: /home/zx/ws_moveit2/install/rosparam_shortcuts/lib/rosparam_shortcuts/example
+[0.858s] -- Set runtime path of "/home/zx/ws_moveit2/install/rosparam_shortcuts/lib/rosparam_shortcuts/example" to ""
+[0.858s] -- Installing: /home/zx/ws_moveit2/install/rosparam_shortcuts/lib/rosparam_shortcuts/node_parameters_example
+[0.858s] -- Set runtime path of "/home/zx/ws_moveit2/install/rosparam_shortcuts/lib/rosparam_shortcuts/node_parameters_example" to ""
+[0.858s] -- Installing: /home/zx/ws_moveit2/install/rosparam_shortcuts/include
+[0.859s] -- Installing: /home/zx/ws_moveit2/install/rosparam_shortcuts/include/rosparam_shortcuts
+[0.859s] -- Installing: /home/zx/ws_moveit2/install/rosparam_shortcuts/include/rosparam_shortcuts/node_parameters.h
+[0.860s] -- Installing: /home/zx/ws_moveit2/install/rosparam_shortcuts/include/rosparam_shortcuts/rosparam_shortcuts.h
+[0.861s] -- Installing: /home/zx/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/launch
+[0.861s] -- Installing: /home/zx/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/launch/example.launch.py
+[0.861s] -- Installing: /home/zx/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/config
+[0.862s] -- Installing: /home/zx/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/config/example.yaml
+[0.862s] -- Installing: /home/zx/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/library_path.sh
+[0.863s] -- Installing: /home/zx/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/library_path.dsv
+[0.863s] -- Installing: /home/zx/ws_moveit2/install/rosparam_shortcuts/share/ament_index/resource_index/package_run_dependencies/rosparam_shortcuts
+[0.863s] -- Installing: /home/zx/ws_moveit2/install/rosparam_shortcuts/share/ament_index/resource_index/parent_prefix_path/rosparam_shortcuts
+[0.863s] -- Installing: /home/zx/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/ament_prefix_path.sh
+[0.863s] -- Installing: /home/zx/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/ament_prefix_path.dsv
+[0.863s] -- Installing: /home/zx/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/path.sh
+[0.864s] -- Installing: /home/zx/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/path.dsv
+[0.864s] -- Installing: /home/zx/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.bash
+[0.864s] -- Installing: /home/zx/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.sh
+[0.864s] -- Installing: /home/zx/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.zsh
+[0.864s] -- Installing: /home/zx/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.dsv
+[0.864s] -- Installing: /home/zx/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/package.dsv
+[0.865s] -- Installing: /home/zx/ws_moveit2/install/rosparam_shortcuts/share/ament_index/resource_index/packages/rosparam_shortcuts
+[0.866s] -- Installing: /home/zx/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/export_rosparam_shortcutsExport.cmake
+[0.869s] -- Installing: /home/zx/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/export_rosparam_shortcutsExport-release.cmake
+[0.869s] -- Installing: /home/zx/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/ament_cmake_export_targets-extras.cmake
+[0.869s] -- Installing: /home/zx/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.869s] -- Installing: /home/zx/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/rosparam_shortcutsConfig.cmake
+[0.870s] -- Installing: /home/zx/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/rosparam_shortcutsConfig-version.cmake
+[0.870s] -- Installing: /home/zx/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/package.xml
+[0.875s] Invoked command in '/home/zx/ws_moveit2/build/rosparam_shortcuts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zx/ws_moveit2/install/tihu_2:/home/zx/ws_moveit2/install/moveit_configs_utils:/home/zx/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/zx/ws_moveit2/build/rosparam_shortcuts

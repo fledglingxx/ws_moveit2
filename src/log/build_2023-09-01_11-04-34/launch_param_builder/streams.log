@@ -1,0 +1,50 @@
+[0.722s] Invoking command in '/home/zx/ws_moveit2/src/launch_param_builder': PYTHONPATH=/home/zx/ws_moveit2/src/build/launch_param_builder/prefix_override:/home/zx/ws_moveit2/src/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/launch_param_builder build --build-base /home/zx/ws_moveit2/src/build/launch_param_builder/build install --record /home/zx/ws_moveit2/src/build/launch_param_builder/install.log --single-version-externally-managed
+[0.972s] running egg_info
+[0.972s] creating ../build/launch_param_builder/launch_param_builder.egg-info
+[0.972s] writing ../build/launch_param_builder/launch_param_builder.egg-info/PKG-INFO
+[0.973s] writing dependency_links to ../build/launch_param_builder/launch_param_builder.egg-info/dependency_links.txt
+[0.973s] writing entry points to ../build/launch_param_builder/launch_param_builder.egg-info/entry_points.txt
+[0.973s] writing requirements to ../build/launch_param_builder/launch_param_builder.egg-info/requires.txt
+[0.973s] writing top-level names to ../build/launch_param_builder/launch_param_builder.egg-info/top_level.txt
+[0.973s] writing manifest file '../build/launch_param_builder/launch_param_builder.egg-info/SOURCES.txt'
+[0.974s] reading manifest file '../build/launch_param_builder/launch_param_builder.egg-info/SOURCES.txt'
+[0.974s] adding license file 'LICENSE'
+[0.975s] writing manifest file '../build/launch_param_builder/launch_param_builder.egg-info/SOURCES.txt'
+[0.976s] running build
+[0.976s] running build_py
+[0.977s] creating /home/zx/ws_moveit2/src/build/launch_param_builder/build
+[0.977s] creating /home/zx/ws_moveit2/src/build/launch_param_builder/build/lib
+[0.978s] creating /home/zx/ws_moveit2/src/build/launch_param_builder/build/lib/launch_param_builder
+[0.978s] copying launch_param_builder/__init__.py -> /home/zx/ws_moveit2/src/build/launch_param_builder/build/lib/launch_param_builder
+[0.978s] copying launch_param_builder/launch_param_builder.py -> /home/zx/ws_moveit2/src/build/launch_param_builder/build/lib/launch_param_builder
+[0.978s] copying launch_param_builder/utils.py -> /home/zx/ws_moveit2/src/build/launch_param_builder/build/lib/launch_param_builder
+[0.978s] running install
+[0.979s] running install_lib
+[0.979s] creating /home/zx/ws_moveit2/src/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder
+[0.979s] copying /home/zx/ws_moveit2/src/build/launch_param_builder/build/lib/launch_param_builder/__init__.py -> /home/zx/ws_moveit2/src/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder
+[0.979s] copying /home/zx/ws_moveit2/src/build/launch_param_builder/build/lib/launch_param_builder/launch_param_builder.py -> /home/zx/ws_moveit2/src/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder
+[0.979s] copying /home/zx/ws_moveit2/src/build/launch_param_builder/build/lib/launch_param_builder/utils.py -> /home/zx/ws_moveit2/src/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder
+[0.979s] byte-compiling /home/zx/ws_moveit2/src/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder/__init__.py to __init__.cpython-310.pyc
+[0.979s] byte-compiling /home/zx/ws_moveit2/src/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder/launch_param_builder.py to launch_param_builder.cpython-310.pyc
+[0.980s] byte-compiling /home/zx/ws_moveit2/src/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder/utils.py to utils.cpython-310.pyc
+[0.980s] running install_data
+[0.980s] creating /home/zx/ws_moveit2/src/install/launch_param_builder/share/ament_index
+[0.980s] creating /home/zx/ws_moveit2/src/install/launch_param_builder/share/ament_index/resource_index
+[0.980s] creating /home/zx/ws_moveit2/src/install/launch_param_builder/share/ament_index/resource_index/packages
+[0.980s] copying resource/launch_param_builder -> /home/zx/ws_moveit2/src/install/launch_param_builder/share/ament_index/resource_index/packages
+[0.981s] creating /home/zx/ws_moveit2/src/install/launch_param_builder/share/launch_param_builder/launch
+[0.981s] copying example/launch_param_builder_example.launch.py -> /home/zx/ws_moveit2/src/install/launch_param_builder/share/launch_param_builder/launch
+[0.981s] creating /home/zx/ws_moveit2/src/install/launch_param_builder/share/launch_param_builder/config
+[0.981s] copying test/data/parameter_file -> /home/zx/ws_moveit2/src/install/launch_param_builder/share/launch_param_builder/config
+[0.981s] copying test/data/parameter.xacro -> /home/zx/ws_moveit2/src/install/launch_param_builder/share/launch_param_builder/config
+[0.981s] copying test/data/parameters.yaml -> /home/zx/ws_moveit2/src/install/launch_param_builder/share/launch_param_builder/config
+[0.982s] copying test/data/parameters_injection.yaml -> /home/zx/ws_moveit2/src/install/launch_param_builder/share/launch_param_builder/config
+[0.982s] copying test/data/param_file_to_inject.yaml -> /home/zx/ws_moveit2/src/install/launch_param_builder/share/launch_param_builder/config
+[0.982s] copying package.xml -> /home/zx/ws_moveit2/src/install/launch_param_builder/share/launch_param_builder
+[0.982s] creating /home/zx/ws_moveit2/src/install/launch_param_builder/lib/launch_param_builder
+[0.982s] copying example/example_node.py -> /home/zx/ws_moveit2/src/install/launch_param_builder/lib/launch_param_builder
+[0.982s] running install_egg_info
+[0.984s] Copying ../build/launch_param_builder/launch_param_builder.egg-info to /home/zx/ws_moveit2/src/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder-0.1.1-py3.10.egg-info
+[0.984s] running install_scripts
+[1.010s] writing list of installed files to '/home/zx/ws_moveit2/src/build/launch_param_builder/install.log'
+[1.068s] Invoked command in '/home/zx/ws_moveit2/src/launch_param_builder' returned '0': PYTHONPATH=/home/zx/ws_moveit2/src/build/launch_param_builder/prefix_override:/home/zx/ws_moveit2/src/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/launch_param_builder build --build-base /home/zx/ws_moveit2/src/build/launch_param_builder/build install --record /home/zx/ws_moveit2/src/build/launch_param_builder/install.log --single-version-externally-managed

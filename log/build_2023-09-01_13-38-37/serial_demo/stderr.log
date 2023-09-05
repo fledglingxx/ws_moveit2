@@ -1,0 +1,88 @@
+[01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:[m[K In function ‘[01m[Kvoid bufferTransfor(const string&)[m[K’:
+[01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:100:26:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KpCanId[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  100 |                 uint8_t *[01;35m[KpCanId[m[K = mem + 1;
+      |                          [01;35m[K^~~~~~[m[K
+[01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:101:26:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KpCommand[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  101 |                 uint8_t *[01;35m[KpCommand[m[K = mem + 7 + 1;
+      |                          [01;35m[K^~~~~~~~[m[K
+[01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:102:26:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KpParameter[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  102 |                 uint8_t *[01;35m[KpParameter[m[K = mem + 7 + 7 + 1;
+      |                          [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:81:28:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kposition[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   81 |     std::string::size_type [01;35m[Kposition[m[K;
+      |                            [01;35m[K^~~~~~~~[m[K
+[01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:84:13:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KparameterList[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   84 |     int32_t [01;35m[KparameterList[m[K[10] = {0};
+      |             [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:85:13:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KcanIdList[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   85 |     uint8_t [01;35m[KcanIdList[m[K[10] = {0}, cmd[10] = {0};
+      |             [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:85:34:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcmd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   85 |     uint8_t canIdList[10] = {0}, [01;35m[Kcmd[m[K[10] = {0};
+      |                                  [01;35m[K^~~[m[K
+[01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:[m[K In function ‘[01m[Kint32_t sendCommand(uint8_t, uint8_t*, uint8_t*, uint32_t*)[m[K’:
+[01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:142:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KwriteSize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  142 |     size_t [01;35m[KwriteSize[m[K = 0;
+      |            [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:150:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  150 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:[m[K At global scope:
+[01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:165:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmoveit_msgs::msg::DisplayTrajectory_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  165 |     void callback(const moveit_msgs::msg::DisplayTrajectory::ConstPtr &msg[01;35m[K)[m[K
+      |                                                                           [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/display_trajectory.hpp:7[m[K,
+                 from [01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/display_trajectory__struct.hpp:131:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  131 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:[m[K In member function ‘[01m[Kvoid Listener::callback(const ConstPtr&)[m[K’:
+[01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:205:17:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kstatus[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  205 |             int [01;35m[Kstatus[m[K = 0;
+      |                 [01;35m[K^~~~~~[m[K
+[01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:171:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  171 |         char [01;35m[Kstr[m[K[5120];
+      |              [01;35m[K^~~[m[K
+[01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:172:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstr123[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  172 |         char [01;35m[Kstr123[m[K[5120];
+      |              [01;35m[K^~~~~~[m[K
+[01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:173:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kww[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  173 |         float [01;35m[Kww[m[K;
+      |               [01;35m[K^~[m[K
+[01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:174:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  174 |         float [01;35m[Kvv[m[K;
+      |               [01;35m[K^~[m[K
+[01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:175:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kzs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  175 |         float [01;35m[Kzs[m[K;
+      |               [01;35m[K^~[m[K
+[01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:176:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kzs1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  176 |         float [01;35m[Kzs1[m[K;
+      |               [01;35m[K^~~[m[K
+[01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:177:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kzss[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  177 |         float [01;35m[Kzss[m[K = 1.0;
+      |               [01;35m[K^~~[m[K
+[01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:361:36:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kt5[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+  361 |     uint32_t parameterlist5[10] = {[01;35m[Kt5[m[K};
+      |                                    [01;35m[K^~[m[K
+[01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:367:36:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kt4[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+  367 |     uint32_t parameterlist4[10] = {[01;35m[Kt4[m[K};
+      |                                    [01;35m[K^~[m[K
+[01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:373:36:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kt3[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+  373 |     uint32_t parameterlist3[10] = {[01;35m[Kt3[m[K};
+      |                                    [01;35m[K^~[m[K
+[01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:379:36:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kt1[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+  379 |     uint32_t parameterlist2[10] = {[01;35m[Kt1[m[K, t2, t3, t4, t5, 0};
+      |                                    [01;35m[K^~[m[K
+[01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:379:40:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kt2[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+  379 |     uint32_t parameterlist2[10] = {t1, [01;35m[Kt2[m[K, t3, t4, t5, 0};
+      |                                        [01;35m[K^~[m[K
+[01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:379:44:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kt3[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+  379 |     uint32_t parameterlist2[10] = {t1, t2, [01;35m[Kt3[m[K, t4, t5, 0};
+      |                                            [01;35m[K^~[m[K
+[01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:379:48:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kt4[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+  379 |     uint32_t parameterlist2[10] = {t1, t2, t3, [01;35m[Kt4[m[K, t5, 0};
+      |                                                [01;35m[K^~[m[K
+[01m[K/home/zx/ws_moveit2/src/serial_demo/src/serial_demo.cpp:379:52:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kt5[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+  379 |     uint32_t parameterlist2[10] = {t1, t2, t3, t4, [01;35m[Kt5[m[K, 0};
+      |                                                    [01;35m[K^~[m[K

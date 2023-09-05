@@ -1,0 +1,23 @@
+[0.022s] Invoking command in '/home/zx/ws_moveit2/build/moveit_ros_warehouse': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zx/ws_moveit2/build/moveit_ros_warehouse -- -j12 -l12
+[0.059s] [35m[1mConsolidate compiler generated dependencies of target moveit_warehouse[0m
+[0.087s] [  5%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/planning_scene_storage.cpp.o[0m
+[9.268s] [ 10%] [32m[1mLinking CXX shared library libmoveit_warehouse.so[0m
+[9.744s] [ 40%] Built target moveit_warehouse
+[9.762s] [ 45%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_broadcast.dir/src/broadcast.cpp.o[0m
+[19.159s] [ 50%] [32m[1mLinking CXX executable moveit_warehouse_broadcast[0m
+[19.418s] [ 50%] Built target moveit_warehouse_broadcast
+[19.438s] [ 55%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_services.dir/src/warehouse_services.cpp.o[0m
+[28.668s] [ 60%] [32m[1mLinking CXX executable moveit_warehouse_services[0m
+[28.912s] [ 60%] Built target moveit_warehouse_services
+[28.930s] [ 65%] [32mBuilding CXX object CMakeFiles/moveit_init_demo_warehouse.dir/src/initialize_demo_db.cpp.o[0m
+[42.102s] [ 70%] [32m[1mLinking CXX executable moveit_init_demo_warehouse[0m
+[42.421s] [ 70%] Built target moveit_init_demo_warehouse
+[42.439s] [ 75%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_save_as_text.dir/src/save_as_text.cpp.o[0m
+[53.271s] [ 80%] [32m[1mLinking CXX executable moveit_warehouse_save_as_text[0m
+[53.544s] [ 80%] Built target moveit_warehouse_save_as_text
+[53.566s] [ 85%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_import_from_text.dir/src/import_from_text.cpp.o[0m
+[62.469s] [ 90%] [32m[1mLinking CXX executable moveit_warehouse_import_from_text[0m
+[62.827s] [ 90%] Built target moveit_warehouse_import_from_text
+[62.843s] [ 95%] [32mBuilding CXX object CMakeFiles/moveit_save_to_warehouse.dir/src/save_to_warehouse.cpp.o[0m
+[80.401s] [100%] [32m[1mLinking CXX executable moveit_save_to_warehouse[0m
+[80.720s] [100%] Built target moveit_save_to_warehouse

@@ -1,0 +1,63 @@
+[0.204s] Invoking command in '/home/zx/ws_moveit2/src/build/moveit_resources_prbt_support': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zx/ws_moveit2/src/moveit2/moveit_planners/test_configs/prbt_support -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/zx/ws_moveit2/src/install/moveit_resources_prbt_support
+[0.260s] -- The C compiler identification is GNU 11.4.0
+[0.323s] -- The CXX compiler identification is GNU 11.4.0
+[0.330s] -- Detecting C compiler ABI info
+[0.398s] -- Detecting C compiler ABI info - done
+[0.409s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.409s] -- Detecting C compile features
+[0.410s] -- Detecting C compile features - done
+[0.414s] -- Detecting CXX compiler ABI info
+[0.508s] -- Detecting CXX compiler ABI info - done
+[0.519s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.520s] -- Detecting CXX compile features
+[0.520s] -- Detecting CXX compile features - done
+[0.523s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.736s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.909s] -- Configuring done
+[0.913s] -- Generating done
+[0.914s] -- Build files have been written to: /home/zx/ws_moveit2/src/build/moveit_resources_prbt_support
+[0.918s] Invoked command in '/home/zx/ws_moveit2/src/build/moveit_resources_prbt_support' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zx/ws_moveit2/src/moveit2/moveit_planners/test_configs/prbt_support -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/zx/ws_moveit2/src/install/moveit_resources_prbt_support
+[0.919s] Invoking command in '/home/zx/ws_moveit2/src/build/moveit_resources_prbt_support': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zx/ws_moveit2/src/build/moveit_resources_prbt_support -- -j12 -l12
+[0.963s] Invoked command in '/home/zx/ws_moveit2/src/build/moveit_resources_prbt_support' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zx/ws_moveit2/src/build/moveit_resources_prbt_support -- -j12 -l12
+[0.990s] Invoking command in '/home/zx/ws_moveit2/src/build/moveit_resources_prbt_support': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zx/ws_moveit2/src/build/moveit_resources_prbt_support
+[0.998s] -- Install configuration: "Release"
+[0.998s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/ament_index/resource_index/package_run_dependencies/moveit_resources_prbt_support
+[0.998s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/ament_index/resource_index/parent_prefix_path/moveit_resources_prbt_support
+[0.998s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/ament_prefix_path.sh
+[0.998s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/ament_prefix_path.dsv
+[0.998s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/path.sh
+[0.999s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/path.dsv
+[0.999s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.bash
+[0.999s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.sh
+[0.999s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.zsh
+[0.999s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.dsv
+[0.999s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/package.dsv
+[0.999s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/ament_index/resource_index/packages/moveit_resources_prbt_support
+[0.999s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/cmake/moveit_resources_prbt_supportConfig.cmake
+[0.999s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/cmake/moveit_resources_prbt_supportConfig-version.cmake
+[0.999s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/package.xml
+[0.999s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf
+[1.000s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/prbt.xacro
+[1.000s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/prbt.ros2_control.xacro
+[1.000s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/prbt_macro.xacro
+[1.000s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/simple_gripper_brackets.urdf.xacro
+[1.000s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes
+[1.000s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/flange.stl
+[1.000s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_4.dae
+[1.001s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/foot.dae
+[1.002s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_1.dae
+[1.002s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_1.stl
+[1.003s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_5.dae
+[1.004s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_5.stl
+[1.004s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_2.stl
+[1.004s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/flange.dae
+[1.004s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_4.stl
+[1.004s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_2.dae
+[1.006s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/foot.stl
+[1.006s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_3.stl
+[1.006s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_3.dae
+[1.007s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config
+[1.007s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config/manipulator_controller.yaml
+[1.007s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config/manipulator_driver.yaml
+[1.011s] -- Installing: /home/zx/ws_moveit2/src/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config/prbt_0_1.dcf
+[1.031s] Invoked command in '/home/zx/ws_moveit2/src/build/moveit_resources_prbt_support' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zx/ws_moveit2/src/build/moveit_resources_prbt_support

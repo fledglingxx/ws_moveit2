@@ -1,0 +1,543 @@
+[0.229s] Invoking command in '/home/zx/ws_moveit2/build/moveit_task_constructor_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zx/ws_moveit2/install/tihu_2:/home/zx/ws_moveit2/install/moveit_configs_utils:/home/zx/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/zx/ws_moveit2/src/moveit_task_constructor/msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/zx/ws_moveit2/install/moveit_task_constructor_msgs
+[0.628s] -- The C compiler identification is GNU 11.4.0
+[0.628s] -- The CXX compiler identification is GNU 11.4.0
+[0.628s] -- Detecting C compiler ABI info
+[0.628s] -- Detecting C compiler ABI info - done
+[0.628s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.628s] -- Detecting C compile features
+[0.628s] -- Detecting C compile features - done
+[0.628s] -- Detecting CXX compiler ABI info
+[0.646s] -- Detecting CXX compiler ABI info - done
+[0.664s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.676s] -- Detecting CXX compile features
+[0.676s] -- Detecting CXX compile features - done
+[0.680s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.989s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.156s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.228s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.246s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.259s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.285s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.320s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.354s] -- Found moveit_msgs: 2.2.1 (/opt/ros/humble/share/moveit_msgs/cmake)
+[2.700s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.737s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[3.599s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.753s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.248s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.301s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[5.307s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.364s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[5.365s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.365s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.365s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[5.406s] -- Found PythonExtra: .so  
+[5.844s] -- Configuring done
+[5.956s] -- Generating done
+[5.960s] -- Build files have been written to: /home/zx/ws_moveit2/build/moveit_task_constructor_msgs
+[5.980s] Invoked command in '/home/zx/ws_moveit2/build/moveit_task_constructor_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zx/ws_moveit2/install/tihu_2:/home/zx/ws_moveit2/install/moveit_configs_utils:/home/zx/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/zx/ws_moveit2/src/moveit_task_constructor/msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/zx/ws_moveit2/install/moveit_task_constructor_msgs
+[5.980s] Invoking command in '/home/zx/ws_moveit2/build/moveit_task_constructor_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zx/ws_moveit2/install/tihu_2:/home/zx/ws_moveit2/install/moveit_configs_utils:/home/zx/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/zx/ws_moveit2/build/moveit_task_constructor_msgs -- -j12 -l12
+[6.054s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.089s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.094s] [  1%] Built target ament_cmake_python_copy_moveit_task_constructor_msgs
+[6.558s] running egg_info
+[6.559s] creating moveit_task_constructor_msgs.egg-info
+[6.560s] writing moveit_task_constructor_msgs.egg-info/PKG-INFO
+[6.561s] writing dependency_links to moveit_task_constructor_msgs.egg-info/dependency_links.txt
+[6.561s] writing top-level names to moveit_task_constructor_msgs.egg-info/top_level.txt
+[6.562s] writing manifest file 'moveit_task_constructor_msgs.egg-info/SOURCES.txt'
+[6.563s] reading manifest file 'moveit_task_constructor_msgs.egg-info/SOURCES.txt'
+[6.564s] writing manifest file 'moveit_task_constructor_msgs.egg-info/SOURCES.txt'
+[6.614s] [  1%] Built target ament_cmake_python_build_moveit_task_constructor_msgs_egg
+[7.908s] [  1%] Built target moveit_task_constructor_msgs__cpp
+[7.932s] [  1%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.947s] [  2%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.950s] [  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.685s] [  4%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_task_constructor_msgs/msg/detail/property__functions.c.o[0m
+[8.712s] [  6%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_task_constructor_msgs/msg/detail/solution_info__functions.c.o[0m
+[8.714s] [  6%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_task_constructor_msgs/msg/detail/solution__functions.c.o[0m
+[8.719s] [  7%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_task_constructor_msgs/msg/detail/stage_description__functions.c.o[0m
+[8.747s] [  8%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_task_constructor_msgs/msg/detail/sub_solution__functions.c.o[0m
+[8.750s] [  9%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_task_constructor_msgs/msg/detail/stage_statistics__functions.c.o[0m
+[8.788s] [ 10%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_task_constructor_msgs/msg/detail/sub_trajectory__functions.c.o[0m
+[8.805s] [ 10%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_task_constructor_msgs/msg/detail/task_description__functions.c.o[0m
+[8.834s] [ 11%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_task_constructor_msgs/msg/detail/task_statistics__functions.c.o[0m
+[9.101s] [ 12%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_task_constructor_msgs/srv/detail/get_solution__functions.c.o[0m
+[9.104s] [ 13%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_task_constructor_msgs/action/detail/execute_task_solution__functions.c.o[0m
+[9.731s] [ 14%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_task_constructor_msgs/msg/property__type_support.cpp.o[0m
+[9.735s] [ 15%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_task_constructor_msgs/msg/solution__type_support.cpp.o[0m
+[9.748s] [ 16%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_task_constructor_msgs/msg/solution_info__type_support.cpp.o[0m
+[9.749s] [ 17%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_task_constructor_msgs/msg/detail/property__type_support.cpp.o[0m
+[9.762s] [ 18%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_task_constructor_msgs/msg/stage_statistics__type_support.cpp.o[0m
+[9.762s] [ 19%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_task_constructor_msgs/msg/stage_description__type_support.cpp.o[0m
+[9.766s] [ 19%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_task_constructor_msgs/msg/detail/solution__type_support.cpp.o[0m
+[9.784s] [ 20%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_task_constructor_msgs/msg/detail/solution_info__type_support.cpp.o[0m
+[9.793s] [ 21%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_task_constructor_msgs/msg/sub_solution__type_support.cpp.o[0m
+[9.799s] [ 22%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_task_constructor_msgs/msg/detail/stage_description__type_support.cpp.o[0m
+[9.924s] [ 23%] [32m[1mLinking C shared library libmoveit_task_constructor_msgs__rosidl_generator_c.so[0m
+[10.045s] [ 23%] Built target moveit_task_constructor_msgs__rosidl_generator_c
+[10.200s] [ 24%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_task_constructor_msgs/msg/detail/dds_fastrtps/property__type_support.cpp.o[0m
+[11.203s] [ 25%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_task_constructor_msgs/srv/get_solution__type_support.cpp.o[0m
+[11.411s] [ 26%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_task_constructor_msgs/msg/detail/dds_fastrtps/solution__type_support.cpp.o[0m
+[11.686s] [ 27%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_task_constructor_msgs/msg/task_statistics__type_support.cpp.o[0m
+[12.058s] [ 27%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_task_constructor_msgs/msg/task_description__type_support.cpp.o[0m
+[12.453s] [ 28%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_task_constructor_msgs/msg/sub_trajectory__type_support.cpp.o[0m
+[12.916s] [ 29%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_task_constructor_msgs/action/execute_task_solution__type_support.cpp.o[0m
+[12.959s] [ 30%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_task_constructor_msgs/msg/detail/dds_fastrtps/stage_statistics__type_support.cpp.o[0m
+[13.599s] [ 31%] [32m[1mLinking CXX shared library libmoveit_task_constructor_msgs__rosidl_typesupport_cpp.so[0m
+[13.649s] [ 32%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_task_constructor_msgs/msg/detail/dds_fastrtps/stage_description__type_support.cpp.o[0m
+[13.675s] [ 32%] Built target moveit_task_constructor_msgs__rosidl_typesupport_cpp
+[14.382s] [ 33%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_task_constructor_msgs/msg/detail/dds_fastrtps/sub_solution__type_support.cpp.o[0m
+[14.882s] [ 34%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_task_constructor_msgs/srv/detail/get_solution__type_support.cpp.o[0m
+[15.047s] [ 35%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_task_constructor_msgs/msg/detail/dds_fastrtps/sub_trajectory__type_support.cpp.o[0m
+[15.677s] [ 36%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_task_constructor_msgs/msg/detail/dds_fastrtps/solution_info__type_support.cpp.o[0m
+[16.083s] [ 37%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_task_constructor_msgs/action/detail/execute_task_solution__type_support.cpp.o[0m
+[16.250s] [ 38%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_task_constructor_msgs/msg/detail/dds_fastrtps/task_statistics__type_support.cpp.o[0m
+[16.913s] [ 38%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_task_constructor_msgs/srv/detail/dds_fastrtps/get_solution__type_support.cpp.o[0m
+[17.150s] [ 39%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_task_constructor_msgs/msg/detail/task_statistics__type_support.cpp.o[0m
+[17.357s] [ 40%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_task_constructor_msgs/action/detail/dds_fastrtps/execute_task_solution__type_support.cpp.o[0m
+[17.597s] [ 41%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_task_constructor_msgs/msg/detail/task_description__type_support.cpp.o[0m
+[17.960s] [ 42%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_task_constructor_msgs/msg/detail/dds_fastrtps/task_description__type_support.cpp.o[0m
+[18.320s] [ 43%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_task_constructor_msgs/msg/detail/sub_trajectory__type_support.cpp.o[0m
+[18.416s] [ 44%] [32m[1mLinking CXX shared library libmoveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[18.505s] [ 44%] Built target moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp
+[19.070s] [ 45%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_task_constructor_msgs/msg/detail/sub_solution__type_support.cpp.o[0m
+[19.499s] [ 46%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_task_constructor_msgs/msg/detail/stage_statistics__type_support.cpp.o[0m
+[19.963s] [ 47%] [32m[1mLinking CXX shared library libmoveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[20.068s] [ 47%] Built target moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp
+[20.082s] [ 48%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[20.907s] [ 49%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_task_constructor_msgs/msg/property__type_support.cpp.o[0m
+[20.943s] [ 50%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_task_constructor_msgs/srv/get_solution__type_support.cpp.o[0m
+[20.991s] [ 51%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_task_constructor_msgs/action/execute_task_solution__type_support.cpp.o[0m
+[21.053s] [ 52%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_task_constructor_msgs/msg/task_statistics__type_support.cpp.o[0m
+[21.083s] [ 53%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_task_constructor_msgs/msg/task_description__type_support.cpp.o[0m
+[21.115s] [ 54%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_task_constructor_msgs/msg/sub_trajectory__type_support.cpp.o[0m
+[21.154s] [ 55%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_task_constructor_msgs/msg/sub_solution__type_support.cpp.o[0m
+[21.187s] [ 56%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_task_constructor_msgs/msg/stage_statistics__type_support.cpp.o[0m
+[21.220s] [ 57%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_task_constructor_msgs/msg/stage_description__type_support.cpp.o[0m
+[21.253s] [ 57%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_task_constructor_msgs/msg/solution_info__type_support.cpp.o[0m
+[21.294s] [ 58%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_task_constructor_msgs/msg/solution__type_support.cpp.o[0m
+[21.335s] [ 59%] [32m[1mLinking CXX shared library libmoveit_task_constructor_msgs__rosidl_typesupport_c.so[0m
+[21.381s] [ 59%] Built target moveit_task_constructor_msgs__rosidl_typesupport_c
+[21.393s] [ 60%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[22.278s] [ 61%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_task_constructor_msgs/msg/detail/property__type_support.c.o[0m
+[22.317s] [ 62%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_task_constructor_msgs/action/detail/execute_task_solution__type_support.c.o[0m
+[22.380s] [ 63%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_task_constructor_msgs/srv/detail/get_solution__type_support.c.o[0m
+[22.424s] [ 64%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_task_constructor_msgs/msg/detail/task_statistics__type_support.c.o[0m
+[22.464s] [ 65%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_task_constructor_msgs/msg/detail/task_description__type_support.c.o[0m
+[22.504s] [ 65%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_task_constructor_msgs/msg/detail/sub_trajectory__type_support.c.o[0m
+[22.551s] [ 66%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_task_constructor_msgs/msg/detail/sub_solution__type_support.c.o[0m
+[22.598s] [ 67%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_task_constructor_msgs/msg/detail/stage_statistics__type_support.c.o[0m
+[22.645s] [ 68%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_task_constructor_msgs/msg/detail/stage_description__type_support.c.o[0m
+[22.686s] [ 69%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_task_constructor_msgs/msg/detail/solution_info__type_support.c.o[0m
+[22.729s] [ 70%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_task_constructor_msgs/msg/detail/solution__type_support.c.o[0m
+[22.784s] [ 71%] [32m[1mLinking C shared library libmoveit_task_constructor_msgs__rosidl_typesupport_introspection_c.so[0m
+[22.820s] [ 71%] Built target moveit_task_constructor_msgs__rosidl_typesupport_introspection_c
+[22.832s] [ 72%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[23.638s] [ 73%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_task_constructor_msgs/msg/detail/property__type_support_c.cpp.o[0m
+[23.936s] [ 74%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_task_constructor_msgs/action/detail/execute_task_solution__type_support_c.cpp.o[0m
+[24.340s] [ 75%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_task_constructor_msgs/srv/detail/get_solution__type_support_c.cpp.o[0m
+[24.640s] [ 76%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_task_constructor_msgs/msg/detail/task_statistics__type_support_c.cpp.o[0m
+[24.932s] [ 77%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_task_constructor_msgs/msg/detail/task_description__type_support_c.cpp.o[0m
+[25.214s] [ 78%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_task_constructor_msgs/msg/detail/sub_trajectory__type_support_c.cpp.o[0m
+[25.479s] [ 79%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_task_constructor_msgs/msg/detail/sub_solution__type_support_c.cpp.o[0m
+[25.741s] [ 79%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_task_constructor_msgs/msg/detail/stage_statistics__type_support_c.cpp.o[0m
+[25.995s] [ 80%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_task_constructor_msgs/msg/detail/stage_description__type_support_c.cpp.o[0m
+[26.328s] [ 81%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_task_constructor_msgs/msg/detail/solution_info__type_support_c.cpp.o[0m
+[26.692s] [ 82%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_task_constructor_msgs/msg/detail/solution__type_support_c.cpp.o[0m
+[27.047s] [ 83%] [32m[1mLinking CXX shared library libmoveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[27.122s] [ 83%] Built target moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c
+[27.142s] [ 83%] Built target moveit_task_constructor_msgs
+[27.163s] [ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[28.658s] [ 84%] Built target moveit_task_constructor_msgs__py
+[28.677s] [ 85%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_task_constructor_msgs/msg/_property_s.c.o[0m
+[28.789s] [ 86%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_task_constructor_msgs/action/_execute_task_solution_s.c.o[0m
+[28.977s] [ 87%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_task_constructor_msgs/srv/_get_solution_s.c.o[0m
+[29.087s] [ 88%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_task_constructor_msgs/msg/_task_statistics_s.c.o[0m
+[29.221s] [ 89%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_task_constructor_msgs/msg/_task_description_s.c.o[0m
+[29.327s] [ 90%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_task_constructor_msgs/msg/_sub_trajectory_s.c.o[0m
+[29.429s] [ 90%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_task_constructor_msgs/msg/_sub_solution_s.c.o[0m
+[29.538s] [ 91%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_task_constructor_msgs/msg/_stage_statistics_s.c.o[0m
+[29.661s] [ 92%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_task_constructor_msgs/msg/_stage_description_s.c.o[0m
+[29.766s] [ 93%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_task_constructor_msgs/msg/_solution_info_s.c.o[0m
+[29.873s] [ 94%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_task_constructor_msgs/msg/_solution_s.c.o[0m
+[29.988s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/moveit_task_constructor_msgs/libmoveit_task_constructor_msgs__rosidl_generator_py.so[0m
+[30.033s] [ 95%] Built target moveit_task_constructor_msgs__rosidl_generator_py
+[30.053s] [ 96%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/moveit_task_constructor_msgs/_moveit_task_constructor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[30.277s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/moveit_task_constructor_msgs/moveit_task_constructor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[30.327s] [ 97%] Built target moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c__pyext
+[30.346s] [ 97%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/moveit_task_constructor_msgs/_moveit_task_constructor_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[30.573s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/moveit_task_constructor_msgs/moveit_task_constructor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[30.622s] [ 98%] Built target moveit_task_constructor_msgs__rosidl_typesupport_c__pyext
+[30.641s] [ 99%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/moveit_task_constructor_msgs/_moveit_task_constructor_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[30.870s] [100%] [32m[1mLinking C shared library rosidl_generator_py/moveit_task_constructor_msgs/moveit_task_constructor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[30.920s] [100%] Built target moveit_task_constructor_msgs__rosidl_typesupport_introspection_c__pyext
+[30.931s] Invoked command in '/home/zx/ws_moveit2/build/moveit_task_constructor_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zx/ws_moveit2/install/tihu_2:/home/zx/ws_moveit2/install/moveit_configs_utils:/home/zx/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/zx/ws_moveit2/build/moveit_task_constructor_msgs -- -j12 -l12
+[31.282s] Invoking command in '/home/zx/ws_moveit2/build/moveit_task_constructor_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zx/ws_moveit2/install/tihu_2:/home/zx/ws_moveit2/install/moveit_configs_utils:/home/zx/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/zx/ws_moveit2/build/moveit_task_constructor_msgs
+[31.289s] -- Install configuration: "Release"
+[31.289s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/ament_index/resource_index/rosidl_interfaces/moveit_task_constructor_msgs
+[31.289s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs
+[31.289s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action
+[31.289s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail
+[31.289s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__type_support.h
+[31.289s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__functions.c
+[31.290s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__struct.h
+[31.290s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__functions.h
+[31.290s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/execute_task_solution.h
+[31.290s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv
+[31.290s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail
+[31.290s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__type_support.h
+[31.290s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__struct.h
+[31.290s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__functions.h
+[31.290s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__functions.c
+[31.290s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/get_solution.h
+[31.290s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg
+[31.290s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/stage_statistics.h
+[31.290s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/solution.h
+[31.290s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/sub_trajectory.h
+[31.291s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail
+[31.291s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__functions.h
+[31.291s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__type_support.h
+[31.291s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__struct.h
+[31.291s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__struct.h
+[31.291s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__functions.h
+[31.291s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__functions.c
+[31.291s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__struct.h
+[31.291s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__struct.h
+[31.291s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__struct.h
+[31.291s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__functions.c
+[31.291s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__type_support.h
+[31.291s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__type_support.h
+[31.291s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__struct.h
+[31.291s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__type_support.h
+[31.291s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__functions.c
+[31.292s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__struct.h
+[31.292s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__struct.h
+[31.292s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__functions.c
+[31.292s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__functions.h
+[31.292s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__functions.c
+[31.292s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__type_support.h
+[31.292s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__type_support.h
+[31.292s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__functions.c
+[31.292s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__functions.h
+[31.292s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__functions.h
+[31.292s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__type_support.h
+[31.292s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__functions.h
+[31.292s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__functions.h
+[31.292s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__type_support.h
+[31.292s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__struct.h
+[31.293s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__functions.c
+[31.293s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__functions.c
+[31.293s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__functions.c
+[31.293s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__type_support.h
+[31.293s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__functions.h
+[31.293s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__functions.h
+[31.293s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/property.h
+[31.293s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/solution_info.h
+[31.293s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/task_description.h
+[31.293s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/rosidl_generator_c__visibility_control.h
+[31.293s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/stage_description.h
+[31.293s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/task_statistics.h
+[31.293s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/sub_solution.h
+[31.293s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/environment/library_path.sh
+[31.293s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/environment/library_path.dsv
+[31.293s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_generator_c.so
+[31.294s] -- Set runtime path of "/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_generator_c.so" to ""
+[31.294s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs
+[31.294s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action
+[31.294s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail
+[31.294s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__rosidl_typesupport_fastrtps_c.h
+[31.294s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv
+[31.294s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail
+[31.294s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__rosidl_typesupport_fastrtps_c.h
+[31.294s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg
+[31.294s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[31.294s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail
+[31.294s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__rosidl_typesupport_fastrtps_c.h
+[31.294s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__rosidl_typesupport_fastrtps_c.h
+[31.294s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__rosidl_typesupport_fastrtps_c.h
+[31.294s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__rosidl_typesupport_fastrtps_c.h
+[31.294s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__rosidl_typesupport_fastrtps_c.h
+[31.295s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__rosidl_typesupport_fastrtps_c.h
+[31.295s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__rosidl_typesupport_fastrtps_c.h
+[31.295s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__rosidl_typesupport_fastrtps_c.h
+[31.295s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__rosidl_typesupport_fastrtps_c.h
+[31.295s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.so
+[31.295s] -- Set runtime path of "/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[31.295s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs
+[31.295s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action
+[31.295s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/execute_task_solution.hpp
+[31.295s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail
+[31.296s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__builder.hpp
+[31.296s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__traits.hpp
+[31.296s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__struct.hpp
+[31.296s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv
+[31.296s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/get_solution.hpp
+[31.296s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail
+[31.296s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__builder.hpp
+[31.296s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__struct.hpp
+[31.296s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__traits.hpp
+[31.296s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg
+[31.296s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/task_statistics.hpp
+[31.296s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/sub_trajectory.hpp
+[31.296s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/task_description.hpp
+[31.297s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/sub_solution.hpp
+[31.297s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail
+[31.297s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__builder.hpp
+[31.297s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__traits.hpp
+[31.297s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__struct.hpp
+[31.297s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__struct.hpp
+[31.297s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__traits.hpp
+[31.297s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__struct.hpp
+[31.297s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__builder.hpp
+[31.297s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__builder.hpp
+[31.297s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__builder.hpp
+[31.297s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__traits.hpp
+[31.297s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__traits.hpp
+[31.297s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__traits.hpp
+[31.297s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__traits.hpp
+[31.297s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__builder.hpp
+[31.298s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__struct.hpp
+[31.298s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__traits.hpp
+[31.298s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__struct.hpp
+[31.298s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__traits.hpp
+[31.298s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__struct.hpp
+[31.298s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__struct.hpp
+[31.298s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__struct.hpp
+[31.298s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__builder.hpp
+[31.298s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__builder.hpp
+[31.298s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__builder.hpp
+[31.298s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__builder.hpp
+[31.298s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__struct.hpp
+[31.298s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__traits.hpp
+[31.298s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/stage_description.hpp
+[31.299s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/stage_statistics.hpp
+[31.299s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/solution_info.hpp
+[31.299s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/property.hpp
+[31.299s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/solution.hpp
+[31.299s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs
+[31.299s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action
+[31.299s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail
+[31.299s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__rosidl_typesupport_fastrtps_cpp.hpp
+[31.299s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/dds_fastrtps
+[31.299s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv
+[31.299s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail
+[31.299s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/dds_fastrtps
+[31.299s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__rosidl_typesupport_fastrtps_cpp.hpp
+[31.299s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg
+[31.300s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail
+[31.300s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__rosidl_typesupport_fastrtps_cpp.hpp
+[31.300s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__rosidl_typesupport_fastrtps_cpp.hpp
+[31.300s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__rosidl_typesupport_fastrtps_cpp.hpp
+[31.300s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__rosidl_typesupport_fastrtps_cpp.hpp
+[31.300s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__rosidl_typesupport_fastrtps_cpp.hpp
+[31.300s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[31.300s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/dds_fastrtps
+[31.300s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__rosidl_typesupport_fastrtps_cpp.hpp
+[31.300s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__rosidl_typesupport_fastrtps_cpp.hpp
+[31.300s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__rosidl_typesupport_fastrtps_cpp.hpp
+[31.300s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[31.300s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.so
+[31.300s] -- Set runtime path of "/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[31.300s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs
+[31.300s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action
+[31.301s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail
+[31.301s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__type_support.c
+[31.301s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__rosidl_typesupport_introspection_c.h
+[31.301s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv
+[31.301s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail
+[31.301s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__rosidl_typesupport_introspection_c.h
+[31.301s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__type_support.c
+[31.301s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg
+[31.301s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail
+[31.301s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__rosidl_typesupport_introspection_c.h
+[31.301s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__rosidl_typesupport_introspection_c.h
+[31.301s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__rosidl_typesupport_introspection_c.h
+[31.301s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__type_support.c
+[31.301s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__type_support.c
+[31.301s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__rosidl_typesupport_introspection_c.h
+[31.302s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__rosidl_typesupport_introspection_c.h
+[31.302s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__rosidl_typesupport_introspection_c.h
+[31.302s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__type_support.c
+[31.302s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__rosidl_typesupport_introspection_c.h
+[31.302s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__rosidl_typesupport_introspection_c.h
+[31.302s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__type_support.c
+[31.302s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__type_support.c
+[31.302s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__rosidl_typesupport_introspection_c.h
+[31.302s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__type_support.c
+[31.302s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__type_support.c
+[31.302s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__type_support.c
+[31.302s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__type_support.c
+[31.302s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[31.302s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_introspection_c.so
+[31.302s] -- Set runtime path of "/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_introspection_c.so" to ""
+[31.302s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_c.so
+[31.303s] -- Set runtime path of "/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_c.so" to ""
+[31.303s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs
+[31.303s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action
+[31.303s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail
+[31.303s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__rosidl_typesupport_introspection_cpp.hpp
+[31.303s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__type_support.cpp
+[31.303s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv
+[31.303s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail
+[31.303s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__rosidl_typesupport_introspection_cpp.hpp
+[31.303s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__type_support.cpp
+[31.303s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg
+[31.303s] -- Up-to-date: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail
+[31.303s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__type_support.cpp
+[31.304s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__rosidl_typesupport_introspection_cpp.hpp
+[31.304s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__rosidl_typesupport_introspection_cpp.hpp
+[31.304s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__type_support.cpp
+[31.304s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__rosidl_typesupport_introspection_cpp.hpp
+[31.304s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__rosidl_typesupport_introspection_cpp.hpp
+[31.304s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__type_support.cpp
+[31.304s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__rosidl_typesupport_introspection_cpp.hpp
+[31.304s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__rosidl_typesupport_introspection_cpp.hpp
+[31.304s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__type_support.cpp
+[31.304s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__rosidl_typesupport_introspection_cpp.hpp
+[31.304s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__rosidl_typesupport_introspection_cpp.hpp
+[31.304s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[31.304s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__type_support.cpp
+[31.304s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__type_support.cpp
+[31.304s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__type_support.cpp
+[31.305s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__type_support.cpp
+[31.305s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__type_support.cpp
+[31.305s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.so
+[31.305s] -- Set runtime path of "/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[31.305s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_cpp.so
+[31.305s] -- Set runtime path of "/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_cpp.so" to ""
+[31.305s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/environment/pythonpath.sh
+[31.305s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/environment/pythonpath.dsv
+[31.306s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs-0.1.3-py3.10.egg-info
+[31.306s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs-0.1.3-py3.10.egg-info/dependency_links.txt
+[31.306s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs-0.1.3-py3.10.egg-info/top_level.txt
+[31.306s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs-0.1.3-py3.10.egg-info/SOURCES.txt
+[31.306s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs-0.1.3-py3.10.egg-info/PKG-INFO
+[31.306s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs
+[31.306s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/__init__.py
+[31.306s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/moveit_task_constructor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[31.306s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/action
+[31.306s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/action/__init__.py
+[31.306s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/action/_execute_task_solution.py
+[31.306s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/action/_execute_task_solution_s.c
+[31.307s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/libmoveit_task_constructor_msgs__rosidl_generator_py.so
+[31.307s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/moveit_task_constructor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[31.307s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/moveit_task_constructor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[31.308s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/srv
+[31.308s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/srv/_get_solution_s.c
+[31.308s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/srv/__init__.py
+[31.308s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/srv/_get_solution.py
+[31.308s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/_moveit_task_constructor_msgs_s.ep.rosidl_typesupport_c.c
+[31.308s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/_moveit_task_constructor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[31.308s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/_moveit_task_constructor_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[31.308s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg
+[31.308s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/__init__.py
+[31.308s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_stage_description.py
+[31.309s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_sub_solution.py
+[31.309s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_property.py
+[31.309s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_property_s.c
+[31.309s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_task_description_s.c
+[31.309s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_stage_statistics_s.c
+[31.309s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_task_statistics_s.c
+[31.309s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_solution_s.c
+[31.309s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_sub_solution_s.c
+[31.309s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_task_description.py
+[31.309s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_task_statistics.py
+[31.309s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_solution_info.py
+[31.309s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_solution.py
+[31.309s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_sub_trajectory_s.c
+[31.309s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_stage_statistics.py
+[31.310s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_stage_description_s.c
+[31.310s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_sub_trajectory.py
+[31.310s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_solution_info_s.c
+[31.353s] Listing '/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs'...
+[31.354s] Compiling '/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/__init__.py'...
+[31.354s] Listing '/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/action'...
+[31.354s] Compiling '/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/action/__init__.py'...
+[31.354s] Compiling '/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/action/_execute_task_solution.py'...
+[31.354s] Listing '/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg'...
+[31.354s] Compiling '/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/__init__.py'...
+[31.354s] Compiling '/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_property.py'...
+[31.354s] Compiling '/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_solution.py'...
+[31.354s] Compiling '/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_solution_info.py'...
+[31.354s] Compiling '/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_stage_description.py'...
+[31.354s] Compiling '/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_stage_statistics.py'...
+[31.354s] Compiling '/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_sub_solution.py'...
+[31.354s] Compiling '/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_sub_trajectory.py'...
+[31.354s] Compiling '/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_task_description.py'...
+[31.354s] Compiling '/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_task_statistics.py'...
+[31.354s] Listing '/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/srv'...
+[31.354s] Compiling '/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/srv/__init__.py'...
+[31.354s] Compiling '/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/srv/_get_solution.py'...
+[31.358s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/moveit_task_constructor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[31.358s] -- Set runtime path of "/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/moveit_task_constructor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[31.358s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/moveit_task_constructor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[31.359s] -- Set runtime path of "/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/moveit_task_constructor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[31.359s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/moveit_task_constructor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[31.359s] -- Set runtime path of "/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/moveit_task_constructor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[31.359s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_generator_py.so
+[31.359s] -- Set runtime path of "/home/zx/ws_moveit2/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_generator_py.so" to ""
+[31.359s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/Property.idl
+[31.360s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/Solution.idl
+[31.360s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/SolutionInfo.idl
+[31.360s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/StageDescription.idl
+[31.360s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/StageStatistics.idl
+[31.360s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/SubSolution.idl
+[31.360s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/SubTrajectory.idl
+[31.360s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/TaskDescription.idl
+[31.360s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/TaskStatistics.idl
+[31.360s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/srv/GetSolution.idl
+[31.360s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/action/ExecuteTaskSolution.idl
+[31.360s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/Property.msg
+[31.361s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/Solution.msg
+[31.361s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/SolutionInfo.msg
+[31.361s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/StageDescription.msg
+[31.361s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/StageStatistics.msg
+[31.361s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/SubSolution.msg
+[31.361s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/SubTrajectory.msg
+[31.361s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/TaskDescription.msg
+[31.361s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/TaskStatistics.msg
+[31.361s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/srv/GetSolution.srv
+[31.361s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/srv/GetSolution_Request.msg
+[31.361s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/srv/GetSolution_Response.msg
+[31.361s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/action/ExecuteTaskSolution.action
+[31.362s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/ament_index/resource_index/package_run_dependencies/moveit_task_constructor_msgs
+[31.362s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/ament_index/resource_index/parent_prefix_path/moveit_task_constructor_msgs
+[31.362s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/environment/ament_prefix_path.sh
+[31.362s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/environment/ament_prefix_path.dsv
+[31.362s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/environment/path.sh
+[31.362s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/environment/path.dsv
+[31.362s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/local_setup.bash
+[31.362s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/local_setup.sh
+[31.362s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/local_setup.zsh
+[31.362s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/local_setup.dsv
+[31.363s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/package.dsv
+[31.363s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/ament_index/resource_index/packages/moveit_task_constructor_msgs
+[31.363s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/export_moveit_task_constructor_msgs__rosidl_generator_cExport.cmake
+[31.363s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/export_moveit_task_constructor_msgs__rosidl_generator_cExport-release.cmake
+[31.363s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/export_moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[31.363s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/export_moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[31.363s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/export_moveit_task_constructor_msgs__rosidl_generator_cppExport.cmake
+[31.363s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/export_moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[31.364s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/export_moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[31.364s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cExport.cmake
+[31.364s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[31.364s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgs__rosidl_typesupport_cExport.cmake
+[31.364s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgs__rosidl_typesupport_cExport-release.cmake
+[31.364s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[31.364s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[31.365s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgs__rosidl_typesupport_cppExport.cmake
+[31.365s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgs__rosidl_typesupport_cppExport-release.cmake
+[31.365s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/export_moveit_task_constructor_msgs__rosidl_generator_pyExport.cmake
+[31.365s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/export_moveit_task_constructor_msgs__rosidl_generator_pyExport-release.cmake
+[31.365s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/rosidl_cmake-extras.cmake
+[31.365s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[31.365s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[31.365s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[31.365s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[31.365s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[31.365s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[31.366s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgsConfig.cmake
+[31.366s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgsConfig-version.cmake
+[31.366s] -- Installing: /home/zx/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/package.xml
+[31.370s] Invoked command in '/home/zx/ws_moveit2/build/moveit_task_constructor_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zx/ws_moveit2/install/tihu_2:/home/zx/ws_moveit2/install/moveit_configs_utils:/home/zx/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/zx/ws_moveit2/build/moveit_task_constructor_msgs

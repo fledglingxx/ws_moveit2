@@ -1,0 +1,7 @@
+[0mmoveit_ros_visualization: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[K已杀死 signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/build.make:107：motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/motion_planning_frame.cpp.o] 错误 1
+gmake[2]: *** 正在等待未完成的任务....
+gmake[1]: *** [CMakeFiles/Makefile2:510：motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

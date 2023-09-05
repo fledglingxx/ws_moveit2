@@ -1,0 +1,197 @@
+[0.103s] Invoking command in '/home/zx/ws_moveit2/build/serial_can': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zx/ws_moveit2/src/serial_can -DCMAKE_INSTALL_PREFIX=/home/zx/ws_moveit2/install/serial_can
+[0.180s] -- The C compiler identification is GNU 11.4.0
+[0.264s] -- The CXX compiler identification is GNU 11.4.0
+[0.276s] -- Detecting C compiler ABI info
+[0.399s] -- Detecting C compiler ABI info - done
+[0.405s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.406s] -- Detecting C compile features
+[0.407s] -- Detecting C compile features - done
+[0.410s] -- Detecting CXX compiler ABI info
+[0.516s] -- Detecting CXX compiler ABI info - done
+[0.525s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.525s] -- Detecting CXX compile features
+[0.526s] -- Detecting CXX compile features - done
+[0.528s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.724s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.837s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.892s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.899s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.911s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.928s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.948s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.039s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.043s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.150s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.179s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.247s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.263s] -- Looking for pthread.h
+[1.428s] -- Looking for pthread.h - found
+[1.429s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.546s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.548s] -- Found Threads: TRUE  
+[1.753s] -- Found serial: 1.2.1 (/home/zx/ws_moveit2/install/serial/share/serial/cmake)
+[1.756s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.899s] -- Found moveit_msgs: 2.2.1 (/opt/ros/humble/share/moveit_msgs/cmake)
+[2.669s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.782s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.783s] -- Configured cppcheck include dirs: /home/zx/ws_moveit2/src/serial_can/include;$<BUILD_INTERFACE:/home/zx/ws_moveit2/src/serial_can/include>
+[2.783s] -- Configured cppcheck exclude dirs and/or files: 
+[2.784s] -- Added test 'lint_cmake' to check CMake code style
+[2.787s] -- Added test 'uncrustify' to check C / C++ code style
+[2.787s] -- Configured uncrustify additional arguments: 
+[2.788s] -- Added test 'xmllint' to check XML markup files
+[2.790s] -- Configuring done
+[2.814s] -- Generating done
+[2.816s] -- Build files have been written to: /home/zx/ws_moveit2/build/serial_can
+[2.831s] Invoked command in '/home/zx/ws_moveit2/build/serial_can' returned '0': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zx/ws_moveit2/src/serial_can -DCMAKE_INSTALL_PREFIX=/home/zx/ws_moveit2/install/serial_can
+[2.834s] Invoking command in '/home/zx/ws_moveit2/build/serial_can': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zx/ws_moveit2/build/serial_can -- -j12 -l12
+[2.909s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_can.dir/src/serial_can.cpp.o[0m
+[6.398s] In file included from [01m[K/home/zx/ws_moveit2/src/serial_can/include/robotmove.h:5[m[K,
+[6.401s]                  from [01m[K/home/zx/ws_moveit2/src/serial_can/src/serial_can.cpp:6[m[K:
+[6.401s] [01m[K/home/zx/ws_moveit2/src/serial_can/include/pos_trans.h:[m[K In member function ‘[01m[Kvoid robotArm::test()[m[K’:
+[6.401s] [01m[K/home/zx/ws_moveit2/src/serial_can/include/pos_trans.h:273:27:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstart[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.401s]   273 |                     float [01;35m[Kstart[m[K,end,avgtime=0;
+[6.402s]       |                           [01;35m[K^~~~~[m[K
+[6.402s] [01m[K/home/zx/ws_moveit2/src/serial_can/include/pos_trans.h:273:33:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kend[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.402s]   273 |                     float start,[01;35m[Kend[m[K,avgtime=0;
+[6.402s]       |                                 [01;35m[K^~~[m[K
+[6.402s] [01m[K/home/zx/ws_moveit2/src/serial_can/include/pos_trans.h:273:37:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kavgtime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.402s]   273 |                     float start,end,[01;35m[Kavgtime[m[K=0;
+[6.402s]       |                                     [01;35m[K^~~~~~~[m[K
+[6.402s] [01m[K/home/zx/ws_moveit2/src/serial_can/include/pos_trans.h:274:30:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.402s]   274 |                     int g=20,[01;35m[Kt[m[K=0,num=0;
+[6.402s]       |                              [01;35m[K^[m[K
+[6.412s] In file included from [01m[K/home/zx/ws_moveit2/src/serial_can/src/serial_can.cpp:6[m[K:
+[6.413s] [01m[K/home/zx/ws_moveit2/src/serial_can/include/robotmove.h:[m[K In function ‘[01m[Kvoid UPRmove(float, int, float (*)[6])[m[K’:
+[6.413s] [01m[K/home/zx/ws_moveit2/src/serial_can/include/robotmove.h:79:25:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kfor[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+[6.413s]    79 |                         [01;35m[Kfor[m[K(int i=0;i<IDNUM;i++) msg[j++]=nparameterList[t][i]*3.6/101;msg[j++]=AG;
+[6.413s]       |                         [01;35m[K^~~[m[K
+[6.413s] [01m[K/home/zx/ws_moveit2/src/serial_can/include/robotmove.h:79:88:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kfor[m[K’
+[6.413s]    79 | (int i=0;i<IDNUM;i++) msg[j++]=nparameterList[t][i]*3.6/101;[01;36m[Kmsg[m[K[j++]=AG;
+[6.413s]       |                                                             [01;36m[K^~~[m[K
+[6.413s] 
+[6.413s] [01m[K/home/zx/ws_moveit2/src/serial_can/include/robotmove.h:81:17:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kfor[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+[6.413s]    81 |                 [01;35m[Kfor[m[K(int i=0;i<IDNUM;i++) msg[j++]=nparameterList[t][i]*3.6/101;msg[j++]=tm;
+[6.413s]       |                 [01;35m[K^~~[m[K
+[6.413s] [01m[K/home/zx/ws_moveit2/src/serial_can/include/robotmove.h:81:80:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kfor[m[K’
+[6.414s]    81 | (int i=0;i<IDNUM;i++) msg[j++]=nparameterList[t][i]*3.6/101;[01;36m[Kmsg[m[K[j++]=tm;
+[6.414s]       |                                                             [01;36m[K^~~[m[K
+[6.414s] 
+[6.414s] [01m[K/home/zx/ws_moveit2/src/serial_can/include/robotmove.h:83:25:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kfor[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+[6.414s]    83 |                         [01;35m[Kfor[m[K(int i=0;i<IDNUM;i++) msg[j++]=nparameterList[t][i]*3.6/101;msg[j++]=AG;
+[6.414s]       |                         [01;35m[K^~~[m[K
+[6.414s] [01m[K/home/zx/ws_moveit2/src/serial_can/include/robotmove.h:83:88:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kfor[m[K’
+[6.414s]    83 | (int i=0;i<IDNUM;i++) msg[j++]=nparameterList[t][i]*3.6/101;[01;36m[Kmsg[m[K[j++]=AG;
+[6.414s]       |                                                             [01;36m[K^~~[m[K
+[6.414s] 
+[6.414s] [01m[K/home/zx/ws_moveit2/src/serial_can/include/robotmove.h:[m[K In function ‘[01m[Kvoid plan_move(int)[m[K’:
+[6.414s] [01m[K/home/zx/ws_moveit2/src/serial_can/include/robotmove.h:118:15:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KnparameterList[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[6.414s]   118 |         float [01;35m[KnparameterList[m[K[AT][IDNUM];
+[6.415s]       |               [01;35m[K^~~~~~~~~~~~~~[m[K
+[6.415s] [01m[K/home/zx/ws_moveit2/src/serial_can/include/robotmove.h:120:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KC[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.415s]   120 |         float [01;35m[KC[m[K,k,tm=0;
+[6.415s]       |               [01;35m[K^[m[K
+[6.622s] [01m[K/home/zx/ws_moveit2/src/serial_can/src/serial_can.cpp:[m[K At global scope:
+[6.623s] [01m[K/home/zx/ws_moveit2/src/serial_can/src/serial_can.cpp:63:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmoveit_msgs::msg::DisplayTrajectory_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.623s]    63 | void callback(const moveit_msgs::msg::DisplayTrajectory::ConstPtr &msg[01;35m[K)[m[K
+[6.623s]       |                                                                       [01;35m[K^[m[K
+[6.623s] 
+[6.623s] In file included from [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/display_trajectory.hpp:7[m[K,
+[6.623s]                  from [01m[K/home/zx/ws_moveit2/src/serial_can/src/serial_can.cpp:9[m[K:
+[6.623s] [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/display_trajectory__struct.hpp:131:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.623s]   131 |     [01;36m[KConstPtr[m[K;
+[6.623s]       |     [01;36m[K^~~~~~~~[m[K
+[6.710s] [01m[K/home/zx/ws_moveit2/src/serial_can/src/serial_can.cpp:[m[K In member function ‘[01m[Kvoid ClientNode::callback(const ConstPtr&)[m[K’:
+[6.710s] [01m[K/home/zx/ws_moveit2/src/serial_can/src/serial_can.cpp:169:32:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcanInterface[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.710s]   169 |                 SCanInterface *[01;35m[KcanInterface[m[K = SCanInterface::getInstance();
+[6.710s]       |                                [01;35m[K^~~~~~~~~~~~[m[K
+[6.710s] [01m[K/home/zx/ws_moveit2/src/serial_can/src/serial_can.cpp:67:21:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kstatus[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[6.710s]    67 |         int round_i,[01;35m[Kstatus[m[K=0;
+[6.710s]       |                     [01;35m[K^~~~~~[m[K
+[6.716s] [01m[K/home/zx/ws_moveit2/src/serial_can/src/serial_can.cpp:[m[K In function ‘[01m[Kvoid bufferTransfor(const string&)[m[K’:
+[6.716s] [01m[K/home/zx/ws_moveit2/src/serial_can/src/serial_can.cpp:230:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.716s]   230 |     uint8_t [01;35m[Kmem[m[K[400] = {0}, memIndex = 0;
+[6.716s]       |             [01;35m[K^~~[m[K
+[6.717s] [01m[K/home/zx/ws_moveit2/src/serial_can/src/serial_can.cpp:230:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KmemIndex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.717s]   230 |     uint8_t mem[400] = {0}, [01;35m[KmemIndex[m[K = 0;
+[6.717s]       |                             [01;35m[K^~~~~~~~[m[K
+[6.719s] [01m[K/home/zx/ws_moveit2/src/serial_can/src/serial_can.cpp:[m[K In function ‘[01m[Kint32_t sendCanCommand(uint8_t, uint8_t*, uint8_t*, uint32_t*)[m[K’:
+[6.719s] [01m[K/home/zx/ws_moveit2/src/serial_can/src/serial_can.cpp:271:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki_back[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.719s]   271 |         int [01;35m[Ki_back[m[K = 4;
+[6.719s]       |             [01;35m[K^~~~~~[m[K
+[6.719s] [01m[K/home/zx/ws_moveit2/src/serial_can/src/serial_can.cpp:275:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Km_run0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.719s]   275 |         int [01;35m[Km_run0[m[K = 1;
+[6.719s]       |             [01;35m[K^~~~~~[m[K
+[6.719s] [01m[K/home/zx/ws_moveit2/src/serial_can/src/serial_can.cpp:276:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kthreadid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.719s]   276 |         pthread_t [01;35m[Kthreadid[m[K;
+[6.720s]       |                   [01;35m[K^~~~~~~~[m[K
+[6.720s] [01m[K/home/zx/ws_moveit2/src/serial_can/src/serial_can.cpp:277:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kret[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.720s]   277 |         int [01;35m[Kret[m[K;
+[6.720s]       |             [01;35m[K^~~[m[K
+[6.720s] [01m[K/home/zx/ws_moveit2/src/serial_can/src/serial_can.cpp:304:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[6.720s]   304 | [01;35m[K}[m[K
+[6.720s]       | [01;35m[K^[m[K
+[6.720s] [01m[K/home/zx/ws_moveit2/src/serial_can/src/serial_can.cpp:257:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KnumOfActuator[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.721s]   257 | int32_t sendCanCommand([01;35m[Kuint8_t numOfActuator[m[K, uint8_t *canIdList, uint8_t *commandList, uint32_t *parameterList)
+[6.721s]       |                        [01;35m[K~~~~~~~~^~~~~~~~~~~~~[m[K
+[6.721s] [01m[K/home/zx/ws_moveit2/src/serial_can/src/serial_can.cpp:257:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcanIdList[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.721s]   257 | int32_t sendCanCommand(uint8_t numOfActuator, [01;35m[Kuint8_t *canIdList[m[K, uint8_t *commandList, uint32_t *parameterList)
+[6.721s]       |                                               [01;35m[K~~~~~~~~~^~~~~~~~~[m[K
+[6.721s] [01m[K/home/zx/ws_moveit2/src/serial_can/src/serial_can.cpp:257:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcommandList[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.721s]   257 | Command(uint8_t numOfActuator, uint8_t *canIdList, [01;35m[Kuint8_t *commandList[m[K, uint32_t *parameterList)
+[6.721s]       |                                                    [01;35m[K~~~~~~~~~^~~~~~~~~~~[m[K
+[6.721s] 
+[6.727s] [01m[K/home/zx/ws_moveit2/src/serial_can/src/serial_can.cpp:[m[K In function ‘[01m[Kvoid sendSimpleCanCommand(uint8_t, uint8_t*, int)[m[K’:
+[6.727s] [01m[K/home/zx/ws_moveit2/src/serial_can/src/serial_can.cpp:329:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.727s]   329 |             int [01;35m[Kcount[m[K = 0,reclen=0,ind=0; // 数据列表中，用来存储列表序号。
+[6.727s]       |                 [01;35m[K^~~~~[m[K
+[6.728s] [01m[K/home/zx/ws_moveit2/src/serial_can/src/serial_can.cpp:325:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kthreadid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.728s]   325 |         pthread_t [01;35m[Kthreadid[m[K;
+[6.728s]       |                   [01;35m[K^~~~~~~~[m[K
+[6.729s] [01m[K/home/zx/ws_moveit2/src/serial_can/src/serial_can.cpp:307:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KnumOfActuator[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.729s]   307 | void sendSimpleCanCommand([01;35m[Kuint8_t numOfActuator[m[K, uint8_t *canIdList, int Command)
+[6.729s]       |                           [01;35m[K~~~~~~~~^~~~~~~~~~~~~[m[K
+[6.729s] [01m[K/home/zx/ws_moveit2/src/serial_can/src/serial_can.cpp:307:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcanIdList[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.729s]   307 | void sendSimpleCanCommand(uint8_t numOfActuator, [01;35m[Kuint8_t *canIdList[m[K, int Command)
+[6.730s]       |                                                  [01;35m[K~~~~~~~~~^~~~~~~~~[m[K
+[6.732s] [01m[K/home/zx/ws_moveit2/src/serial_can/src/serial_can.cpp:[m[K In function ‘[01m[Kbool init_can()[m[K’:
+[6.732s] [01m[K/home/zx/ws_moveit2/src/serial_can/src/serial_can.cpp:356:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KpInfo[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.732s]   356 |     VCI_BOARD_INFO [01;35m[KpInfo[m[K; // 用来获取设备信息。
+[6.732s]       |                    [01;35m[K^~~~~[m[K
+[6.732s] [01m[K/home/zx/ws_moveit2/src/serial_can/src/serial_can.cpp:357:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.732s]   357 |     int [01;35m[Kcount[m[K = 0,num=0;        // 数据列表中，用来存储列表序号。
+[6.732s]       |         [01;35m[K^~~~~[m[K
+[6.735s] [01m[K/home/zx/ws_moveit2/src/serial_can/src/serial_can.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[6.736s] [01m[K/home/zx/ws_moveit2/src/serial_can/src/serial_can.cpp:424:54:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcmd2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.736s]   424 |         uint8_t canidlist2[10] = {1, 2, 3, 4, 5, 6}, [01;35m[Kcmd2[m[K[10] = {30, 30, 30, 30, 30, 30};
+[6.736s]       |                                                      [01;35m[K^~~~[m[K
+[11.777s] In file included from [01m[K/home/zx/ws_moveit2/src/serial_can/src/serial_can.cpp:6[m[K:
+[11.777s] [01m[K/home/zx/ws_moveit2/src/serial_can/include/robotmove.h:[m[K In function ‘[01m[Kvoid plan_move(int)[m[K’:
+[11.777s] [01m[K/home/zx/ws_moveit2/src/serial_can/include/robotmove.h:115:6:[m[K [01;35m[Kwarning: [m[Kstack protector not protecting local variables: variable length buffer [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstack-protector-Wstack-protector]8;;[m[K]
+[11.777s]   115 | void [01;35m[Kplan_move[m[K(int mode){
+[11.777s]       |      [01;35m[K^~~~~~~~~[m[K
+[18.349s] [100%] [32m[1mLinking CXX executable serial_can[0m
+[19.221s] [100%] Built target serial_can
+[19.240s] Invoked command in '/home/zx/ws_moveit2/build/serial_can' returned '0': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zx/ws_moveit2/build/serial_can -- -j12 -l12
+[19.272s] Invoking command in '/home/zx/ws_moveit2/build/serial_can': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zx/ws_moveit2/build/serial_can
+[19.282s] -- Install configuration: ""
+[19.282s] -- Installing: /home/zx/ws_moveit2/install/serial_can/lib/libcontrolcan.so
+[19.285s] -- Installing: /home/zx/ws_moveit2/install/serial_can/lib/libmylibscan.so
+[19.286s] -- Installing: /home/zx/ws_moveit2/install/serial_can/lib/serial_can/serial_can
+[19.293s] -- Set runtime path of "/home/zx/ws_moveit2/install/serial_can/lib/serial_can/serial_can" to ""
+[19.293s] -- Installing: /home/zx/ws_moveit2/install/serial_can/share/ament_index/resource_index/package_run_dependencies/serial_can
+[19.293s] -- Installing: /home/zx/ws_moveit2/install/serial_can/share/ament_index/resource_index/parent_prefix_path/serial_can
+[19.294s] -- Installing: /home/zx/ws_moveit2/install/serial_can/share/serial_can/environment/ament_prefix_path.sh
+[19.296s] -- Installing: /home/zx/ws_moveit2/install/serial_can/share/serial_can/environment/ament_prefix_path.dsv
+[19.296s] -- Installing: /home/zx/ws_moveit2/install/serial_can/share/serial_can/environment/path.sh
+[19.297s] -- Installing: /home/zx/ws_moveit2/install/serial_can/share/serial_can/environment/path.dsv
+[19.297s] -- Installing: /home/zx/ws_moveit2/install/serial_can/share/serial_can/local_setup.bash
+[19.297s] -- Installing: /home/zx/ws_moveit2/install/serial_can/share/serial_can/local_setup.sh
+[19.297s] -- Installing: /home/zx/ws_moveit2/install/serial_can/share/serial_can/local_setup.zsh
+[19.297s] -- Installing: /home/zx/ws_moveit2/install/serial_can/share/serial_can/local_setup.dsv
+[19.298s] -- Installing: /home/zx/ws_moveit2/install/serial_can/share/serial_can/package.dsv
+[19.298s] -- Installing: /home/zx/ws_moveit2/install/serial_can/share/ament_index/resource_index/packages/serial_can
+[19.298s] -- Installing: /home/zx/ws_moveit2/install/serial_can/share/serial_can/cmake/serial_canConfig.cmake
+[19.298s] -- Installing: /home/zx/ws_moveit2/install/serial_can/share/serial_can/cmake/serial_canConfig-version.cmake
+[19.298s] -- Installing: /home/zx/ws_moveit2/install/serial_can/share/serial_can/package.xml
+[19.311s] Invoked command in '/home/zx/ws_moveit2/build/serial_can' returned '0': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zx/ws_moveit2/build/serial_can

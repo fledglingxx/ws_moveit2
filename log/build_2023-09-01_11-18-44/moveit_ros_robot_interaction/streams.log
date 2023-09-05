@@ -1,0 +1,13 @@
+[0.021s] Invoking command in '/home/zx/ws_moveit2/build/moveit_ros_robot_interaction': AMENT_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/zx/ws_moveit2/install/moveit_core:/home/zx/ws_moveit2/install/srdfdom:/home/zx/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/zx/ws_moveit2/install/moveit_ros_planning/lib:/home/zx/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/zx/ws_moveit2/install/moveit_core/lib:/home/zx/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/zx/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/zx/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zx/ws_moveit2/build/moveit_ros_robot_interaction -- -j12 -l12
+[0.059s] [35m[1mConsolidate compiler generated dependencies of target moveit_robot_interaction[0m
+[0.084s] [  7%] [32mBuilding CXX object CMakeFiles/moveit_robot_interaction.dir/src/interaction_handler.cpp.o[0m
+[9.906s] [ 15%] [32mBuilding CXX object CMakeFiles/moveit_robot_interaction.dir/src/robot_interaction.cpp.o[0m
+[22.970s] [ 23%] [32m[1mLinking CXX shared library libmoveit_robot_interaction.so[0m
+[23.202s] [ 53%] Built target moveit_robot_interaction
+[23.213s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[23.224s] [ 69%] Built target gtest
+[23.234s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[23.245s] [ 84%] Built target gtest_main
+[23.262s] [ 92%] [32mBuilding CXX object CMakeFiles/locked_robot_state_test.dir/test/locked_robot_state_test.cpp.o[0m
+[29.370s] [100%] [32m[1mLinking CXX executable locked_robot_state_test[0m
+[29.763s] [100%] Built target locked_robot_state_test
