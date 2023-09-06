@@ -425,7 +425,7 @@ int main(int argc, char **argv)
 
         if (step_num==100)
         {
-            sendSimpleCanCommand(6, canidlist2, 110);
+            sendSimpleCanCommand(6, canidlist2, 8);
            // torque_state_publisher_->publish(torque_state);
             std::cout<<"430"<<std::endl;
 	        step_num=0;
