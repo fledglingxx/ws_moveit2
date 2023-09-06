@@ -346,7 +346,6 @@ void sendSimpleCanCommand(uint8_t numOfActuator, uint8_t *canIdList, int Command
             break;
     }
     torque_state_publisher_->publish(torque_state);
-    std::cout<<"send over"<<std::endl;
 }
 
 
@@ -427,7 +426,6 @@ int main(int argc, char **argv)
         {
             sendSimpleCanCommand(6, canidlist2, 8);
            // torque_state_publisher_->publish(torque_state);
-            std::cout<<"430"<<std::endl;
 	        step_num=0;
 	    }
 	    step_num=step_num+1;
